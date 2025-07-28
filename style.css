@@ -1,0 +1,258 @@
+.boton_uni{
+    padding: 75px 258px;
+    font-size: 20px;
+}
+
+.div{
+    padding: 25px 0px;
+    display: flex;
+justify-content: center;
+}
+
+.T{
+    padding: +100px 0.3s ease; 
+}
+
+.T:hover{
+    padding: +100px 0.3s ease; 
+}
+
+.div_C{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.uni{
+    margin-left: 300px;
+}
+
+.v{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#botones{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#selec{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.vD{
+    font-size: 100px;
+margin-left: 10px;
+}
+
+
+.v_P{
+    margin-bottom: -70px;
+}
+
+
+
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+#B_I{
+    height: 1350px;
+    width: 1800px;
+    font-size: 200px;
+}
+
+
+
+
+#selector{
+    padding: 60px 80px;
+    font-size: 40px;
+}
+
+
+.borde{
+    margin-left: -400px;
+}
+
+
+.B_E{
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+
+
+.sele{
+    margin-left: 2px;
+}
+
+
+
+.BU{
+    color: violet;
+}
+
+
+.PU{
+    background-color: purple;
+}
+
+
+
+
+.puntuacion_C{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#score{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+
+
+.CO{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    margin-top: -30px;
+}
+
+
+
+.T{
+    font-size: 30px;
+}
+
+
+.TE{
+    font-size: 35px;
+}
+
+
+#DIV_P{
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+.BPA{
+    padding: 50px 90px;
+}
+
+
+
+#instruciones{
+    padding: 50px 90px;
+}
+
+
+.I_C{
+background-color: transparent;
+color: transparent;
+margin: 0.5px;
+padding: 1px 1px;
+font-size: 0.5px;
+border: none;
+
+}
+
+
+
+.I_D{
+    width: 1px;
+    height: 1px;
+}
+
+
+#div_CONFI{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.H3G{
+    color: white;
+    font-size: 0.5px;
+}
+
+
+
+#HG3_D{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.H_cabe{
+    color: white;
+    font-size: 0.5px;
+}
+
+
+
+.D_COLUM{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#T_modos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#B_modos{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.modos{
+    font-size: 70px;
+    display: flex;
+    justify-content: center;
+    padding: 70px 70px;
+    color: aliceblue;
+    background-color: black;
+}
+
+
+.modos_2{
+    display: flex;
+margin: auto;
+padding: 200px 200px;
+}
+
+
+#div_modos{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+#musicona{
+    margin-left: 200px;
+}
