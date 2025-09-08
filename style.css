@@ -82,11 +82,6 @@ border: none;
 }
 /*  */
 
-#div_CONFI{
-    display: flex;
-    flex-direction: row;
-}/*  */
-
 
 
 .H3G{
@@ -272,14 +267,15 @@ body{
     flex-direction: column;
 }
 
-#div_CONFI{    
+#div_CONFI{   
+    display: flex;
+    flex-direction: row; 
     width: 80%;
     height: 200%;
     margin: auto;
-    justify-content: center;
-    justify-content: space-around;
-    justify-content: space-between;
-    justify-content: space-evenly;}
+    justify-content: space-evenly;
+    flex-wrap: wrap
+}
 
 
 #div_musicano{    

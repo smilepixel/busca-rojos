@@ -2701,60 +2701,49 @@ U.forEach(function(INSTRU){
     musicona.removeAttribute("disabled")
 
     C_musicona.style.justifyContent = "center"
-    C_musicona.style.padding = "6% 6%"
-    C_musicona.style.padding = "6% 6%"
-    C_musicona.style.marginLeft = "10%"
-    C_musicona.style.marginTop = "10%"
+    C_musicona.style.padding = "3% 3%"
+    C_musicona.style.marginLeft = "5%"
+    C_musicona.style.marginTop = "5%"
     C_musicona.style.backgroundColor = color3
     C_musicona.style.color = color1
-    C_musicona.style.fontSize = "200%"
+    C_musicona.style.fontSize = "150%"
     C_musicona.removeAttribute("disabled")
 
     S_modos.style.justifyContent = "center"
-    S_modos.style.padding = "60% 60%"
-    S_modos.style.marginLeft = "-100%"
-    S_modos.style.marginRight = "-100%"
+    S_modos.style.padding = "30% 30%"
     S_modos.style.backgroundColor = color3
     S_modos.style.color = color1
-    S_modos.style.fontSize = "200%"
+    S_modos.style.fontSize = "150%"
     S_modos.removeAttribute("disabled")
 
     B_Bmodos.style.justifyContent = "center"
-    B_Bmodos.style.padding = "60% 60%"
-    B_Bmodos.style.marginLeft = "-100%"
-    B_Bmodos.style.marginRight = "-100%"
+    B_Bmodos.style.padding = "30% 30%"
     B_Bmodos.style.marginTop = "10%"
     B_Bmodos.style.backgroundColor = color3
     B_Bmodos.style.color = color1
-    B_Bmodos.style.fontSize = "200%"
+    B_Bmodos.style.fontSize = "150%"
     B_Bmodos.removeAttribute("disabled")
 
 
-
-
-
-    range_D.style.marginLeft = "100%"
-    range_D.style.marginTop = "30%"
+    range_D.style.marginTop = "0.5%"
     range_D.style.justifyContent = "center"
-    range_D.style.padding = "10% 160%"
+    range_D.style.padding = "1% 1%"
     range_D.style.backgroundColor = color3
     range_D.style.color = color1
     range_D.style.fontSize = "200px"
     range_D.removeAttribute("disabled")
 
-    dificultad.style.marginLeft = "100%"
-    dificultad.style.marginTop = "30%"
+    dificultad.style.marginTop = "0.5%"
     dificultad.style.justifyContent = "center"
-    dificultad.style.padding = "10% 160%"    
+    dificultad.style.padding = "10% 50%"    
     dificultad.style.backgroundColor = color3
     dificultad.style.color = color1 
     dificultad.style.fontSize = "200%"
     dificultad.removeAttribute("disabled")
 
-    S_dificultad.style.marginLeft = "100%"
-    S_dificultad.style.marginTop = "30%"
+    S_dificultad.style.marginTop = "0.5%"
     S_dificultad.style.justifyContent = "center"
-    S_dificultad.style.padding = "10% 160%"
+    S_dificultad.style.padding = "10% 50%"
     S_dificultad.style.backgroundColor = color3
     S_dificultad.style.color = color1
     S_dificultad.style.fontSize = "200%"
@@ -2762,12 +2751,12 @@ U.forEach(function(INSTRU){
 
 
     B_INSTRU.style.justifyContent = "center"
-    B_INSTRU.style.padding = "6% 6%"
+    B_INSTRU.style.padding = "20% 20%"
     B_INSTRU.style.marginLeft = "10%"
     B_INSTRU.style.marginTop = "10%"
     B_INSTRU.style.backgroundColor = color3
     B_INSTRU.style.color = color1
-    B_INSTRU.style.fontSize = "200%"
+    B_INSTRU.style.fontSize = "300%"
     B_INSTRU.removeAttribute("disabled")
 
 })
