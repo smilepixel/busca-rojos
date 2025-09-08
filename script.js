@@ -35,10 +35,10 @@ let boton24 = document.querySelector("#boton24")
 let boton25 = document.querySelector("#boton25")
 let O = document.querySelectorAll(".O")
 let modo_1 = document.querySelector("#modo_1")
-let modoses = document.querySelectorAll(".modos")
-let modoses_2 = document.querySelectorAll(".modos_2")
 let modo_2 = document.querySelector("#modo_2")
 let modo_3 = document.querySelector("#modo_3")
+let modoses = document.querySelectorAll(".modos")
+let modoses_2 = document.querySelectorAll(".modos_2")
 let boton_uni = document.querySelectorAll(".boton_uni")
 let uni_A1 = document.querySelectorAll(".uni_A1")
 let uni_A2 = document.querySelectorAll(".uni_A2")
@@ -339,10 +339,10 @@ function B_XF(){
                         instruciones.style.display = "";
                         instruciones.style.justifyContent = "";
                         instruciones.style.marginLeft = "";
-                        instruciones.style.padding = "1px 1px";
-                        instruciones.style.fontSize = "0.5px";
-                        instruciones.style.color = color2;
-                        instruciones.style.backgroundColor = color2;
+                        instruciones.style.padding = "0% 0%";
+                        instruciones.style.fontSize = "0%";
+                        instruciones.style.color = "transparent";
+                        instruciones.style.backgroundColor = "transparent";
                         instruciones.style.marginLeft = "";
 
     boton_uni.forEach(function(me){
@@ -357,21 +357,21 @@ function B_XF(){
 }
 function modeses_F(){
     modoses.forEach(function(modises){
-        modises.style.color = color2;
-        modises.style.backgroundColor = color2;
-        modises.style.border = color2;
-        modises.style.fontSize = "0px"
+        modises.style.color = "transparent";
+        modises.style.backgroundColor = "transparent";
+        modises.style.border = "transparent";
+        modises.style.fontSize = "0%"
         modises.setAttribute("disabled",'true')
     })
     modoses_2.forEach(function(modises){
-        modises.style.color = color2;
-        modises.style.backgroundColor = color2;
-        modises.style.border = color2;
-        modises.style.fontSize = "0px"
-        modises.style.padding = "0px"
+        modises.style.color = "transparent";
+        modises.style.backgroundColor = "transparent";
+        modises.style.border = "transparent";
+        modises.style.fontSize = "0%"
+        modises.style.padding = "0%"
         modises.setAttribute("disabled",'true')
     })
-}
+}  //
 
 function resta(){
 console.log("resta 1")
@@ -1693,57 +1693,45 @@ function F_ALTE(){
 
 function todito(){
     B_Y.forEach(function(todote){
-        todote.style.width = "1px";
-        todote.style.height = "1px";
-        todote.style.fontSize = "0.5px";
-        todote.style.color = color2;
-        todote.style.backgroundColor = color2;
-        todote.style.border = color2;
+        todote.style.width = "0%";
+        todote.style.height = "0%";
+        todote.style.fontSize = "0%";
+        todote.style.color = "transparent";
+        todote.style.backgroundColor = "transparent";
+        todote.style.border = "transparent";
 
-        B_F.style.backgroundColor = color2
+        B_F.style.backgroundColor = "transparent"
         B_X.style.display = "flex";
         B_X.style.justifyContent = "center";
-        B_X.style.marginLeft = "1px";
-        B_X.style.padding = "1px 1px";
-        B_X.style.fontSize = "1px";
-        B_X.style.color = color2;
-        B_X.style.backgroundColor = color2;
-        B_X.style.color = color2;
+        B_X.style.marginLeft = "0%";
+        B_X.style.padding = "0% 0%";
+        B_X.style.fontSize = "0%";
+        B_X.style.color = "transparent";
+        B_X.style.backgroundColor = "transparent";
+        B_X.style.color = "transparent";
         B_X.style.marginLeft = "-200px";
-        B_D.style.backgroundColor = color2;
         boton_uni.forEach(function(me){
-        me.style.color = color2
-        me.style.backgroundColor = color2
+        me.style.color = "transparent"
+        me.style.backgroundColor = "transparent"
         })
-        selector.style.backgroundColor = color2
-        selector.style.color = color2
+        selector.style.backgroundColor = "transparent"
+        selector.style.color = "transparent"
 
         B_V.style.display = "flex";
         B_V.style.justifyContent = "center";
-        B_V.style.marginLeft = "900px";
-        B_V.style.padding = "500px 800px";
-        B_V.style.fontSize = "175px";
+        B_V.style.padding = "20% 50%";
+        B_V.style.fontSize = "400%";
         B_V.style.color = color1;
         B_V.style.backgroundColor = color3;
-        B_V.style.marginLeft = "-500px"
 
-        B_V2.style.display = "flex";
-        B_V2.style.justifyContent = "center";
-        B_V2.style.marginLeft = "900px";
-        B_V2.style.padding = "500px 800px";
-        B_V2.style.fontSize = "175px";
-        B_V2.style.color = color1;
-        B_V2.style.backgroundColor = color3;
-        B_V2.style.marginLeft = "-500px"
-
+        
         instruciones.style.display = "flex";
         instruciones.style.justifyContent = "center";
-        instruciones.style.marginLeft = "900px";
-        instruciones.style.padding = "100px 600px";
-        instruciones.style.fontSize = "80px";
-        instruciones.style.color = color1;
-        instruciones.style.backgroundColor = color3;
-        instruciones.style.marginLeft = "-200px"
+        instruciones.style.padding = "20% 50%";
+        instruciones.style.fontSize = "220%";
+        instruciones.style.color = color3
+    instruciones.style.backgroundColor = color1
+    instruciones.style.boxShadow = `10px 10px 85px 0 ${color1}`
     })
 
 }
@@ -1751,24 +1739,24 @@ function todito(){
 function B_V_F(){
         
     B_V.setAttribute("disabled",'true')
-    B_V.style.width = "1px";
-    B_V.style.height = "1px";
-    B_V.style.fontSize = "0.5px";
-    B_V.style.color = color2;
-    B_V.style.backgroundColor = color2;
-    B_V.style.border = color2;
-    B_V.style.marginLeft = "1px";
-    B_V.style.padding = "1px";
+    B_V.style.width = "0%";
+    B_V.style.height = "0%";
+    B_V.style.fontSize = "0%";
+    B_V.style.color = "transparent";
+    B_V.style.backgroundColor = "transparent";
+    B_V.style.border = "transparent";
+    B_V.style.marginLeft = "0%";
+    B_V.style.padding = "0%";
 
     B_V2.setAttribute("disabled",'true')
-    B_V2.style.width = "1px";
-    B_V2.style.height = "1px";
-    B_V2.style.fontSize = "0.5px";
-    B_V2.style.color = color2;
-    B_V2.style.backgroundColor = color2;
-    B_V2.style.border = color2;
-    B_V2.style.marginLeft = "1px";
-    B_V2.style.padding = "1px";
+    B_V2.style.width = "0%";
+    B_V2.style.height = "0%";
+    B_V2.style.fontSize = "0%";
+    B_V2.style.color = "transparent";
+    B_V2.style.backgroundColor = "transparent";
+    B_V2.style.border = "transparent";
+    B_V2.style.marginLeft = "0%";
+    B_V2.style.padding = "0%";
 }
 
 function lvl(){
@@ -1780,27 +1768,27 @@ function socre(){
 }
 
 function todito2(){
-    instruciones.style.width = "1px";
-    instruciones.style.height = "1px";
-    instruciones.style.fontSize = "0.5px";
-    instruciones.style.color = color2;
-    instruciones.style.backgroundColor = color2;
-    instruciones.style.border = color2;
+    instruciones.style.width = "0%";
+    instruciones.style.height = "0%";
+    instruciones.style.fontSize = "0%";
+    instruciones.style.color = "transparent";
+    instruciones.style.backgroundColor = "transparent";
+    instruciones.style.border = "transparent";
 
-    B_V.style.width = "1px";
-    B_V.style.height = "1px";
-    B_V.style.fontSize = "0.5px";
-    B_V.style.color = color2;
-    B_V.style.backgroundColor = color2;
-    B_V.style.border = color2;
+    B_V.style.width = "0%";
+    B_V.style.height = "0%";
+    B_V.style.fontSize = "0%";
+    B_V.style.color = "transparent";
+    B_V.style.backgroundColor = "transparent";
+    B_V.style.border = "transparent";
 
 
-    B_V2.style.width = "1px";
-    B_V2.style.height = "1px";
-    B_V2.style.fontSize = "0.5px";
-    B_V2.style.color = color2;
-    B_V2.style.backgroundColor = color2;
-    B_V2.style.border = color2;
+    B_V2.style.width = "0%";
+    B_V2.style.height = "0%";
+    B_V2.style.fontSize = "0%";
+    B_V2.style.color = "transparent";
+    B_V2.style.backgroundColor = "transparent";
+    B_V2.style.border = "transparent";
 
 }
 todito2();
@@ -1847,18 +1835,18 @@ function codicetimp(){
 
     if(range_D.value == 3){
         if(modo == 1){
-            timp = (30)
-            valortimp = (30)
+            timp = (300000)
+            valortimp = (300000)
                     dificultad.innerHTML = "medio alto 😐 <br> 30"
                 }
                 if(modo == 2){
-                    timp = (78)
-                    valortimp = (78)
+                    timp = (780000)
+                    valortimp = (780000)
                             dificultad.innerHTML = "medio alto 😐 <br> 78"
                         }
                         if(modo == 3){
-                            timp = (30)
-                            valortimp = (30)
+                            timp = (300000)
+                            valortimp = (300000)
                                     dificultad.innerHTML = "medio alto 😐 <br> 30"
                                 }
     }
@@ -1991,7 +1979,7 @@ function codicetimp(){
                             }
                             }
             
-}
+}//
 
 function inicio(){
 codicetimp();
@@ -2012,20 +2000,14 @@ U.forEach(function(INSTRU){
             })
 
     instruciones.removeAttribute("disabled")
-    instruciones.style.color = color3
-    instruciones.style.backgroundColor = color1
-    if (numero_C == 0 && instrunum == 0){
-    instruciones.style.boxShadow = `10px 10px 85px 0 ${color1}`
-    }
 
+    B_V2.style.backgroundColor = "transparent"
+    B_V2.style.color = "transparent"
+    B_V2.style.border = "transparent"
+    B_V2.style.padding = "0%"
+    B_V2.style.fontSize = "0%"
 
-    B_V2.style.backgroundColor = color2
-    B_V2.style.color = color2
-    B_V2.style.border = color2
-    B_V2.style.padding = "0px"
-    B_V2.style.fontSize = "0px"
-
-    B_X.style.marginLeft = "0px"
+    B_X.style.marginLeft = "0%"
     B_X.setAttribute("disabled",'true')
 }
 
@@ -2048,18 +2030,18 @@ function B_F_F(){
     instruciones.removeAttribute("disabled")
         function todito(){
             B_Y.forEach(function(todote){
-                todote.style.width = "1px";
-                todote.style.height = "1px";
-                todote.style.fontSize = "0.5px";
+                todote.style.width = "0%";
+                todote.style.height = "0%";
+                todote.style.fontSize = "0%";
                 para = (1)
                 B_F_P = (1)
             })
         }
         todito();
 
-        B_X.style.width = "1px";
-        B_X.style.height = "1px";
-        B_X.style.fontSize = "0.5px";
+        B_X.style.width = "0%";
+        B_X.style.height = "0%";
+        B_X.style.fontSize = "0%";
 
     B_V2.style.display = "flex";
     B_V2.style.justifyContent = "center";
@@ -2082,25 +2064,25 @@ function B_F_F(){
     instruciones.style.backgroundColor = color3;
 
     if(S_C == true){  
-        B_P.style.backgroundColor = color2;
-        B_P.style.color = color2;
-        B_D.style.backgroundColor = color2;
-        B_D.style.color = color2;
+        B_P.style.backgroundColor = "transparent";
+        B_P.style.color = "transparent";
+        B_D.style.backgroundColor = "transparent";
+        B_D.style.color = "transparent";
         boton_uni.forEach(function(me){
-        me.style.color = color2
-        me.style.backgroundColor = color2
-        me.style.border = color2;
+        me.style.color = "transparent"
+        me.style.backgroundColor = "transparent"
+        me.style.border = "transparent";
     })
     }
     if(S_C == false){
-    B_P.style.backgroundColor = color2;
-    B_P.style.color = color2;
-    B_D.style.backgroundColor = color2;
-    B_D.style.color = color2;
+    B_P.style.backgroundColor = "transparent";
+    B_P.style.color = "transparent";
+    B_D.style.backgroundColor = "transparent";
+    B_D.style.color = "transparent";
     boton_uni.forEach(function(me){
-    me.style.color = color2;
-    me.style.backgroundColor = color2;
-    me.style.border = color2;
+    me.style.color = "transparent";
+    me.style.backgroundColor = "transparent";
+    me.style.border = "transparent";
     })
     }
     
@@ -2119,13 +2101,13 @@ function B_F_F2(){
     B_V2.style.fontSize = ""
 
     O.forEach(function(INSTRUo){
-        INSTRUo.style.width = "1px";
-        INSTRUo.style.height = "1px";
-        INSTRUo.style.fontSize = "0.5px";
-        INSTRUo.style.color = color2;
-        INSTRUo.style.backgroundColor = color2;
-        INSTRUo.style.border = color2;
-        INSTRUo.style.padding = "0.5px 0.5px";
+        INSTRUo.style.width = "0%";
+        INSTRUo.style.height = "0%";
+        INSTRUo.style.fontSize = "0%";
+        INSTRUo.style.color = "transparent";
+        INSTRUo.style.backgroundColor = "transparent";
+        INSTRUo.style.border = "transparent";
+        INSTRUo.style.padding = "0% 0%";
         INSTRUo.setAttribute("disabled",'true')
     })
 
@@ -2134,12 +2116,12 @@ function B_F_F2(){
     instruciones.removeAttribute("disabled")
         function todito(){
             B_Y.forEach(function(todote){
-                todote.style.width = "1px";
-                todote.style.height = "1px";
-                todote.style.fontSize = "0.5px";
-                todote.style.color = color2;
-                todote.style.backgroundColor = color2;
-                todote.style.border = color2;
+                todote.style.width = "0%";
+                todote.style.height = "0%";
+                todote.style.fontSize = "0%";
+                todote.style.color = "transparent";
+                todote.style.backgroundColor = "transparent";
+                todote.style.border = "transparent";
                 para = (1)
                 B_F_P = (1)
             })
@@ -2172,23 +2154,23 @@ function B_F_F2(){
     instruciones.style.backgroundColor = color3;
     
     if(S_C == true){  
-        B_P.style.backgroundColor = color2;
-        B_P.style.color = color2;
-        B_D.style.backgroundColor = color2;
-        B_D.style.color = color2;
+        B_P.style.backgroundColor = "transparent";
+        B_P.style.color = "transparent";
+        B_D.style.backgroundColor = "transparent";
+        B_D.style.color = "transparent";
         boton_uni.forEach(function(me){
-        me.style.color = color2
-        me.style.backgroundColor = color2
+        me.style.color = "transparent"
+        me.style.backgroundColor = "transparent"
     })
     }
     if(S_C == false){
-    B_P.style.backgroundColor = color2;
-    B_P.style.color = color2;
-    B_D.style.backgroundColor = color2;
-    B_D.style.color = color2;
+    B_P.style.backgroundColor = "transparent";
+    B_P.style.color = "transparent";
+    B_D.style.backgroundColor = "transparent";
+    B_D.style.color = "transparent";
     boton_uni.forEach(function(me){
-    me.style.color = color2;
-    me.style.backgroundColor = color2;
+    me.style.color = "transparent";
+    me.style.backgroundColor = "transparent";
     })
     }
     
@@ -2197,15 +2179,15 @@ function B_F_F2(){
     second = (0)
     second = (16)
 
-        B_X.style.marginLeft = "0px"
+        B_X.style.marginLeft = "0%"
         B_X.setAttribute("disabled",'true')
 
-        B_V.style.width = "1px";
-        B_V.style.height = "1px";
-        B_V.style.fontSize = "0.5px";
-        B_V.style.color = color2;
-        B_V.style.backgroundColor = color2;
-        B_V.style.border = color2;
+        B_V.style.width = "0%";
+        B_V.style.height = "0%";
+        B_V.style.fontSize = "0%";
+        B_V.style.color = "transparent";
+        B_V.style.backgroundColor = "transparent";
+        B_V.style.border = "transparent";
 }
 
 function color_sub(){
@@ -2318,6 +2300,7 @@ function color_sub(){
 function codicecolor_2(){
     s1.addEventListener("click" ,()=>{
         S_C = (true)
+        alert("hola")
         color1 = ("white")
         color2 = ("black")
         color3 = ("black")
@@ -2336,6 +2319,7 @@ function codicecolor_2(){
     })
     s2.addEventListener("click" ,()=>{
         S_C = (true)
+        alert("hola")
         color1 = ("black")
         color2 = ("white")
         color3 = ("white")
@@ -2353,6 +2337,7 @@ function codicecolor_2(){
     })
     s3.addEventListener("click" ,()=>{
         S_C = (true)
+        
         color1 = ("white")
         color2 = ("black")
         color3 = ("red")
@@ -2650,23 +2635,23 @@ function seleco(){
 }
 
 function I_CF(){
-    I_C.style.backgroundColor = color3
-    I_C.style.color = color3
-    I_C.style.fontSize = "0px"
-    I_C.style.margin = "0px"
-    I_C.style.padding = "0px"
-    I_C.style.width = "0px"
-    I_C.style.height = "0px"
+    I_C.style.backgroundColor = "transparent"
+    I_C.style.color = "transparent"
+    I_C.style.fontSize = "0%"
+    I_C.style.margin = "0%"
+    I_C.style.padding = "0%"
+    I_C.style.width = "0%"
+    I_C.style.height = "0%"
     I_C.setAttribute("disabled",'true')
 }
 
 U_M.forEach(function(INSTRUa){
-    INSTRUa.style.width = "1px";
-    INSTRUa.style.height = "1px";
-    INSTRUa.style.fontSize = "0.5px";
-    INSTRUa.style.color = color2;
-    INSTRUa.style.backgroundColor = color2;
-    INSTRUa.style.border = color2;
+    INSTRUa.style.width = "0%";
+    INSTRUa.style.height = "0%";
+    INSTRUa.style.fontSize = "0%";
+    INSTRUa.style.color = "transparent";
+    INSTRUa.style.backgroundColor = "transparent";
+    INSTRUa.style.border = "transparent";
     INSTRUa.setAttribute("disabled",'true')
     seleco();
 })
@@ -2689,17 +2674,17 @@ U.forEach(function(INSTRU){
     div_CONFI.style.height = ""
     div_CONFI.style.padding = ""
 
-    INSTRU.style.width = "1px";
-    INSTRU.style.height = "1px";
-    INSTRU.style.fontSize = "0.5px";
-    INSTRU.style.color = color2;
-    INSTRU.style.backgroundColor = color2;
-    INSTRU.style.border = color2;
+    INSTRU.style.width = "0%";
+    INSTRU.style.height = "0%";
+    INSTRU.style.fontSize = "0%";
+    INSTRU.style.color = "transparent";
+    INSTRU.style.backgroundColor = "transparent";
+    INSTRU.style.border = "transparent";
     para = (1)
     B_F_P = (1)
 
-    B_V.style.padding = "1px 1px"
-    B_V2.style.padding = "1px 1px"
+    B_V.style.padding = "0% 0%"
+    B_V2.style.padding = "0% 0%"
 
     X_F.style.justifyContent = "center"
     X_F.style.backgroundColor = "red"
@@ -2709,108 +2694,114 @@ U.forEach(function(INSTRU){
     X_F.style.marginLeft = "2480px"
     X_F.style.marginTop = "-700px"
     X_F.removeAttribute("disabled")
-    musicona.style.justifyContent = "center"
+
+    musicona.style.marginLeft = "45%"
     musicona.style.height = "50px"
     musicona.style.width = "500px"
-    musicona.style.marginLeft = "-500px"
-    musicona.style.marginTop = "700px"
-    musicona.style.marginBottom = "-200px"
     musicona.removeAttribute("disabled")
+
     C_musicona.style.justifyContent = "center"
-    C_musicona.style.padding = "100px 100px"
-    C_musicona.style.marginLeft = "200px"
-    C_musicona.style.marginTop = "300px"
+    C_musicona.style.padding = "6% 6%"
+    C_musicona.style.padding = "6% 6%"
+    C_musicona.style.marginLeft = "10%"
+    C_musicona.style.marginTop = "10%"
     C_musicona.style.backgroundColor = color3
     C_musicona.style.color = color1
-    C_musicona.style.fontSize = "60px"
-    C_musicona.style.marginRight = "100px"
-    C_musicona.style.marginBottom = "800px"
+    C_musicona.style.fontSize = "200%"
     C_musicona.removeAttribute("disabled")
-    range_D.style.justifyContent = "center"
-    range_D.style.marginLeft = "-500px"
-    range_D.style.marginRight = "200px"
-    range_D.style.marginTop = "50px"
-    range_D.style.backgroundColor = color3
-    range_D.style.color = color1
-    range_D.style.fontSize = "50px"
-    range_D.removeAttribute("disabled")
+
     S_modos.style.justifyContent = "center"
-    S_modos.style.padding = "100px 100px"
-    S_modos.style.marginLeft = "10px"
-    S_modos.style.marginRight = "-100px"
-    S_modos.style.marginTop = "100px"
+    S_modos.style.padding = "60% 60%"
+    S_modos.style.marginLeft = "-100%"
+    S_modos.style.marginRight = "-100%"
     S_modos.style.backgroundColor = color3
     S_modos.style.color = color1
-    S_modos.style.fontSize = "60px"
+    S_modos.style.fontSize = "200%"
     S_modos.removeAttribute("disabled")
+
     B_Bmodos.style.justifyContent = "center"
-    B_Bmodos.style.padding = "100px 100px"
-    B_Bmodos.style.marginLeft = "10px"
-    B_Bmodos.style.marginRight = "-100px"
-    B_Bmodos.style.marginTop = "100px"
+    B_Bmodos.style.padding = "60% 60%"
+    B_Bmodos.style.marginLeft = "-100%"
+    B_Bmodos.style.marginRight = "-100%"
+    B_Bmodos.style.marginTop = "10%"
     B_Bmodos.style.backgroundColor = color3
     B_Bmodos.style.color = color1
-    B_Bmodos.style.fontSize = "60px"
+    B_Bmodos.style.fontSize = "200%"
     B_Bmodos.removeAttribute("disabled")
+
+
+
+
+
+    range_D.style.marginLeft = "100%"
+    range_D.style.marginTop = "30%"
+    range_D.style.justifyContent = "center"
+    range_D.style.padding = "10% 160%"
+    range_D.style.backgroundColor = color3
+    range_D.style.color = color1
+    range_D.style.fontSize = "200px"
+    range_D.removeAttribute("disabled")
+
+    dificultad.style.marginLeft = "100%"
+    dificultad.style.marginTop = "30%"
     dificultad.style.justifyContent = "center"
-    dificultad.style.padding = "100px 100px"
-    dificultad.style.marginLeft = "-800px"
-    dificultad.style.marginTop = "900px"
+    dificultad.style.padding = "10% 160%"    
     dificultad.style.backgroundColor = color3
-    dificultad.style.color = color1
-    dificultad.style.fontSize = "60px"
-    dificultad.style.marginBottom = "400px"
+    dificultad.style.color = color1 
+    dificultad.style.fontSize = "200%"
     dificultad.removeAttribute("disabled")
+
+    S_dificultad.style.marginLeft = "100%"
+    S_dificultad.style.marginTop = "30%"
     S_dificultad.style.justifyContent = "center"
-    S_dificultad.style.padding = "100px 100px"
-    S_dificultad.style.marginLeft = "200px"
-    S_dificultad.style.marginTop = "300px"
-    S_dificultad.style.marginBottom = "900px"
+    S_dificultad.style.padding = "10% 160%"
     S_dificultad.style.backgroundColor = color3
     S_dificultad.style.color = color1
-    S_dificultad.style.fontSize = "60px"
+    S_dificultad.style.fontSize = "200%"
     S_dificultad.removeAttribute("disabled")
+
+
     B_INSTRU.style.justifyContent = "center"
-    B_INSTRU.style.padding = "100px 100px"
-    B_INSTRU.style.marginLeft = "200px"
-    B_INSTRU.style.marginTop = "400px"
-    B_INSTRU.style.marginBottom = "800px"
+    B_INSTRU.style.padding = "6% 6%"
+    B_INSTRU.style.marginLeft = "10%"
+    B_INSTRU.style.marginTop = "10%"
     B_INSTRU.style.backgroundColor = color3
     B_INSTRU.style.color = color1
-    B_INSTRU.style.fontSize = "60px"
+    B_INSTRU.style.fontSize = "200%"
     B_INSTRU.removeAttribute("disabled")
+
 })
 
 })
 
 function modosBA(){
     X_F.style.justifyContent = ""
-    X_F.style.backgroundColor = color3
-    X_F.style.color = color3
-    X_F.style.padding = "0px"
-    X_F.style.fontSize = "0px"
-    X_F.style.marginLeft = "0px"
-    X_F.style.marginTop = "0px"
+    X_F.style.backgroundColor = "transparent"
+    X_F.style.color = "transparent"
+    X_F.style.padding = "0%"
+    X_F.style.fontSize = "0%"
+    X_F.style.marginLeft = "0%"
+    X_F.style.marginTop = "0%"
     X_F.setAttribute("disabled",'true')
-    div_CONFI.style.width = "0px"
-    div_CONFI.style.height = "0px"
-    div_CONFI.style.padding = "0px"
+    div_CONFI.style.width = "0%"
+    div_CONFI.style.height = "0%"
+    div_CONFI.style.padding = "0%"
     I_CF();
 
-        modoses.style.width = "0px";
-        modoses.style.height = "0px";
-        modoses.style.fontSize = "0px";
-        modoses.style.color = "0px";
-        modoses.style.backgroundColor = color3;
-        modoses.style.border = color3;
+        modoses.style.width = "0%";
+        modoses.style.height = "0%";
+        modoses.style.fontSize = "0%";
+        modoses.style.color = "0%";
+        modoses.style.backgroundColor = "transparent";
+        modoses.style.border = "transparent";
         modoses.setAttribute("disabled",'true')
 
-        modoses_2.style.width = "0px";
-        modoses_2.style.height = "0px";
-        modoses_2.style.fontSize = "0px";
-        modoses_2.style.color = "0px";
-        modoses_2.style.backgroundColor = color3;
-        modoses_2.style.border = color3;
+        modoses_2.style.width = "0%";
+        modoses_2.style.height = "0%";
+        modoses_2.style.fontSize = "0%";
+        modoses_2.style.color = "0%";
+        modoses_2.style.backgroundColor = "transparent";
+        modoses_2.style.border = "transparent";
         modoses_2.setAttribute("disabled",'true')
 }
 
@@ -3144,17 +3135,17 @@ X_F_2.addEventListener("click" ,()=>{
     X_F_2.style.marginTop = ""
 
     U.forEach(function(INSTRU){
-        INSTRU.style.width = "1px";
-        INSTRU.style.height = "1px";
-        INSTRU.style.fontSize = "0.5px";
-        INSTRU.style.color = color2;
-        INSTRU.style.backgroundColor = color2;
-        INSTRU.style.border = color2;
+        INSTRU.style.width = "0%";
+        INSTRU.style.height = "0%";
+        INSTRU.style.fontSize = "0%";
+        INSTRU.style.color = "transparent";
+        INSTRU.style.backgroundColor = "transparent";
+        INSTRU.style.border = "transparent";
         para = (1)
         B_F_P = (1)
     
-        B_V.style.padding = "1px 1px"
-        B_V2.style.padding = "1px 1px"
+        B_V.style.padding = "0% 0%"
+        B_V2.style.padding = "0% 0%"
     
         X_F.style.justifyContent = "center"
         X_F.style.backgroundColor = "red"
@@ -3270,7 +3261,7 @@ X_F.addEventListener("click" ,()=>{
     C_musicona.style.marginBottom = ""
 
     range_D.style.justifyContent = ""
-    range_D.style.padding = "1px"
+    range_D.style.padding = ""
     range_D.style.marginLeft = ""
     range_D.style.marginTop = ""
     range_D.style.backgroundColor = ""
@@ -3321,7 +3312,6 @@ X_F.addEventListener("click" ,()=>{
     B_INSTRU.style.color = ""
     B_INSTRU.style.fontSize = ""
 
-    B_V.style.padding = ""
     U.forEach(function(U_2){
         U_2.removeAttribute("disabled")
             })
@@ -3351,38 +3341,19 @@ if (X_V == 1){
     })
 
     todito();
-    
-    B_V.style.display = "";
-    B_V.style.justifyContent = "";
-    B_V.style.marginLeft = "";
-    B_V.style.padding = "0px";
-    B_V.style.fontSize = "0px";
-    B_V.style.color = color2;
-    B_V.style.backgroundColor = color2;
-    B_V.style.marginLeft = ""
-
-    instruciones.removeAttribute("disabled")
-
-    instruciones.style.display = "flex";
-    instruciones.style.justifyContent = "center";
-    instruciones.style.marginLeft = "-500px";
-    instruciones.style.padding = "600px 400px";
-    instruciones.style.fontSize = "100px";
-    instruciones.style.color = color1
-    instruciones.style.backgroundColor = color3
 }
 
 if(confirma == 0) {
     B_V.removeAttribute("disabled")
-B_V2.style.backgroundColor = color2
-B_V2.style.color = color2
-B_V2.style.border = color2
-B_V2.style.padding = "0px"
-B_V2.style.fontSize = "0px"
+B_V2.style.backgroundColor = "transparent"
+B_V2.style.color = "transparent"
+B_V2.style.border = "transparent"
+B_V2.style.padding = "0%"
+B_V2.style.fontSize = "0%"
 B_V2.setAttribute("disabled",'true')
 
 
-B_X.style.marginLeft = "0px"
+B_X.style.marginLeft = "0%"
 B_X.setAttribute("disabled",'true')
 
 
@@ -3454,24 +3425,24 @@ B_Bmodos.addEventListener("click" ,()=>{
 
     if(S_C == false){
         U_M.forEach(function(INSTRUa){
-            INSTRUa.style.width = "1px";
-            INSTRUa.style.height = "1px";
-            INSTRUa.style.fontSize = "0.5px";
-            INSTRUa.style.color = color2;
-            INSTRUa.style.backgroundColor = color2;
-            INSTRUa.style.border = color2;
+            INSTRUa.style.width = "0%";
+            INSTRUa.style.height = "0%";
+            INSTRUa.style.fontSize = "0%";
+            INSTRUa.style.color = "transparent";
+            INSTRUa.style.backgroundColor = "transparent";
+            INSTRUa.style.border = "transparent";
             INSTRUa.setAttribute("disabled",'true')
         })
     }
 
     if(S_C == true){
         U_M.forEach(function(INSTRUa){
-            INSTRUa.style.width = "1px";
-            INSTRUa.style.height = "1px";
-            INSTRUa.style.fontSize = "0.5px";
-            INSTRUa.style.color = color2;
-            INSTRUa.style.backgroundColor = color2;
-            INSTRUa.style.border = color2;
+            INSTRUa.style.width = "0%";
+            INSTRUa.style.height = "0%";
+            INSTRUa.style.fontSize = "0%";
+            INSTRUa.style.color = "transparent";
+            INSTRUa.style.backgroundColor = "transparent";
+            INSTRUa.style.border = "transparent";
             INSTRUa.setAttribute("disabled",'true')
         })
     }
@@ -3519,16 +3490,16 @@ X_F_3.addEventListener("click" ,()=>{
     X_F_3.style.marginTop = ""
 
     U.forEach(function(INSTRU){
-        INSTRU.style.width = "1px";
-        INSTRU.style.height = "1px";
-        INSTRU.style.fontSize = "0.5px";
-        INSTRU.style.color = color2;
-        INSTRU.style.backgroundColor = color2;
-        INSTRU.style.border = color2;
+        INSTRU.style.width = "0%";
+        INSTRU.style.height = "0%";
+        INSTRU.style.fontSize = "0%";
+        INSTRU.style.color = "transparent";
+        INSTRU.style.backgroundColor = "transparent";
+        INSTRU.style.border = "transparent";
         para = (1)
         B_F_P = (1)
     
-        B_V.style.padding = "1px 1px"
+        B_V.style.padding = "0% 0%"
     
         X_F.style.justifyContent = "center"
         X_F.style.backgroundColor = "red"
@@ -3650,10 +3621,10 @@ X_V = (1)
         instruciones.style.display = "";
         instruciones.style.justifyContent = "";
         instruciones.style.marginLeft = "";
-        instruciones.style.padding = "1px 1px";
-        instruciones.style.fontSize = "0.5px";
-        instruciones.style.color = color2;
-        instruciones.style.backgroundColor = color2;
+        instruciones.style.padding = "0% 0%";
+        instruciones.style.fontSize = "0%";
+        instruciones.style.color = "transparent";
+        instruciones.style.backgroundColor = "transparent";
         instruciones.style.marginLeft = "";
     
         BUV.forEach(function(co){
@@ -3674,7 +3645,6 @@ X_V = (1)
         B_X.style.backgroundColor = "";
         B_X.style.color = "";
         B_X.style.marginLeft = "";
-        B_D.style.backgroundColor = "";
         boton_uni.forEach(function(me){
         me.style.color = ""
         me.style.backgroundColor = ""
@@ -3775,9 +3745,9 @@ timp = (valortimp)
         
                                     function todito(){
                                         B_Y.forEach(function(todote){
-                                            todote.style.width = "1px";
-                                            todote.style.height = "1px";
-                                            todote.style.fontSize = "0.5px";
+                                            todote.style.width = "0%";
+                                            todote.style.height = "0%";
+                                            todote.style.fontSize = "0%";
                                             todote.style.border = "none"
                                         })
                                     }
@@ -3853,12 +3823,12 @@ codicecolor_2();
 KLMX();
 color_sub();
 X_F.style.justifyContent = ""
-X_F.style.backgroundColor = color3
-X_F.style.color = color3
-X_F.style.padding = "0px"
-X_F.style.fontSize = "0px"
-X_F.style.marginLeft = "0px"
-X_F.style.marginTop = "0px"
+X_F.style.backgroundColor = "transparent"
+X_F.style.color = "transparent"
+X_F.style.padding = "0%"
+X_F.style.fontSize = "0%"
+X_F.style.marginLeft = "0%"
+X_F.style.marginTop = "0%"
 X_F.setAttribute("disabled",'true')
 I_CF();
 })
@@ -3889,10 +3859,10 @@ B_V2.addEventListener("click" ,()=>{
         instruciones.style.display = "";
         instruciones.style.justifyContent = "";
         instruciones.style.marginLeft = "";
-        instruciones.style.padding = "1px 1px";
-        instruciones.style.fontSize = "0.5px";
-        instruciones.style.color = color2;
-        instruciones.style.backgroundColor = color2;
+        instruciones.style.padding = "0% 0%";
+        instruciones.style.fontSize = "0%";
+        instruciones.style.color = "transparent";
+        instruciones.style.backgroundColor = "transparent";
         instruciones.style.marginLeft = "";
 
         BUV.forEach(function(co){
@@ -3913,7 +3883,6 @@ B_V2.addEventListener("click" ,()=>{
         B_X.style.backgroundColor = "";
         B_X.style.color = color1;
         B_X.style.marginLeft = "";
-        B_D.style.backgroundColor = "";
         boton_uni.forEach(function(me){
         me.style.color = ""
         me.style.backgroundColor = ""
@@ -3965,12 +3934,12 @@ principal();
 codicecolor_2();
 KLMX();
 X_F.style.justifyContent = ""
-X_F.style.backgroundColor = color3
-X_F.style.color = color3
-X_F.style.padding = "0px"
-X_F.style.fontSize = "0px"
-X_F.style.marginLeft = "0px"
-X_F.style.marginTop = "0px"
+X_F.style.backgroundColor = "transparent"
+X_F.style.color = "transparent"
+X_F.style.padding = "0%"
+X_F.style.fontSize = "0%"
+X_F.style.marginLeft = "0%"
+X_F.style.marginTop = "0%"
 X_F.setAttribute("disabled",'true')
 I_CF();
 })
@@ -4087,6 +4056,12 @@ modo_3.addEventListener("click" ,()=>{
     codicetimp();
     modosBA();
 }, { once: true })
+
+
+
+
+
+
 
 
 

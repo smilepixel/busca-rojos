@@ -1,13 +1,172 @@
 .boton_uni{
-    padding: 75px 258px;
-    font-size: 20px;
+    padding: 2.5% 9.8%;
+    font-size: 100%;
 }
+/*  */
 
 .div{
-    padding: 25px 0px;
     display: flex;
 justify-content: center;
 }
+/*  */
+
+.div_C{
+    display: flex;
+    flex-direction: row;
+}
+/*  */
+
+.v{
+    display: flex;
+    flex-direction: row;
+}
+/*  */
+
+#botones{
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+justify-content: space-between;
+}
+/*  */
+
+
+/*  */
+
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+/*  */
+
+
+.BU{
+    color: violet;
+}/*  */
+
+
+.puntuacion_C{
+    display: flex;
+    flex-direction: column;
+}
+/*  */
+
+
+#DIV_P{
+    display: flex;
+    flex-direction: row;
+    margin-right: 10%;
+    margin-left: -10%;
+/*  */
+}
+
+
+.BPA{
+padding: 3% 5%;
+}/*  */
+
+
+.I_C{
+background-color: transparent;
+color: transparent;
+margin: 0%;
+padding: 0% 0%;
+font-size: 0%;
+border: none;
+}
+/*  */
+
+.I_D{
+    width: 0%;
+    height: 0%;
+}
+/*  */
+
+#div_CONFI{
+    display: flex;
+    flex-direction: row;
+}/*  */
+
+
+
+.H3G{
+    color: transparent;
+    font-size: 0%;
+}
+/*  */
+
+
+#HG3_D{
+    display: flex;
+    flex-direction: column;
+}/*  */
+
+
+.H_cabe{
+    color: transparent;
+    font-size: 0%;
+}
+/*  */
+
+
+.D_COLUM{
+    display: flex;
+    flex-direction: column;
+}
+/*  */
+
+
+#T_modos{
+    display: flex;
+    flex-direction: column;
+}/*  */
+
+
+
+#B_modos{
+    display: flex;
+    flex-direction: row;
+}/*  */
+
+
+.modos{
+    font-size: 700%;
+    display: flex;
+    justify-content: center;
+    padding: 8% 8%;
+    color: aliceblue;
+    background-color: black;
+}/*  */
+
+
+.modos_2{
+    display: flex;
+margin: auto;
+padding: 8% 8%;
+}/*  */
+
+
+.uni{
+    margin-left: 200px;
+}/*  */
+
+.v_P{
+    margin-bottom: -15%;
+}
+/*  */
+
+.vD{
+    font-size: 200%;
+margin-left: 2%;
+}/*  */
+
+.CO{
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    margin-top: -5%;
+}/*  */
+
 
 .T{
     padding: +100px 0.3s ease; 
@@ -17,233 +176,89 @@ justify-content: center;
     padding: +100px 0.3s ease; 
 }
 
-.div_C{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.uni{
-    margin-left: 300px;
-}
-
-.v{
-    display: flex;
-    flex-direction: row;
-}
-
-
-#botones{
-    display: flex;
-    flex-direction: row;
-}
-
-
-#selec{
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.vD{
-    font-size: 100px;
-margin-left: 10px;
-}
-
-
-.v_P{
-    margin-bottom: -70px;
-}
-
-
-
-.inicio{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-
 #B_I{
     height: 1350px;
     width: 1800px;
     font-size: 200px;
 }
 
-
-
-
-#selector{
-    padding: 60px 80px;
-    font-size: 40px;
-}
-
-
-.borde{
-    margin-left: -400px;
-}
-
-
-.B_E{
-    padding: 10px 10px;
-    font-size: 20px;
-}
-
-
-
-.sele{
-    margin-left: 2px;
-}
-
-
-
-.BU{
-    color: violet;
-}
-
-
-.PU{
-    background-color: purple;
-}
-
-
-
-
-.puntuacion_C{
+#selec{
     display: flex;
     flex-direction: column;
+    margin-left: -12%;
+    margin-right: 15%;
 }
 
-
-
-#score{
-    display: flex;
-    justify-content: center;
-    font-size: 60px;
-    margin-top: -30px;
+#selector{
+    padding: 6% 10%;
+    font-size: 250%;
+    width: 170%;
+    height:140% ;
 }
 
-
-
-.CO{
-    display: flex;
-    justify-content: center;
-    font-size: 60px;
-    margin-top: -30px;
+#selecionadordetema{
+    padding: 6% 19.2%;
+    font-size: 250%;
+    text-align: center;
+    text-align: justify;
+    width: 132%;
+    height:40% ;
 }
 
-
+.B_E{
+padding: 3% 5%;
+    font-size: 100%;
+}/*  */
 
 .T{
-    font-size: 30px;
-}
+    font-size: 200%;
+}/*  */
 
 
 .TE{
-    font-size: 35px;
-}
+    font-size: 200%;
+}/*  */
 
 
-#DIV_P{
-    display: flex;
-    flex-direction: row;
-
-}
-
-
-.BPA{
-    padding: 50px 90px;
-}
-
-
-
-#instruciones{
-    padding: 50px 90px;
-}
-
-
-.I_C{
-background-color: transparent;
-color: transparent;
-margin: 0.5px;
-padding: 1px 1px;
-font-size: 0.5px;
-border: none;
-
-}
-
-
-
-.I_D{
-    width: 1px;
-    height: 1px;
-}
-
-
-#div_CONFI{
-    display: flex;
-    flex-direction: row;
-}
-
-
-
-.H3G{
-    color: white;
-    font-size: 0.5px;
-}
-
-
-
-#HG3_D{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.H_cabe{
-    color: white;
-    font-size: 0.5px;
-}
-
-
-
-.D_COLUM{
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-#T_modos{
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-#B_modos{
-    display: flex;
-    flex-direction: row;
-}
-
-
-.modos{
-    font-size: 70px;
-    display: flex;
+#div_1{
+    width: 100%;
+    height: 100%;
+    margin: auto;
     justify-content: center;
-    padding: 70px 70px;
-    color: aliceblue;
-    background-color: black;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+body{
+    width: 80%;
+    height: 200%;
+        margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 
-.modos_2{
-    display: flex;
-margin: auto;
-padding: 200px 200px;
-}
+#iniciar{    width: 80%;
+    height: 200%;
+        margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;}
+
+#botones{    
+    width: 80%;
+    height: 200%;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;}
+
+
 
 
 #div_modos{
@@ -252,7 +267,36 @@ padding: 200px 200px;
 }
 
 
+#div_dificult{
+    display: flex;
+    flex-direction: column;
+}
 
-#musicona{
-    margin-left: 200px;
+#div_CONFI{    
+    width: 80%;
+    height: 200%;
+    margin: auto;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;}
+
+
+#div_musicano{    
+    width: 80%;
+    height: 200%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+
+
+.divo{
+    margin: auto;
+    margin-right: 5%;
+    margin-left: 5%;
 }

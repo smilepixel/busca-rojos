@@ -23,7 +23,12 @@
     <div id="div_1" class="div div_C U_M"> 
 
 
-    <div id="selec" class="borde uni sele BU PU uni_A U_M">
+
+        
+
+        <div id="botones" class="uni">
+
+                <div id="selec" class="borde uni sele BU PU uni_A U_M">
     <h2 id="selecionadordetema" class="BU PU U U_M">seleccionador de temas</h2>
     <select  name="selecionador de color" id="selector" class="BU PU uni_A U U_M KLM">
         <option value="tema oscuro" id="S_1" class="BU uni_A U U_M S T">tema oscuro</option>
@@ -46,21 +51,16 @@
         <option value="tema profesional" id="S_18" class="BU uni_A U U_M S T">tema δ</option>
     </select>
     </div>
-        a
-
-        <div id="botones" class="uni U U_M">
-            <div  id="DIV_P" class="U U_M">
-                <button class=" BU PU TE uni_A BUV BPA U U_M KLM T" id="B_D">clic para despausa</button>
-                <button class=" BU PU TE uni_A BUV BPA U U_M KLM T" id="B_P">clic para pausa</button>
-            </div>
+    
 <div id="iniciar">
     <button class=" BU PU TE U U_M I T" id="instruciones">configuraccion e <br> instrucciones</button>
-    <button class="BU PU U U_M I T" id="B_V">INICIAR juego <br> JUEGO </button>
+    <button class="BU PU U U_M I T" id="B_V">INICIAR  <br> JUEGO </button>
     <button class="BU PU U U_M I T" id="B_V2">INICIAR <br> JUEGO </button>
 </div>
 
-
-            <button class="B_E BU PU TE BUV uni_A U U_M O KLM T" id="B_F">  clic para <br> finalizar el juego</button>
+            <button class=" BU PU TE uni_A BUV BPA U U_M KLM T" id="B_D">click <br> para despausa</button>
+            <button class=" BU PU TE uni_A BUV BPA U U_M KLM T" id="B_P">click para pausa</button>
+            <button class="B_E BU PU TE BUV uni_A U U_M O KLM T" id="B_F">  click para <br> finalizar el juego</button>
             <button class="B_E BU PU TE U U_M O KLM T" id="B_U"> reiniciar </button>
         </div>
 
@@ -90,13 +90,13 @@
                 <h2 id="CV3" class="vD BU uni_A U U_M KLM1">♡</h2>
                 <h2 id="CVF1" class="vD BU uni_A U U_M KLM1">♡</h2>
                 <h2 id="CVF2" class="vD BU uni_A U U_M KLM1">♡</h2>
-                <h2 id="CVF3" class="vD BU uni_A U U_M KLM`1">♡</h2>
+                <h2 id="CVF3" class="vD BU uni_A U U_M KLM1">♡</h2>
             </div>
         </div>
 
 <div id="puntuacion" class="puntuacion_C uni_A U U_M">
     <h2 class="uni BU T uni_A U U_M KLM1">score</h2>
-    <h2  id="score" class="uni BU uni_A U U_M KLM1">0</h2>
+    <h2  id="score" class="uni CO BU uni_A U U_M KLM1">0</h2>
 </div>
 
 
@@ -119,25 +119,36 @@
 
 
     <button class="I_C I_X U_M T" id="X_F">X</button>
+
+
+
+
+
 <div id="div_CONFI" class="U_M">
 
-    <div id="div_modos">
+    <div id="div_modos" class="divo">
         <h1 class="I_C U_M" id="S_modos">seleccionador de modos↓</h1>
-        <button class="I_C I_X U_M T" id="B_Bmodos">clic para <br> cambiar de modo </button>
+        <button class="I_C I_X U_M T" id="B_Bmodos">click para <br> cambiar de modo </button>
     </div>
 
-
+<div id="div_dificult" class="divo">
     <h1 class="I_C U_M" id="S_dificultad">seleccionador de dificultad ↓</h1>
         <input class="I_C I_X U_M" id="range_D" type="range" min="1" max="5">
         <h1 class="I_C U_M" id="dificultad">medio alto 😐</h1>
-
-
-<h1 class="I_C U_M" id="C_musicona">configuración de música  ↓</h1>
-<audio controls autoplay loop id="musicona" class="I_D I_X U_M"  src="./cancion-rojos/Hear Me Now- Alok x Bruno Martini ft Zeeba [Vietsub + Lyrics].mp3"></audio>
-
-
-<button class="I_C I_X U_M T" id="B_INSTRU">clic para ver <br> las instrucciones</button>
 </div>
+
+<div id="div_musicano" class="divo">
+<h1 class="I_C U_M" id="C_musicona">configuración <br> de música  ↓</h1>
+<audio controls autoplay loop id="musicona" class="I_D I_X U_M"  src="./cancion-rojos/Hear Me Now- Alok x Bruno Martini ft Zeeba [Vietsub + Lyrics].mp3"></audio>
+</div>
+
+<div id="div_instruciono" class="divo">
+<button class="I_C I_X U_M T" id="B_INSTRU">click para ver <br> las instrucciones</button>
+</div>
+
+</div>
+
+
 
 <button class="I_C U_M T" id="X_F_2">X</button>
 <button class="I_C T" id="X_F_3">X</button>
