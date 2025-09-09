@@ -2730,20 +2730,18 @@ U.forEach(function(INSTRU){
     range_D.style.padding = "1% 1%"
     range_D.style.backgroundColor = color3
     range_D.style.color = color1
-    range_D.style.fontSize = "200px"
     range_D.removeAttribute("disabled")
 
-    dificultad.style.marginTop = "0.5%"
     dificultad.style.justifyContent = "center"
-    dificultad.style.padding = "10% 50%"    
+    dificultad.style.padding = "30% 30%"    
     dificultad.style.backgroundColor = color3
     dificultad.style.color = color1 
     dificultad.style.fontSize = "200%"
     dificultad.removeAttribute("disabled")
 
-    S_dificultad.style.marginTop = "0.5%"
+    S_dificultad.style.marginTop = "3%"
     S_dificultad.style.justifyContent = "center"
-    S_dificultad.style.padding = "10% 50%"
+    S_dificultad.style.padding = "30% 30%"
     S_dificultad.style.backgroundColor = color3
     S_dificultad.style.color = color1
     S_dificultad.style.fontSize = "200%"
