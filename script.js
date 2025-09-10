@@ -50,24 +50,6 @@ let B_V = document.querySelector("#B_V")
 let B_V2 = document.querySelector("#B_V2")
 let B_Y = document.querySelectorAll(".uni_A")
 let BUV = document.querySelectorAll(".BUV")
-let s1 = document.querySelector("#selector")[0]
-let s2 = document.querySelector("#selector")[1]
-let s3 = document.querySelector("#selector")[2]
-let s4 = document.querySelector("#selector")[3]
-let s5 = document.querySelector("#selector")[4]
-let s6 = document.querySelector("#selector")[5]
-let s7 = document.querySelector("#selector")[6]
-let s8 = document.querySelector("#selector")[7]
-let s9 = document.querySelector("#selector")[8]
-let s10 = document.querySelector("#selector")[9]
-let s11 = document.querySelector("#selector")[10]
-let s12 = document.querySelector("#selector")[11]
-let s13 = document.querySelector("#selector")[12]
-let s14 = document.querySelector("#selector")[13]
-let s15 = document.querySelector("#selector")[14]
-let s16 = document.querySelector("#selector")[15]
-let s17 = document.querySelector("#selector")[16]
-let s18 = document.querySelector("#selector")[17]
 let U = document.querySelectorAll(".U")
 let B_E = document.querySelectorAll(".B_E")
 function tiempo1 (){let tiempo1 = document.querySelector("#tiempo1").innerHTML=tiempo;}
@@ -2336,9 +2318,9 @@ if (selector.value == "8"){
                 selector.addEventListener("click", function () {
 if (selector.value == "9"){
             S_C = (true)
-        color1 = ("white")
-        color2 = (" rgb(255, 83, 3)")
-        color3 = (" rgb(3, 133, 255)")
+        color1 = ("rgb(3, 163, 255)")
+        color2 = ("rgb(141, 231, 253)")
+        color3 = ("rgb(0, 106, 228)")
         modeses_F();
         numero_C = (9)
         BU.forEach(function(BU_1){
@@ -2418,9 +2400,9 @@ if (selector.value == "12"){
                 selector.addEventListener("click", function () {
 if (selector.value == "13"){
             S_C = (true)
-        color1 = ("rgb(139, 0, 204)")
-        color2 = ("rgb(190, 125, 176)")
-        color3 = ("rgb(204, 0, 160)")
+        color1 = ("rgba(88, 0, 129, 1)")
+        color2 = ("rgba(52, 0, 76, 1)")
+        color3 = ("rgba(195, 0, 255, 1)")
         modeses_F();
         numero_C = (13)
         BU.forEach(function(BU_1){
