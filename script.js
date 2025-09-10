@@ -69,6 +69,7 @@ let s16 = document.querySelector("#selector")[15]
 let s17 = document.querySelector("#selector")[16]
 let s18 = document.querySelector("#selector")[17]
 let U = document.querySelectorAll(".U")
+let B_E = document.querySelectorAll(".B_E")
 function tiempo1 (){let tiempo1 = document.querySelector("#tiempo1").innerHTML=tiempo;}
 let selector = document.querySelector("#selector")
 let B_F = document.querySelector("#B_F")
@@ -1699,6 +1700,10 @@ function todito(){
         todote.style.color = "transparent";
         todote.style.backgroundColor = "transparent";
         todote.style.border = "transparent";
+})
+        B_E.forEach(function(B_E){
+        B_E.style.padding = "0% 0%";
+})
 
         B_F.style.backgroundColor = "transparent"
         B_X.style.display = "flex";
@@ -1717,36 +1722,34 @@ function todito(){
         selector.style.backgroundColor = "transparent"
         selector.style.color = "transparent"
 
-        B_V.style.display = "flex";
-        B_V.style.justifyContent = "center";
         B_V.style.padding = "20% 50%";
         B_V.style.fontSize = "400%";
         B_V.style.color = color1;
         B_V.style.backgroundColor = color3;
 
-        
-        instruciones.style.display = "flex";
-        instruciones.style.justifyContent = "center";
         instruciones.style.padding = "20% 50%";
         instruciones.style.fontSize = "220%";
         instruciones.style.color = color3
     instruciones.style.backgroundColor = color1
     instruciones.style.boxShadow = `10px 10px 85px 0 ${color1}`
-    })
+    
 
 }
 
-function B_V_F(){
-        
+function B_V_X_X(){
     B_V.setAttribute("disabled",'true')
-    B_V.style.width = "0%";
-    B_V.style.height = "0%";
     B_V.style.fontSize = "0%";
     B_V.style.color = "transparent";
     B_V.style.backgroundColor = "transparent";
     B_V.style.border = "transparent";
     B_V.style.marginLeft = "0%";
     B_V.style.padding = "0%";
+    B_V2.style.width = "";
+    B_V2.style.height = "";
+}
+function B_V_F(){
+        
+B_V_X_X()
 
     B_V2.setAttribute("disabled",'true')
     B_V2.style.width = "0%";
@@ -1775,12 +1778,7 @@ function todito2(){
     instruciones.style.backgroundColor = "transparent";
     instruciones.style.border = "transparent";
 
-    B_V.style.width = "0%";
-    B_V.style.height = "0%";
-    B_V.style.fontSize = "0%";
-    B_V.style.color = "transparent";
-    B_V.style.backgroundColor = "transparent";
-    B_V.style.border = "transparent";
+B_V_X_X()
 
 
     B_V2.style.width = "0%";
@@ -1835,18 +1833,18 @@ function codicetimp(){
 
     if(range_D.value == 3){
         if(modo == 1){
-            timp = (300000)
-            valortimp = (300000)
+            timp = (30)
+            valortimp = (30)
                     dificultad.innerHTML = "medio alto 😐 <br> 30"
                 }
                 if(modo == 2){
-                    timp = (780000)
-                    valortimp = (780000)
+                    timp = (78)
+                    valortimp = (78)
                             dificultad.innerHTML = "medio alto 😐 <br> 78"
                         }
                         if(modo == 3){
-                            timp = (300000)
-                            valortimp = (300000)
+                            timp = (30)
+                            valortimp = (30)
                                     dificultad.innerHTML = "medio alto 😐 <br> 30"
                                 }
     }
@@ -2023,171 +2021,54 @@ DF = (0)
 castigo = (0)
 lvl();
 }
-
-function B_F_F(){
+function BFS(){
+        
     impr = (0)
     F_ALTE();
-    instruciones.removeAttribute("disabled")
-        function todito(){
-            B_Y.forEach(function(todote){
-                todote.style.width = "0%";
-                todote.style.height = "0%";
-                todote.style.fontSize = "0%";
-                para = (1)
-                B_F_P = (1)
-            })
-        }
-        todito();
-
-        B_X.style.width = "0%";
-        B_X.style.height = "0%";
+        B_Y.forEach(function(todote){
+        todote.style.width = "0%";
+        todote.style.height = "0%";
+        todote.style.fontSize = "0%";
+        todote.style.color = "transparent";
+        todote.style.backgroundColor = "transparent";
+        todote.style.border = "transparent";
+})
+        B_E.forEach(function(B_E){
+        B_E.style.padding = "0% 0%";
+})
+        B_F.style.backgroundColor = "transparent"
+        B_X.style.display = "flex";
+        B_X.style.justifyContent = "center";
+        B_X.style.marginLeft = "0%";
+        B_X.style.padding = "0% 0%";
         B_X.style.fontSize = "0%";
-
-    B_V2.style.display = "flex";
-    B_V2.style.justifyContent = "center";
-    B_V2.style.marginLeft = "900px";
-    B_V2.style.padding = "720px 800px";
-    B_V2.style.fontSize = "100px";
-    B_V2.style.marginLeft = "900px";
-    B_V2.style.marginTop = "-1444px";
-    B_V2.style.color = color3;
-    B_V2.style.backgroundColor = color1;
-    
-    B_V2.removeAttribute("disabled")
-
-    instruciones.style.display = "flex";
-    instruciones.style.justifyContent = "center";
-    instruciones.style.marginLeft = "-500px";
-    instruciones.style.padding = "600px 400px";
-    instruciones.style.fontSize = "100px";
-    instruciones.style.color = color1;
-    instruciones.style.backgroundColor = color3;
-
-    if(S_C == true){  
-        B_P.style.backgroundColor = "transparent";
-        B_P.style.color = "transparent";
-        B_D.style.backgroundColor = "transparent";
-        B_D.style.color = "transparent";
+        B_X.style.color = "transparent";
+        B_X.style.backgroundColor = "transparent";
+        B_X.style.color = "transparent";
+        B_X.style.marginLeft = "-200px";
         boton_uni.forEach(function(me){
         me.style.color = "transparent"
         me.style.backgroundColor = "transparent"
-        me.style.border = "transparent";
-    })
-    }
-    if(S_C == false){
-    B_P.style.backgroundColor = "transparent";
-    B_P.style.color = "transparent";
-    B_D.style.backgroundColor = "transparent";
-    B_D.style.color = "transparent";
-    boton_uni.forEach(function(me){
-    me.style.color = "transparent";
-    me.style.backgroundColor = "transparent";
-    me.style.border = "transparent";
-    })
-    }
+        })
+        selector.style.backgroundColor = "transparent"
+        selector.style.color = "transparent"
+
+    B_V2.style.padding = "20% 40%";
+    B_V2.style.fontSize = "400%";
+    B_V2.style.color = color1;
+    B_V2.style.backgroundColor = color3;
     
-    isPause = (true)
-    
-    second = (0)
-    second = (16)
+    B_V2.removeAttribute("disabled")
 
-}
-
-function B_F_F2(){
-    B_V2.style.backgroundColor = ""
-    B_V2.style.color = ""
-    B_V2.style.border = ""
-    B_V2.style.padding = ""
-    B_V2.style.fontSize = ""
-
-    O.forEach(function(INSTRUo){
-        INSTRUo.style.width = "0%";
-        INSTRUo.style.height = "0%";
-        INSTRUo.style.fontSize = "0%";
-        INSTRUo.style.color = "transparent";
-        INSTRUo.style.backgroundColor = "transparent";
-        INSTRUo.style.border = "transparent";
-        INSTRUo.style.padding = "0% 0%";
-        INSTRUo.setAttribute("disabled",'true')
-    })
-
-    F_ALTE();
-
+    instruciones.style.padding = "20% 40%";
+    instruciones.style.fontSize = "200%";
+    instruciones.style.color = color3;
+    instruciones.style.backgroundColor = color1;
     instruciones.removeAttribute("disabled")
-        function todito(){
-            B_Y.forEach(function(todote){
-                todote.style.width = "0%";
-                todote.style.height = "0%";
-                todote.style.fontSize = "0%";
-                todote.style.color = "transparent";
-                todote.style.backgroundColor = "transparent";
-                todote.style.border = "transparent";
-                para = (1)
-                B_F_P = (1)
-            })
-        }
-    
-        todito();
-    
-    B_V2.removeAttribute("disabled")
-    B_V2.style.display = "flex";
-    B_V2.style.justifyContent = "center";
-
-    B_V2.style.display = "flex";
-    B_V2.style.justifyContent = "center";
-    B_V2.style.marginLeft = "900px";
-    B_V2.style.padding = "600px 800px";
-    B_V2.style.fontSize = "100px";
-    B_V2.style.marginLeft = "900px";
-    B_V2.style.marginTop = "-1445px";
-    B_V2.style.color = color3;
-    B_V2.style.backgroundColor = color1;
-    
-    B_V2.removeAttribute("disabled")
-
-    instruciones.style.display = "flex";
-    instruciones.style.justifyContent = "center";
-    instruciones.style.marginLeft = "-500px";
-    instruciones.style.padding = "600px 400px";
-    instruciones.style.fontSize = "100px";
-    instruciones.style.color = color1;
-    instruciones.style.backgroundColor = color3;
-    
-    if(S_C == true){  
-        B_P.style.backgroundColor = "transparent";
-        B_P.style.color = "transparent";
-        B_D.style.backgroundColor = "transparent";
-        B_D.style.color = "transparent";
-        boton_uni.forEach(function(me){
-        me.style.color = "transparent"
-        me.style.backgroundColor = "transparent"
-    })
-    }
-    if(S_C == false){
-    B_P.style.backgroundColor = "transparent";
-    B_P.style.color = "transparent";
-    B_D.style.backgroundColor = "transparent";
-    B_D.style.color = "transparent";
-    boton_uni.forEach(function(me){
-    me.style.color = "transparent";
-    me.style.backgroundColor = "transparent";
-    })
-    }
-    
     isPause = (true)
     
     second = (0)
     second = (16)
-
-        B_X.style.marginLeft = "0%"
-        B_X.setAttribute("disabled",'true')
-
-        B_V.style.width = "0%";
-        B_V.style.height = "0%";
-        B_V.style.fontSize = "0%";
-        B_V.style.color = "transparent";
-        B_V.style.backgroundColor = "transparent";
-        B_V.style.border = "transparent";
 }
 
 function color_sub(){
@@ -2656,7 +2537,7 @@ U_M.forEach(function(INSTRUa){
     seleco();
 })
 
-instruciones.addEventListener("click" ,()=>{
+function instru_X_F(){
     instruciones.style.boxShadow = ""
     instrunum = (1)
     modeses_F();
@@ -2758,6 +2639,10 @@ U.forEach(function(INSTRU){
     B_INSTRU.removeAttribute("disabled")
 
 })
+}
+
+instruciones.addEventListener("click" ,()=>{
+instru_X_F()
 
 })
 
@@ -2837,7 +2722,7 @@ CC1 = (0)
                 inicio();
             }
             if(M1 == 2){
-                B_F_F2();
+            BFS()
             }
 
         socre();
@@ -2892,7 +2777,7 @@ CC1 = (0)
 
             }
             if(M2 == 2){
-                B_F_F2();
+            BFS()
             }
 
         socre();
@@ -2946,7 +2831,7 @@ if(M3 == 1)
     inicio();
 }
 if(M3 == 2){
-    B_F_F2();
+BFS()
 }
 socre();
 codicetimp();
@@ -2961,11 +2846,9 @@ let D4 = "Otros botones importantes en el juego<br><br>Botón de finalizar el ju
 let R1 = "pierdes una vida; si pierdes las 6 vidas, se termina el juego. Para reiniciar el juego, presionas reiniciar. Además, hay un selector de dificultades. Hay diferentes temas de color, configuración de audio, botones de pausa y despause, botón de finalizar y otros modos de juego."
 B_INSTRU.addEventListener("click" ,()=>{
     modeses_F();
-    H3G1.style.fontSize = "50px"
+    H3G1.style.fontSize = "200%"
     H3G1.style.color = color1
-    H3G1.style.marginRight = "900px"
-    H3G1.style.marginTop = "20px"
-    H3G1.style.marginLeft = "200px"
+    H3G1.style.marginLeft = "5%"
 
     if (modo == 1){
     H3G1.innerHTML = "En el modo 1 <br><br>" + D1 + "por cada nivel se generan entre 1-5 botones de otro color, tu objetivo es presionar uno de esos botones  de otro color antes de que el tiempo llegue a 0," + D2 + "si es que no llegas a presionar 1 botón antes de que se termine el tiempo " + D3 + "hay 5 columnas de botones en el tablero de 25 botones, las columnas son verticales, todos los botones de la primera columna vertical mas pegada a la izquierda te dan 1 punto, los botones de la segunda columna mas a la izquierda te dan 2 puntos y hasi , tambien cada boton dice que puntaje te dara si le das click, el puntaje se va escribiendo en donde dice score cerca de tiempo, si es que le das click a un boton que no sea de los botones de color diferente te bajara puntos, los puntos que te quita si presiónas el boton, dependen de las columna en la que se encuentra el boton o el numero que tiene el boton, puedes llegar a tener score negativo si juegas muy mal.<br><br>" + D4
@@ -2977,12 +2860,10 @@ B_INSTRU.addEventListener("click" ,()=>{
             H3G1.innerHTML = "En el modo 3 <br><br>" + D1 + "por cada nivel se genera 1 boton de otro color, tu objetivo es presionar ese boton antes de que el tiempo llegue a 0," + D2 + " si es que no llegas a presionar el boton de otro color antes de que se termine el tiempo " + D3 + "aqui las columnas no importan, el boton de otro color siempre te da 1 punto y los botones que no son de otro color te quitan 2 puntos, puedes llegar a tener score negativo el score esta a la par de tiempo. <br><br>" + D4
             }
 
-
-    H3G2.style.marginLeft = "200px"
-    H3G2.style.fontSize = "50px"
+    H3G2.style.fontSize = "200%"
     H3G2.style.color = color1
-    H3G2.style.marginTop = "20px"
-    H3G2.style.marginRight = "800px"
+    H3G2.style.marginLeft = "5%"
+
     if (modo == 1){
         H3G2.textContent = `En el modo de juego 1, el juego consiste en que hay un tablero con 25 botones. En cada nivel se generarán entre 5-1  botones de otro color. Tu objetivo es presionar 1 de los botones de otro color antes de que el tiempo se acabe. Si el tiempo se acaba y no lograste presionar ninguno de los botones de otro color,${R1}`
         }
@@ -2995,8 +2876,8 @@ B_INSTRU.addEventListener("click" ,()=>{
 
     H_cabe.forEach(function(h_cabe){
         h_cabe.style.color = color3
-        h_cabe.style.fontSize = "80px"
-        h_cabe.style.marginLeft = "200px"
+        h_cabe.style.fontSize = "400%"
+        h_cabe.style.marginLeft = "5%"
             })
 
     X_F_2.style.justifyContent = "center"
@@ -3035,7 +2916,7 @@ B_INSTRU.addEventListener("click" ,()=>{
     C_musicona.style.marginBottom = ""
 
     range_D.style.justifyContent = ""
-    range_D.style.padding = "1px"
+    range_D.style.padding = ""
     range_D.style.marginLeft = ""
     range_D.style.marginTop = ""
     range_D.style.backgroundColor = ""
@@ -3142,76 +3023,7 @@ X_F_2.addEventListener("click" ,()=>{
         X_F.style.marginLeft = "2480px"
         X_F.style.marginTop = "-700px"
 
-        musicona.style.justifyContent = "center"
-        musicona.style.height = "50px"
-        musicona.style.width = "500px"
-        musicona.style.marginLeft = "-500px"
-        musicona.style.marginTop = "700px"
-    
-        musicona.style.marginBottom = "-200px"
-
-        C_musicona.style.justifyContent = "center"
-        C_musicona.style.padding = "100px 100px"
-        C_musicona.style.marginLeft = "200px"
-        C_musicona.style.marginTop = "300px"
-        C_musicona.style.backgroundColor = color3
-        C_musicona.style.color = color1
-        C_musicona.style.fontSize = "60px"
-        C_musicona.style.marginRight = "100px"
-        C_musicona.style.marginBottom = "800px"
-
-        range_D.style.justifyContent = "center"
-        range_D.style.marginLeft = "-500px"
-        range_D.style.marginRight = "200px"
-        range_D.style.marginTop = "50px"
-        range_D.style.backgroundColor = color3
-        range_D.style.color = color1
-        range_D.style.fontSize = "50px"
-
-        S_modos.style.justifyContent = "center"
-        S_modos.style.padding = "100px 100px"
-        S_modos.style.marginLeft = "10px"
-        S_modos.style.marginRight = "-100px"
-        S_modos.style.marginTop = "100px"
-        S_modos.style.backgroundColor = color3
-        S_modos.style.color = color1
-        S_modos.style.fontSize = "60px"
-
-        B_Bmodos.style.justifyContent = "center"
-        B_Bmodos.style.padding = "100px 100px"
-        B_Bmodos.style.marginLeft = "10px"
-        B_Bmodos.style.marginRight = "-100px"
-        B_Bmodos.style.marginTop = "100px"
-        B_Bmodos.style.backgroundColor = color3
-        B_Bmodos.style.color = color1
-        B_Bmodos.style.fontSize = "60px"
-
-        dificultad.style.justifyContent = "center"
-        dificultad.style.padding = "100px 100px"
-        dificultad.style.marginLeft = "-800px"
-        dificultad.style.marginTop = "900px"
-        dificultad.style.backgroundColor = color3
-        dificultad.style.color = color1
-        dificultad.style.fontSize = "60px"
-        dificultad.style.marginBottom = "400px"
-    
-        S_dificultad.style.justifyContent = "center"
-        S_dificultad.style.padding = "100px 100px"
-        S_dificultad.style.marginLeft = "200px"
-        S_dificultad.style.marginTop = "300px"
-        S_dificultad.style.marginBottom = "900px"
-        S_dificultad.style.backgroundColor = color3
-        S_dificultad.style.color = color1
-        S_dificultad.style.fontSize = "60px"
-
-        B_INSTRU.style.justifyContent = "center"
-        B_INSTRU.style.padding = "100px 100px"
-        B_INSTRU.style.marginLeft = "200px"
-        B_INSTRU.style.marginTop = "400px"
-        B_INSTRU.style.marginBottom = "800px"
-        B_INSTRU.style.backgroundColor = color3
-        B_INSTRU.style.color = color1
-        B_INSTRU.style.fontSize = "60px"
+instru_X_F()
     })
 })
 
@@ -3338,44 +3150,13 @@ B_V2.style.border = "transparent"
 B_V2.style.padding = "0%"
 B_V2.style.fontSize = "0%"
 B_V2.setAttribute("disabled",'true')
-
-
 B_X.style.marginLeft = "0%"
 B_X.setAttribute("disabled",'true')
-
-
 }
 if(confirma == 1) {
-    B_V.setAttribute("disabled",'true')
-
-
-    B_V2.style.display = "flex";
-    B_V2.style.justifyContent = "center";
-    B_V2.style.marginLeft = "900px";
-    B_V2.style.padding = "600px 800px";
-    B_V2.style.fontSize = "100px";
-    B_V2.style.marginLeft = "900px";
-    B_V2.style.marginTop = "-1461px";
-    B_V2.style.color = color3;
-    B_V2.style.backgroundColor = color1;
-    
-    B_V2.removeAttribute("disabled")
-
-    instruciones.style.display = "flex";
-    instruciones.style.justifyContent = "center";
-    instruciones.style.marginLeft = "-500px";
-    instruciones.style.padding = "600px 400px";
-    instruciones.style.fontSize = "100px";
-    instruciones.style.color = color1
-    instruciones.style.backgroundColor = color3
+BFS()
+B_V_X_X()
 }
-
-boton_uni.forEach(function(uni_bo){
-    uni_bo.style.backgroundColor = color2
-    uni_bo.style.color = color2
-})
-
-
 
 })
 
@@ -3487,85 +3268,7 @@ X_F_3.addEventListener("click" ,()=>{
         B_F_P = (1)
     
         B_V.style.padding = "0% 0%"
-    
-        X_F.style.justifyContent = "center"
-        X_F.style.backgroundColor = "red"
-        X_F.style.color = "white"
-        X_F.style.padding = "60px 60px"
-        X_F.style.fontSize = "80px"
-        X_F.style.marginLeft = "2480px"
-        X_F.style.marginTop = "-700px"
-
-        musicona.style.justifyContent = "center"
-        musicona.style.height = "50px"
-        musicona.style.width = "500px"
-        musicona.style.marginLeft = "-500px"
-        musicona.style.marginTop = "700px"
-    
-        musicona.style.marginBottom = "-200px"
-
-        C_musicona.style.justifyContent = "center"
-        C_musicona.style.padding = "100px 100px"
-        C_musicona.style.marginLeft = "200px"
-        C_musicona.style.marginTop = "300px"
-        C_musicona.style.backgroundColor = color3
-        C_musicona.style.color = color1
-        C_musicona.style.fontSize = "60px"
-        C_musicona.style.marginRight = "100px"
-        C_musicona.style.marginBottom = "800px"
-
-        range_D.style.justifyContent = "center"
-        range_D.style.marginLeft = "-500px"
-        range_D.style.marginRight = "200px"
-        range_D.style.marginTop = "50px"
-        range_D.style.backgroundColor = color3
-        range_D.style.color = color1
-        range_D.style.fontSize = "50px"
-
-        S_modos.style.justifyContent = "center"
-        S_modos.style.padding = "100px 100px"
-        S_modos.style.marginLeft = "10px"
-        S_modos.style.marginRight = "-100px"
-        S_modos.style.marginTop = "100px"
-        S_modos.style.backgroundColor = color3
-        S_modos.style.color = color1
-        S_modos.style.fontSize = "60px"
-
-        B_Bmodos.style.justifyContent = "center"
-        B_Bmodos.style.padding = "100px 100px"
-        B_Bmodos.style.marginLeft = "10px"
-        B_Bmodos.style.marginRight = "-100px"
-        B_Bmodos.style.marginTop = "100px"
-        B_Bmodos.style.backgroundColor = color3
-        B_Bmodos.style.color = color1
-        B_Bmodos.style.fontSize = "60px"
-
-        dificultad.style.justifyContent = "center"
-        dificultad.style.padding = "100px 100px"
-        dificultad.style.marginLeft = "-800px"
-        dificultad.style.marginTop = "900px"
-        dificultad.style.backgroundColor = color3
-        dificultad.style.color = color1
-        dificultad.style.fontSize = "60px"
-        dificultad.style.marginBottom = "400px"
-    
-        S_dificultad.style.justifyContent = "center"
-        S_dificultad.style.padding = "100px 100px"
-        S_dificultad.style.marginLeft = "200px"
-        S_dificultad.style.marginTop = "300px"
-        S_dificultad.style.marginBottom = "900px"
-        S_dificultad.style.backgroundColor = color3
-        S_dificultad.style.color = color1
-        S_dificultad.style.fontSize = "60px"
-
-        B_INSTRU.style.justifyContent = "center"
-        B_INSTRU.style.padding = "100px 100px"
-        B_INSTRU.style.marginLeft = "200px"
-        B_INSTRU.style.marginTop = "400px"
-        B_INSTRU.style.marginBottom = "800px"
-        B_INSTRU.style.backgroundColor = color3
-        B_INSTRU.style.color = color1
-        B_INSTRU.style.fontSize = "60px"
+    instru_X_F()
     })
 })
 
@@ -3592,10 +3295,14 @@ B_D.addEventListener("click" ,()=>{
 })
 
 B_F.addEventListener("click" ,()=>{
-B_F_F();
+BFS()
+B_V_X_X()
 })
 
 B_V.addEventListener("click" ,()=>{
+            B_E.forEach(function(B_E){
+        B_E.style.padding = "";
+})
     instruciones.style.boxShadow = ""
         impr = (1)
         isPause = (false)
@@ -3740,52 +3447,8 @@ timp = (valortimp)
                                     }
                                 
                                     todito();
-                                    
-                                    instruciones.removeAttribute("disabled")
-
-                                    B_V2.style.display = "flex";
-                                    B_V2.style.justifyContent = "center";
-                                    B_V2.style.marginLeft = "900px";
-                                    B_V2.style.padding = "720px 800px";
-                                    B_V2.style.fontSize = "100px";
-                                    B_V2.style.marginLeft = "900px";
-                                    B_V2.style.marginTop = "-1444px";
-                                    B_V2.style.color = color3;
-                                    B_V2.style.backgroundColor = color1;
-                                    
-                                    B_V2.removeAttribute("disabled")
-                                
-                                    instruciones.style.display = "flex";
-                                    instruciones.style.justifyContent = "center";
-                                    instruciones.style.marginLeft = "-500px";
-                                    instruciones.style.padding = "600px 400px";
-                                    instruciones.style.fontSize = "100px";
-                                    instruciones.style.color = color1;
-                                    instruciones.style.backgroundColor = color3;
-
-                                if(S_C == true){  
-                                    B_P.style.backgroundColor = color2;
-                                    B_P.style.color = color3;
-                                    B_D.style.backgroundColor = color2;
-                                    B_D.style.color = color3;
-                                    boton_uni.forEach(function(me){
-                                    me.style.color = color2
-                                    me.style.backgroundColor = color2
-                                        B_V.style.color = "white"
-            })
-        }
-if(S_C == false){
-    B_P.style.backgroundColor = "white";
-    B_P.style.color = "black";
-    B_D.style.backgroundColor = "white";
-    B_D.style.color = "black";
-    boton_uni.forEach(function(me){
-    me.style.color = "white";
-    me.style.backgroundColor = "white";
-    instruciones.style.color = "white";
-
-})
-}
+                                    BFS()
+                                    B_V_X_X()
                                 }
                         
                     }
@@ -3821,6 +3484,9 @@ I_CF();
 })
 
 B_V2.addEventListener("click" ,()=>{
+                B_E.forEach(function(B_E){
+        B_E.style.padding = "";
+})
         impr = (1)
         codicetimp();
         corazon = (7)
