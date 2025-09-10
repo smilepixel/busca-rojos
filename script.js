@@ -3732,14 +3732,3 @@ modo_3.addEventListener("click" ,()=>{
     codicetimp();
     modosBA();
 }, { once: true })
-
-
-
-
-
-
-
-
-
-
-
