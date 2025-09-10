@@ -119,7 +119,7 @@ border: none;
 
 
 .modos{
-    font-size: 700%;
+    font-size: 600%;
     display: flex;
     justify-content: center;
     padding: 8% 8%;
@@ -157,13 +157,6 @@ margin-left: 2%;
 }/*  */
 
 
-.T{
-    padding: +100px 0.3s ease; 
-}
-
-.T:hover{
-    padding: +100px 0.3s ease; 
-}
 
 #B_I{
     height: 1350px;
@@ -199,9 +192,6 @@ padding: 3% 5%;
     font-size: 100%;
 }/*  */
 
-.T{
-    font-size: 200%;
-}/*  */
 
 
 .TE{

@@ -1705,22 +1705,10 @@ function todito(){
         B_E.style.padding = "0% 0%";
 })
 
-        B_F.style.backgroundColor = "transparent"
-        B_X.style.display = "flex";
-        B_X.style.justifyContent = "center";
-        B_X.style.marginLeft = "0%";
         B_X.style.padding = "0% 0%";
         B_X.style.fontSize = "0%";
-        B_X.style.color = "transparent";
         B_X.style.backgroundColor = "transparent";
         B_X.style.color = "transparent";
-        B_X.style.marginLeft = "-200px";
-        boton_uni.forEach(function(me){
-        me.style.color = "transparent"
-        me.style.backgroundColor = "transparent"
-        })
-        selector.style.backgroundColor = "transparent"
-        selector.style.color = "transparent"
 
         B_V.style.padding = "20% 50%";
         B_V.style.fontSize = "400%";
@@ -2179,9 +2167,9 @@ function color_sub(){
 }
 
 function codicecolor_2(){
-    s1.addEventListener("click" ,()=>{
+    selector.addEventListener("click", function () {
+if (selector.value == "1"){
         S_C = (true)
-        alert("hola")
         color1 = ("white")
         color2 = ("black")
         color3 = ("black")
@@ -2197,10 +2185,13 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s2.addEventListener("click" ,()=>{
-        S_C = (true)
-        alert("hola")
+} 
+            })
+
+
+    selector.addEventListener("click", function () {
+if (selector.value == "2"){
+            S_C = (true)
         color1 = ("black")
         color2 = ("white")
         color3 = ("white")
@@ -2215,9 +2206,13 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s3.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+
+                selector.addEventListener("click", function () {
+if (selector.value == "3"){
+            S_C = (true)
         
         color1 = ("white")
         color2 = ("black")
@@ -2233,9 +2228,13 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s4.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+
+                selector.addEventListener("click", function () {
+if (selector.value == "4"){
+            S_C = (true)
         color1 = ("purple")
         color2 = ("white")
         color3 = ("hotpink")
@@ -2250,9 +2249,12 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s5.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+                selector.addEventListener("click", function () {
+if (selector.value == "5"){
+            S_C = (true)
         color1 = ("rgb(0, 106, 228)")
         color2 = ("rgb(141, 231, 253)")
         color3 = ("rgb(3, 163, 255)")
@@ -2267,9 +2269,13 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s6.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+
+                selector.addEventListener("click", function () {
+if (selector.value == "6"){
+            S_C = (true)
         color1 = ("red")
         color2 = ("yellowgreen")
         color3 = ("green")
@@ -2284,9 +2290,12 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s7.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+                selector.addEventListener("click", function () {
+if (selector.value == "7"){
+            S_C = (true)
         color1 = ("orange")
         color2 = ("brown")
         color3 = ("black")
@@ -2301,9 +2310,12 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s8.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+                selector.addEventListener("click", function () {
+if (selector.value == "8"){
+            S_C = (true)
         color1 = ("darkcyan")
         color2 = ("rgb(252, 204, 186)")
         color3 = ("coral")
@@ -2318,9 +2330,12 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s9.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+                selector.addEventListener("click", function () {
+if (selector.value == "9"){
+            S_C = (true)
         color1 = ("white")
         color2 = (" rgb(255, 83, 3)")
         color3 = (" rgb(3, 133, 255)")
@@ -2335,9 +2350,13 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s10.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+    
+                selector.addEventListener("click", function () {
+if (selector.value == "10"){
+    S_C = (true)
         color1 = ("white")
         color2 = ("rgb(87, 23, 23)")
         color3 = ("rgb(214, 0, 0)")
@@ -2352,9 +2371,12 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s11.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+                selector.addEventListener("click", function () {
+if (selector.value == "11"){
+    S_C = (true)
         color1 = ("rgb(105, 255, 235)")
         color2 = ("rgb(199, 184, 255)")
         color3 = ("rgb(138, 106, 255)")
@@ -2369,9 +2391,12 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s12.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+                selector.addEventListener("click", function () {
+if (selector.value == "12"){
+    S_C = (true)
         color1 = ("rgb(72, 255, 0)")
         color2 = ("rgb(60, 97, 65)")
         color3 = ("rgb(0, 104, 14)")
@@ -2386,9 +2411,13 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s13.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+    
+                selector.addEventListener("click", function () {
+if (selector.value == "13"){
+            S_C = (true)
         color1 = ("rgb(139, 0, 204)")
         color2 = ("rgb(190, 125, 176)")
         color3 = ("rgb(204, 0, 160)")
@@ -2403,9 +2432,14 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s14.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+
+    
+                selector.addEventListener("click", function () {
+if (selector.value == "14"){
+            S_C = (true)
         color1 = ("rgb(97, 0, 0)")
         color2 = ("rgb(248, 180, 180)")
         color3 = ("rgb(255, 0, 0)")
@@ -2420,9 +2454,13 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s15.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+    
+                selector.addEventListener("click", function () {
+if (selector.value == "15"){
+            S_C = (true)
         color1 = ("rgb(255, 189, 9)")
         color2 = ("rgb(255, 230, 184)")
         color3 = ("rgb(255, 251, 0)")
@@ -2437,9 +2475,12 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s16.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+                selector.addEventListener("click", function () {
+if (selector.value == "16"){
+            S_C = (true)
         color1 = ("rgb(211, 6, 6)")
         color2 = ("rgb(58, 82, 102)")
         color3 = ("rgb(0, 57, 104)")
@@ -2454,9 +2495,12 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s17.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+                selector.addEventListener("click", function () {
+if (selector.value == "17"){
+            S_C = (true)
         color1 = ("rgb(170, 250, 253)")
         color2 = ("rgb(25, 73, 75)")
         color3 = ("rgb(24, 219, 106)")
@@ -2471,9 +2515,12 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
-    s18.addEventListener("click" ,()=>{
-        S_C = (true)
+} 
+            })
+
+                selector.addEventListener("click", function () {
+if (selector.value == "18"){
+    S_C = (true)
         color1 = ("rgb(255, 0, 179)")
         color2 = ("rgb(137, 255, 220)")
         color3 = ("rgb(0, 255, 179)")
@@ -2488,7 +2535,9 @@ function codicecolor_2(){
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
-    })
+} 
+            })
+
     if(numero_C == 0){
         color1 = ("violet")
         color3 = ("purple")
@@ -2510,7 +2559,7 @@ function KLMX(){
 }
 
 function seleco(){
-    selecionadordetema.style.margin = "0px";
+    selecionadordetema.style.margin = "0%";
     selecionadordetema.style.backgroundColor = color3
     selecionadordetema.style.color = color1
 }
@@ -2567,13 +2616,10 @@ U.forEach(function(INSTRU){
     B_V.style.padding = "0% 0%"
     B_V2.style.padding = "0% 0%"
 
-    X_F.style.justifyContent = "center"
     X_F.style.backgroundColor = "red"
     X_F.style.color = "white"
-    X_F.style.padding = "60px 60px"
-    X_F.style.fontSize = "80px"
-    X_F.style.marginLeft = "2480px"
-    X_F.style.marginTop = "-700px"
+    X_F.style.padding = "2% 2%"
+    X_F.style.fontSize = "400%"
     X_F.removeAttribute("disabled")
 
     musicona.style.marginLeft = "45%"
@@ -2658,7 +2704,6 @@ function modosBA(){
     div_CONFI.style.width = "0%"
     div_CONFI.style.height = "0%"
     div_CONFI.style.padding = "0%"
-    I_CF();
 
         modoses.style.width = "0%";
         modoses.style.height = "0%";
@@ -2675,6 +2720,7 @@ function modosBA(){
         modoses_2.style.backgroundColor = "transparent";
         modoses_2.style.border = "transparent";
         modoses_2.setAttribute("disabled",'true')
+            I_CF();
 }
 
 modo_1.addEventListener("click" ,()=>{
@@ -2880,13 +2926,10 @@ B_INSTRU.addEventListener("click" ,()=>{
         h_cabe.style.marginLeft = "5%"
             })
 
-    X_F_2.style.justifyContent = "center"
     X_F_2.style.backgroundColor = "red"
     X_F_2.style.color = "white"
-    X_F_2.style.padding = "60px 60px"
-    X_F_2.style.fontSize = "80px"
-    X_F_2.style.marginLeft = "2480px"
-    X_F_2.style.marginTop = "-700px"
+    X_F_2.style.padding = "2% 2%"
+    X_F_2.style.fontSize = "400%"
 
     X_F.style.justifyContent = ""
     X_F.style.backgroundColor = ""
@@ -3182,13 +3225,10 @@ B_Bmodos.addEventListener("click" ,()=>{
         modises.removeAttribute("disabled")
     })
 
-    X_F_3.style.justifyContent = "center"
     X_F_3.style.backgroundColor = "red"
     X_F_3.style.color = "white"
-    X_F_3.style.padding = "60px 60px"
-    X_F_3.style.fontSize = "80px"
-    X_F_3.style.marginLeft = "2480px"
-    X_F_3.style.marginLeft = "2480px"
+    X_F_3.style.padding = "2% 2%"
+    X_F_3.style.fontSize = "400%"
     
 
     if(S_C == false){
