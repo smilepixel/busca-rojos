@@ -2147,9 +2147,10 @@ function color_sub(){
     boton25.style.color = color3;
     }
 }
+    selector.value = 0
 
 function codicecolor_2(){
-    selector.addEventListener("click", function () {
+    selector.addEventListener("change", function () {
 if (selector.value == "1"){
         S_C = (true)
         color1 = ("white")
@@ -2171,7 +2172,7 @@ if (selector.value == "1"){
             })
 
 
-    selector.addEventListener("click", function () {
+    selector.addEventListener("change", function () {
 if (selector.value == "2"){
             S_C = (true)
         color1 = ("black")
@@ -2192,7 +2193,7 @@ if (selector.value == "2"){
             })
 
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "3"){
             S_C = (true)
         
@@ -2214,7 +2215,7 @@ if (selector.value == "3"){
             })
 
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "4"){
             S_C = (true)
         color1 = ("purple")
@@ -2234,7 +2235,7 @@ if (selector.value == "4"){
 } 
             })
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "5"){
             S_C = (true)
         color1 = ("rgb(0, 106, 228)")
@@ -2255,7 +2256,7 @@ if (selector.value == "5"){
             })
 
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "6"){
             S_C = (true)
         color1 = ("red")
@@ -2275,7 +2276,7 @@ if (selector.value == "6"){
 } 
             })
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "7"){
             S_C = (true)
         color1 = ("orange")
@@ -2295,7 +2296,7 @@ if (selector.value == "7"){
 } 
             })
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "8"){
             S_C = (true)
         color1 = ("darkcyan")
@@ -2315,7 +2316,7 @@ if (selector.value == "8"){
 } 
             })
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "9"){
             S_C = (true)
         color1 = ("rgb(3, 163, 255)")
@@ -2336,7 +2337,7 @@ if (selector.value == "9"){
             })
 
     
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "10"){
     S_C = (true)
         color1 = ("white")
@@ -2356,7 +2357,7 @@ if (selector.value == "10"){
 } 
             })
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "11"){
     S_C = (true)
         color1 = ("rgb(105, 255, 235)")
@@ -2376,7 +2377,7 @@ if (selector.value == "11"){
 } 
             })
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "12"){
     S_C = (true)
         color1 = ("rgb(72, 255, 0)")
@@ -2397,7 +2398,7 @@ if (selector.value == "12"){
             })
 
     
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "13"){
             S_C = (true)
         color1 = ("rgba(88, 0, 129, 1)")
@@ -2419,7 +2420,7 @@ if (selector.value == "13"){
 
 
     
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "14"){
             S_C = (true)
         color1 = ("rgb(97, 0, 0)")
@@ -2440,7 +2441,7 @@ if (selector.value == "14"){
             })
 
     
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "15"){
             S_C = (true)
         color1 = ("rgb(255, 189, 9)")
@@ -2460,7 +2461,7 @@ if (selector.value == "15"){
 } 
             })
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "16"){
             S_C = (true)
         color1 = ("rgb(211, 6, 6)")
@@ -2480,7 +2481,7 @@ if (selector.value == "16"){
 } 
             })
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "17"){
             S_C = (true)
         color1 = ("rgb(170, 250, 253)")
@@ -2500,7 +2501,7 @@ if (selector.value == "17"){
 } 
             })
 
-                selector.addEventListener("click", function () {
+                selector.addEventListener("change", function () {
 if (selector.value == "18"){
     S_C = (true)
         color1 = ("rgb(255, 0, 179)")
