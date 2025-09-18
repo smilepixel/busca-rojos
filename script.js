@@ -2321,8 +2321,8 @@ if (selector.value == "8"){
                 selector.addEventListener("change", function () {
 if (selector.value == "9"){
             S_C = (true)
-        color1 = ("rgb(3, 163, 255)")
-        color2 = ("rgb(141, 231, 253)")
+        color1 = ("rgba(109, 201, 255, 1)")
+        color2 = ("rgba(210, 246, 255, 1)")
         color3 = ("rgb(0, 106, 228)")
         modeses_F();
         numero_C = (9)
@@ -2738,14 +2738,14 @@ U.forEach(function(INSTRU){
     C_musicona.style.marginTop = "5%"
     C_musicona.style.backgroundColor = color3
     C_musicona.style.color = color1
-    C_musicona.style.fontSize = "150%"
+    C_musicona.style.fontSize = "350%"
     C_musicona.removeAttribute("disabled")
 
     S_modos.style.justifyContent = "center"
     S_modos.style.padding = "30% 30%"
     S_modos.style.backgroundColor = color3
     S_modos.style.color = color1
-    S_modos.style.fontSize = "150%"
+    S_modos.style.fontSize = "350%"
     S_modos.removeAttribute("disabled")
 
     B_Bmodos.style.justifyContent = "center"
@@ -2753,7 +2753,7 @@ U.forEach(function(INSTRU){
     B_Bmodos.style.marginTop = "10%"
     B_Bmodos.style.backgroundColor = color3
     B_Bmodos.style.color = color1
-    B_Bmodos.style.fontSize = "150%"
+    B_Bmodos.style.fontSize = "350%"
     B_Bmodos.removeAttribute("disabled")
 
 
@@ -2768,7 +2768,7 @@ U.forEach(function(INSTRU){
     dificultad.style.padding = "30% 30%"    
     dificultad.style.backgroundColor = color3
     dificultad.style.color = color1 
-    dificultad.style.fontSize = "200%"
+    dificultad.style.fontSize = "350%"
     dificultad.removeAttribute("disabled")
 
     S_dificultad.style.marginTop = "3%"
@@ -2776,7 +2776,7 @@ U.forEach(function(INSTRU){
     S_dificultad.style.padding = "30% 30%"
     S_dificultad.style.backgroundColor = color3
     S_dificultad.style.color = color1
-    S_dificultad.style.fontSize = "200%"
+    S_dificultad.style.fontSize = "350%"
     S_dificultad.removeAttribute("disabled")
 
 
@@ -2786,7 +2786,7 @@ U.forEach(function(INSTRU){
     B_INSTRU.style.marginTop = "10%"
     B_INSTRU.style.backgroundColor = color3
     B_INSTRU.style.color = color1
-    B_INSTRU.style.fontSize = "300%"
+    B_INSTRU.style.fontSize = "350%"
     B_INSTRU.removeAttribute("disabled")
 
 })
