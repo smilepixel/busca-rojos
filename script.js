@@ -1992,7 +1992,7 @@ castigo = (0)
 lvl();
 }
 function BFS(){
-        
+
     impr = (0)
     F_ALTE();
         B_Y.forEach(function(todote){
@@ -2039,6 +2039,8 @@ function BFS(){
     
     second = (0)
     second = (16)
+
+
 }
 
 function color_sub(){
@@ -2521,6 +2523,126 @@ if (selector.value == "18"){
 } 
             })
 
+                            selector.addEventListener("change", function () {
+if (selector.value == "19"){
+    S_C = (true)
+        color1 = ("rgb(255, 0, 0)")
+        color2 = ("rgba(167, 0, 0, 1)")
+        color3 = ("rgb(255, 145, 0)")
+        modeses_F();
+        numero_C = (19)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+            })
+
+                            selector.addEventListener("change", function () {
+if (selector.value == "20"){
+    S_C = (true)
+        color1 = ("rgb(253, 170, 232)")
+        color2 = ("rgba(0, 0, 0, 1)")
+        color3 = ("rgb(255, 255, 255)")
+        modeses_F();
+        numero_C = (20)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+            })
+
+                            selector.addEventListener("change", function () {
+if (selector.value == "21"){
+    S_C = (true)
+        color1 = ("rgba(19, 79, 60, 1)")
+        color2 = ("rgba(39, 151, 129, 1)")
+        color3 = ("rgb(255, 242, 0)")
+        modeses_F();
+        numero_C = (21)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+            })
+
+                                        selector.addEventListener("change", function () {
+if (selector.value == "22"){
+    S_C = (true)
+        color1 = ("rgb(128, 81, 0)")
+        color2 = ("rgba(44, 44, 44, 1)")
+        color3 = ("rgba(169, 169, 169, 1)")
+        modeses_F();
+        numero_C = (22)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+            })
+
+                            selector.addEventListener("change", function () {
+if (selector.value == "23"){
+    S_C = (true)
+        color1 = ("rgb(255, 205, 147)")
+        color2 = ("rgba(0, 0, 0, 1)")
+        color3 = ("rgb(255, 162, 0)")
+        modeses_F();
+        numero_C = (23)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+            })
+
+                            selector.addEventListener("change", function () {
+if (selector.value == "24"){
+    S_C = (true)
+        color1 = ("rgb(130, 68, 7)")
+        color2 = ("rgba(39, 151, 129, 1)")
+        color3 = ("rgb(255, 240, 166)")
+        modeses_F();
+        numero_C = (24)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+            })
+
     if(numero_C == 0){
         color1 = ("violet")
         color3 = ("purple")
@@ -2676,6 +2798,7 @@ instru_X_F()
 })
 
 function modosBA(){
+    
     X_F.style.justifyContent = ""
     X_F.style.backgroundColor = "transparent"
     X_F.style.color = "transparent"
@@ -2746,12 +2869,13 @@ CC1 = (0)
         INSTRUa.style.border = "";
         INSTRUa.removeAttribute("disabled")
     })
-        if(M1 == 1)
+        if(M1 == 1) //cuando es la primera vez que se elige el modo
             {
-                inicio();
+                inicio(); 
             }
-            if(M1 == 2){
+            if(M1 == 2){ // cuando ya se le dió click a jugar y despues se cambia de modo
             BFS()
+            modeses_F();
             }
 
         socre();
@@ -2800,13 +2924,14 @@ CC1 = (0)
         INSTRUa.removeAttribute("disabled")
     })
 
-        if(M2 == 1)
+        if(M2 == 1) //cuando es la primera vez que se elige el modo
             {
                 inicio();
 
             }
-            if(M2 == 2){
+            if(M2 == 2){ // cuando ya se le dió click a jugar y despues se cambia de modo
             BFS()
+            modeses_F();
             }
 
         socre();
@@ -2855,12 +2980,13 @@ CC1 = (1)
         INSTRUa.removeAttribute("disabled")
     })
 
-if(M3 == 1)
+if(M3 == 1) //cuando es la primera vez que se elige el modo
 {
     inicio();
 }
-if(M3 == 2){
+if(M3 == 2){ // cuando ya se le dió click a jugar y despues se cambia de modo 
 BFS()
+modeses_F();
 }
 socre();
 codicetimp();
@@ -3237,6 +3363,7 @@ B_Bmodos.addEventListener("click" ,()=>{
             INSTRUa.setAttribute("disabled",'true')
         })
     }
+
 })
 
 X_F_3.addEventListener("click" ,()=>{
