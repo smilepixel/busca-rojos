@@ -345,14 +345,14 @@ function modeses_F(){
     modoses.forEach(function(modises){
         modises.style.color = "transparent";
         modises.style.backgroundColor = "transparent";
-        modises.style.border = "transparent";
+        modises.style.border = "none";
         modises.style.fontSize = "0%"
         modises.setAttribute("disabled",'true')
     })
     modoses_2.forEach(function(modises){
         modises.style.color = "transparent";
         modises.style.backgroundColor = "transparent";
-        modises.style.border = "transparent";
+        modises.style.border = "none";
         modises.style.fontSize = "0%"
         modises.style.padding = "0%"
         modises.setAttribute("disabled",'true')
@@ -1684,7 +1684,7 @@ function todito(){
         todote.style.fontSize = "0%";
         todote.style.color = "transparent";
         todote.style.backgroundColor = "transparent";
-        todote.style.border = "transparent";
+        todote.style.border = "none";
 })
         B_E.forEach(function(B_E){
         B_E.style.padding = "0% 0%";
@@ -1695,13 +1695,13 @@ function todito(){
         B_X.style.backgroundColor = "transparent";
         B_X.style.color = "transparent";
 
-        B_V.style.padding = "20% 50%";
+        B_V.style.padding = "10% 40%";
         B_V.style.fontSize = "400%";
         B_V.style.color = color1;
         B_V.style.backgroundColor = color3;
 
-        instruciones.style.padding = "20% 50%";
-        instruciones.style.fontSize = "220%";
+        instruciones.style.padding = "10% 40%";
+        instruciones.style.fontSize = "200%";
         instruciones.style.color = color3
     instruciones.style.backgroundColor = color1
     instruciones.style.boxShadow = `10px 10px 85px 0 ${color1}`
@@ -1714,7 +1714,7 @@ function B_V_X_X(){
     B_V.style.fontSize = "0%";
     B_V.style.color = "transparent";
     B_V.style.backgroundColor = "transparent";
-    B_V.style.border = "transparent";
+    B_V.style.border = "none";
     B_V.style.marginLeft = "0%";
     B_V.style.padding = "0%";
     B_V2.style.width = "";
@@ -1730,7 +1730,7 @@ B_V_X_X()
     B_V2.style.fontSize = "0%";
     B_V2.style.color = "transparent";
     B_V2.style.backgroundColor = "transparent";
-    B_V2.style.border = "transparent";
+    B_V2.style.border = "none";
     B_V2.style.marginLeft = "0%";
     B_V2.style.padding = "0%";
 }
@@ -1749,7 +1749,7 @@ function todito2(){
     instruciones.style.fontSize = "0%";
     instruciones.style.color = "transparent";
     instruciones.style.backgroundColor = "transparent";
-    instruciones.style.border = "transparent";
+    instruciones.style.border = "none";
 
 B_V_X_X()
 
@@ -1759,7 +1759,7 @@ B_V_X_X()
     B_V2.style.fontSize = "0%";
     B_V2.style.color = "transparent";
     B_V2.style.backgroundColor = "transparent";
-    B_V2.style.border = "transparent";
+    B_V2.style.border = "none";
 
 }
 todito2();
@@ -1974,12 +1974,13 @@ U.forEach(function(INSTRU){
 
     B_V2.style.backgroundColor = "transparent"
     B_V2.style.color = "transparent"
-    B_V2.style.border = "transparent"
+    B_V2.style.border = "none"
     B_V2.style.padding = "0%"
     B_V2.style.fontSize = "0%"
 
     B_X.style.marginLeft = "0%"
     B_X.setAttribute("disabled",'true')
+    I_CF()
 }
 
 function finalizar2 (){
@@ -2004,7 +2005,7 @@ function BFS(){
         todote.style.fontSize = "0%";
         todote.style.color = "transparent";
         todote.style.backgroundColor = "transparent";
-        todote.style.border = "transparent";
+        todote.style.border = "none";
 })
         B_E.forEach(function(B_E){
         B_E.style.padding = "0% 0%";
@@ -2026,23 +2027,26 @@ function BFS(){
         selector.style.backgroundColor = "transparent"
         selector.style.color = "transparent"
 
-    B_V2.style.padding = "20% 40%";
+    B_V2.style.padding = "10% 40%";
     B_V2.style.fontSize = "400%";
     B_V2.style.color = color1;
     B_V2.style.backgroundColor = color3;
+    B_V2.style.border = "";
     
     B_V2.removeAttribute("disabled")
 
-    instruciones.style.padding = "20% 40%";
+    instruciones.style.padding = "10% 40%";
     instruciones.style.fontSize = "200%";
     instruciones.style.color = color3;
     instruciones.style.backgroundColor = color1;
+    instruciones.style.boxShadow = `10px 10px 85px 0 ${color1}`
     instruciones.removeAttribute("disabled")
     isPause = (true)
+
     
     second = (0)
     second = (16)
-
+I_CF()
 
 }
 
@@ -2673,14 +2677,11 @@ function seleco(){
 }
 
 function I_CF(){
-    I_C.style.backgroundColor = "transparent"
-    I_C.style.color = "transparent"
-    I_C.style.fontSize = "0%"
-    I_C.style.margin = "0%"
-    I_C.style.padding = "0%"
-    I_C.style.width = "0%"
-    I_C.style.height = "0%"
+        I_C.forEach(function(I_C){
+    I_C.style.border = "transparent"
     I_C.setAttribute("disabled",'true')
+            }) 
+
 }
 
 U_M.forEach(function(INSTRUa){
@@ -2689,12 +2690,19 @@ U_M.forEach(function(INSTRUa){
     INSTRUa.style.fontSize = "0%";
     INSTRUa.style.color = "transparent";
     INSTRUa.style.backgroundColor = "transparent";
-    INSTRUa.style.border = "transparent";
+    INSTRUa.style.border = "none";
     INSTRUa.setAttribute("disabled",'true')
     seleco();
 })
 
 function instru_X_F(){
+
+
+                            I_C.forEach(function(I_C){
+    I_C.style.border = ""
+    I_C.removeAttribute("disabled")
+            }) 
+            
     instruciones.style.boxShadow = ""
     instrunum = (1)
     modeses_F();
@@ -2717,7 +2725,7 @@ U.forEach(function(INSTRU){
     INSTRU.style.fontSize = "0%";
     INSTRU.style.color = "transparent";
     INSTRU.style.backgroundColor = "transparent";
-    INSTRU.style.border = "transparent";
+    INSTRU.style.border = "none";
     para = (1)
     B_F_P = (1)
 
@@ -2819,7 +2827,7 @@ function modosBA(){
         modoses.style.fontSize = "0%";
         modoses.style.color = "0%";
         modoses.style.backgroundColor = "transparent";
-        modoses.style.border = "transparent";
+        modoses.style.border = "none";
         modoses.setAttribute("disabled",'true')
 
         modoses_2.style.width = "0%";
@@ -2827,7 +2835,7 @@ function modosBA(){
         modoses_2.style.fontSize = "0%";
         modoses_2.style.color = "0%";
         modoses_2.style.backgroundColor = "transparent";
-        modoses_2.style.border = "transparent";
+        modoses_2.style.border = "none";
         modoses_2.setAttribute("disabled",'true')
             I_CF();
 }
@@ -3032,6 +3040,18 @@ B_INSTRU.addEventListener("click" ,()=>{
                 H3G2.textContent = `En el modo de juego 3, el juego consiste en que hay un tablero con 25 botones. En cada nivel se generará 1 botón de otro color; tu objetivo es presionar ese botón antes de que el tiempo se acabe. Si el tiempo se acaba y no lo lograste, ${R1}`
                 }
 
+                        I_C.forEach(function(I_C){
+    I_C.style.border = "transparent"
+    I_C.setAttribute("disabled",'true')
+        I_C.style.justifyContent = ""
+    I_C.style.padding = ""
+    I_C.style.marginLeft = ""
+    I_C.style.marginTop = ""
+    I_C.style.backgroundColor = ""
+    I_C.style.color = ""
+    I_C.style.fontSize = ""
+            }) 
+
     H_cabe.forEach(function(h_cabe){
         h_cabe.style.color = color3
         h_cabe.style.fontSize = "400%"
@@ -3042,85 +3062,8 @@ B_INSTRU.addEventListener("click" ,()=>{
     X_F_2.style.color = "white"
     X_F_2.style.padding = "2% 2%"
     X_F_2.style.fontSize = "400%"
-
-    X_F.style.justifyContent = ""
-    X_F.style.backgroundColor = ""
-    X_F.style.color = ""
-    X_F.style.padding = ""
-    X_F.style.fontSize = ""
-    X_F.style.marginLeft = ""
-    X_F.style.marginTop = ""
-
-    musicona.style.justifyContent = ""
-    musicona.style.height = ""
-    musicona.style.width = ""
-    musicona.style.marginLeft = ""
-    musicona.style.marginTop = ""
-    musicona.style.marginLeft = ""
-
-    musicona.style.marginBottom = ""
-
-    C_musicona.style.justifyContent = ""
-    C_musicona.style.padding = " "
-    C_musicona.style.marginLeft = ""
-    C_musicona.style.marginTop = ""
-    C_musicona.style.backgroundColor = ""
-    C_musicona.style.color = ""
-    C_musicona.style.fontSize = ""
-    C_musicona.style.marginRight = ""
-    C_musicona.style.marginBottom = ""
-
-    range_D.style.justifyContent = ""
-    range_D.style.padding = ""
-    range_D.style.marginLeft = ""
-    range_D.style.marginTop = ""
-    range_D.style.backgroundColor = ""
-    range_D.style.color = ""
-    range_D.style.fontSize = ""
-
-    S_modos.style.justifyContent = ""
-    S_modos.style.padding = ""
-    S_modos.style.marginLeft = ""
-    S_modos.style.marginTop = ""
-    S_modos.style.backgroundColor = ""
-    S_modos.style.color = ""
-    S_modos.style.fontSize = ""
-
-    B_Bmodos.style.justifyContent = ""
-    B_Bmodos.style.padding = ""
-    B_Bmodos.style.marginLeft = ""
-    B_Bmodos.style.marginTop = ""
-    B_Bmodos.style.backgroundColor = ""
-    B_Bmodos.style.color = ""
-    B_Bmodos.style.fontSize = ""
-
-    dificultad.style.justifyContent = ""
-    dificultad.style.padding = " "
-    dificultad.style.marginLeft = ""
-    dificultad.style.marginTop = ""
-    dificultad.style.backgroundColor = ""
-    dificultad.style.color = ""
-    dificultad.style.fontSize = ""
-    dificultad.style.marginRight = ""
-    dificultad.style.marginBottom = ""
-
-    S_dificultad.style.justifyContent = ""
-    S_dificultad.style.padding = " "
-    S_dificultad.style.marginLeft = ""
-    S_dificultad.style.marginTop = ""
-    S_dificultad.style.marginBottom = ""
-    S_dificultad.style.backgroundColor = ""
-    S_dificultad.style.color = ""
-    S_dificultad.style.fontSize = ""
-
-    B_INSTRU.style.justifyContent = ""
-    B_INSTRU.style.padding = " "
-    B_INSTRU.style.marginLeft = ""
-    B_INSTRU.style.marginTop = ""
-    B_INSTRU.style.marginBottom = ""
-    B_INSTRU.style.backgroundColor = ""
-    B_INSTRU.style.color = ""
-    B_INSTRU.style.fontSize = ""
+    X_F_2.style.border = ""
+    X_F_2.removeAttribute("disabled")
 
     I_X.forEach(function(I_X_F){
         I_X_F.setAttribute("disabled",'true')
@@ -3163,7 +3106,7 @@ X_F_2.addEventListener("click" ,()=>{
         INSTRU.style.fontSize = "0%";
         INSTRU.style.color = "transparent";
         INSTRU.style.backgroundColor = "transparent";
-        INSTRU.style.border = "transparent";
+        INSTRU.style.border = "none";
         para = (1)
         B_F_P = (1)
     
@@ -3175,7 +3118,6 @@ X_F_2.addEventListener("click" ,()=>{
         X_F.style.color = "white"
         X_F.style.padding = "60px 60px"
         X_F.style.fontSize = "80px"
-        X_F.style.marginLeft = "2480px"
         X_F.style.marginTop = "-700px"
 
 instru_X_F()
@@ -3187,84 +3129,19 @@ X_F.addEventListener("click" ,()=>{
         I_X_F.setAttribute("disabled",'true')
             })
 
-    X_F.style.justifyContent = ""
-    X_F.style.backgroundColor = ""
-    X_F.style.color = ""
-    X_F.style.padding = ""
-    X_F.style.fontSize = ""
-    X_F.style.marginLeft = ""
-    X_F.style.marginTop = ""
 
-    musicona.style.justifyContent = ""
-    musicona.style.height = ""
-    musicona.style.width = ""
-    musicona.style.marginLeft = ""
-    musicona.style.marginTop = ""
-    musicona.style.marginLeft = ""
+        I_C.forEach(function(I_C){
+    I_C.style.border = "transparent"
+    I_C.setAttribute("disabled",'true')
+        I_C.style.justifyContent = ""
+    I_C.style.padding = ""
+    I_C.style.marginLeft = ""
+    I_C.style.marginTop = ""
+    I_C.style.backgroundColor = ""
+    I_C.style.color = ""
+    I_C.style.fontSize = ""
+            }) 
 
-    musicona.style.marginBottom = ""
-
-    C_musicona.style.justifyContent = ""
-    C_musicona.style.padding = " "
-    C_musicona.style.marginLeft = ""
-    C_musicona.style.marginTop = ""
-    C_musicona.style.backgroundColor = ""
-    C_musicona.style.color = ""
-    C_musicona.style.fontSize = ""
-    C_musicona.style.marginRight = ""
-    C_musicona.style.marginBottom = ""
-
-    range_D.style.justifyContent = ""
-    range_D.style.padding = ""
-    range_D.style.marginLeft = ""
-    range_D.style.marginTop = ""
-    range_D.style.backgroundColor = ""
-    range_D.style.color = ""
-    range_D.style.fontSize = ""
-
-    S_modos.style.justifyContent = ""
-    S_modos.style.padding = ""
-    S_modos.style.marginLeft = ""
-    S_modos.style.marginTop = ""
-    S_modos.style.backgroundColor = ""
-    S_modos.style.color = ""
-    S_modos.style.fontSize = ""
-
-    B_Bmodos.style.justifyContent = ""
-    B_Bmodos.style.padding = ""
-    B_Bmodos.style.marginLeft = ""
-    B_Bmodos.style.marginTop = ""
-    B_Bmodos.style.backgroundColor = ""
-    B_Bmodos.style.color = ""
-    B_Bmodos.style.fontSize = ""
-
-    dificultad.style.justifyContent = ""
-    dificultad.style.padding = " "
-    dificultad.style.marginLeft = ""
-    dificultad.style.marginTop = ""
-    dificultad.style.backgroundColor = ""
-    dificultad.style.color = ""
-    dificultad.style.fontSize = ""
-    dificultad.style.marginRight = ""
-    dificultad.style.marginBottom = ""
-
-    S_dificultad.style.justifyContent = ""
-    S_dificultad.style.padding = " "
-    S_dificultad.style.marginLeft = ""
-    S_dificultad.style.marginTop = ""
-    S_dificultad.style.marginBottom = ""
-    S_dificultad.style.backgroundColor = ""
-    S_dificultad.style.color = ""
-    S_dificultad.style.fontSize = ""
-
-    B_INSTRU.style.justifyContent = ""
-    B_INSTRU.style.padding = " "
-    B_INSTRU.style.marginLeft = ""
-    B_INSTRU.style.marginTop = ""
-    B_INSTRU.style.marginBottom = ""
-    B_INSTRU.style.backgroundColor = ""
-    B_INSTRU.style.color = ""
-    B_INSTRU.style.fontSize = ""
 
     U.forEach(function(U_2){
         U_2.removeAttribute("disabled")
@@ -3301,7 +3178,7 @@ if(confirma == 0) {
     B_V.removeAttribute("disabled")
 B_V2.style.backgroundColor = "transparent"
 B_V2.style.color = "transparent"
-B_V2.style.border = "transparent"
+B_V2.style.border = "none"
 B_V2.style.padding = "0%"
 B_V2.style.fontSize = "0%"
 B_V2.setAttribute("disabled",'true')
@@ -3350,7 +3227,7 @@ B_Bmodos.addEventListener("click" ,()=>{
             INSTRUa.style.fontSize = "0%";
             INSTRUa.style.color = "transparent";
             INSTRUa.style.backgroundColor = "transparent";
-            INSTRUa.style.border = "transparent";
+            INSTRUa.style.border = "none";
             INSTRUa.setAttribute("disabled",'true')
         })
     }
@@ -3362,7 +3239,7 @@ B_Bmodos.addEventListener("click" ,()=>{
             INSTRUa.style.fontSize = "0%";
             INSTRUa.style.color = "transparent";
             INSTRUa.style.backgroundColor = "transparent";
-            INSTRUa.style.border = "transparent";
+            INSTRUa.style.border = "none";
             INSTRUa.setAttribute("disabled",'true')
         })
     }
@@ -3416,7 +3293,7 @@ X_F_3.addEventListener("click" ,()=>{
         INSTRU.style.fontSize = "0%";
         INSTRU.style.color = "transparent";
         INSTRU.style.backgroundColor = "transparent";
-        INSTRU.style.border = "transparent";
+        INSTRU.style.border = "none";
         para = (1)
         B_F_P = (1)
     
@@ -3424,7 +3301,6 @@ X_F_3.addEventListener("click" ,()=>{
     instru_X_F()
     })
 })
-
 BUV.forEach(function(co){
     co.setAttribute("disabled",'true')
 })
