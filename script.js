@@ -61,11 +61,8 @@ let musicona = document.querySelector("#musicona")
 let C_musicona = document.querySelector("#C_musicona")
 let dificultad = document.querySelector("#dificultad")
 let range_D = document.querySelector("#range_D")
-
-let S_modos = document.querySelector("#S_modos")
 let B_Bmodos = document.querySelector("#B_Bmodos")
 
-let S_dificultad = document.querySelector("#S_dificultad")
 let B_INSTRU = document.querySelector("#B_INSTRU")
 let I_X = document.querySelectorAll(".I_X")
 
@@ -1772,17 +1769,17 @@ function codicetimp(){
         if(modo == 1){
             timp = (70)
             valortimp = (70)        
-            dificultad.innerHTML = "facil 😃 <br> 70 sec"
+            dificultad.innerHTML = "dificultad <br> facil 😃 <br> 70 sec"
                 }
                 if(modo == 2){
                     timp = (150)
                     valortimp = (150)
-                        dificultad.innerHTML = "facil 😃 <br> 150 sec"
+                        dificultad.innerHTML = "dificultad <br> facil 😃 <br> 150 sec"
                         }
                         if(modo == 3){
                             timp = (70)
                             valortimp = (70)
-                                dificultad.innerHTML = "facil 😃 <br> 70 sec"
+                                dificultad.innerHTML = "dificultad <br> facil 😃 <br> 70 sec"
                                 }
     }
 
@@ -1790,17 +1787,17 @@ function codicetimp(){
         if(modo == 1){
             timp = (40)
             valortimp = (40)
-                    dificultad.innerHTML = "normal 😊 <br> 40 sec"
+                    dificultad.innerHTML = "dificultad <br> normal 😊 <br> 40 sec"
                 }
                 if(modo == 2){
                     timp = (90)
                     valortimp = (90)
-                            dificultad.innerHTML = "normal 😊 <br> 90 sec"
+                            dificultad.innerHTML = "dificultad <br> normal 😊 <br> 90 sec"
                         }
                         if(modo == 3){
                             timp = (40)
                             valortimp = (40)
-                                    dificultad.innerHTML = "normal 😊 <br> 40 sec"
+                                    dificultad.innerHTML = "dificultad <br> normal 😊 <br> 40 sec"
                                 }
         }
 
@@ -1808,17 +1805,17 @@ function codicetimp(){
         if(modo == 1){
             timp = (30)
             valortimp = (30)
-                    dificultad.innerHTML = "medio alto 😐 <br> 30 sec"
+                    dificultad.innerHTML = "dificultad <br> medio alto 😐 <br> 30 sec"
                 }
                 if(modo == 2){
                     timp = (78)
                     valortimp = (78)
-                            dificultad.innerHTML = "medio alto 😐 <br> 78 sec"
+                            dificultad.innerHTML = "dificultad <br> medio alto 😐 <br> 78 sec"
                         }
                         if(modo == 3){
                             timp = (30)
                             valortimp = (30)
-                                    dificultad.innerHTML = "medio alto 😐 <br> 30 sec"
+                                    dificultad.innerHTML = "dificultad <br> medio alto 😐 <br> 30 sec"
                                 }
     }
 
@@ -1826,19 +1823,19 @@ function codicetimp(){
         if(modo == 1){
             timp = (24)
             valortimp = (24)
-                    dificultad.innerHTML = "dificil 😡 <br> 24 sec"
+                    dificultad.innerHTML = "dificultad <br> dificil 😡 <br> 24 sec"
                 }
                 if(modo == 2){
                     timp = (68)
                     valortimp = (68)
                     
-                    dificultad.innerHTML = "dificil 😡 <br> 68 sec"
+                    dificultad.innerHTML = "dificultad <br> dificil 😡 <br> 68 sec"
                         }
                         if(modo == 3){
                             timp = (26)
                             valortimp = (26)
                             
-                            dificultad.innerHTML = "dificil 😡 <br> 26 sec"
+                            dificultad.innerHTML = "dificultad <br> dificil 😡 <br> 26 sec"
                                 }
     }
 
@@ -1846,17 +1843,17 @@ function codicetimp(){
         if(modo == 1){
             timp = (15)
             valortimp = (15)
-                    dificultad.innerHTML = "extremo 💀 <br> 15 sec"
+                    dificultad.innerHTML = "dificultad <br> extremo 💀 <br> 15 sec"
                 }
                 if(modo == 2){
                     timp = (45)
                     valortimp = (45)
-                                        dificultad.innerHTML = "extremo 💀 <br> 45 sec"
+                                        dificultad.innerHTML = "dificultad <br> extremo 💀 <br> 45 sec"
                         }
                         if(modo == 3){
                             timp = (19)
                             valortimp = (19)
-                                                dificultad.innerHTML = "extremo 💀 <br> 19 sec"
+                                                dificultad.innerHTML = "dificultad <br> extremo 💀 <br> 19 sec"
                                 }
     }
                         range_D.oninput = () => {
@@ -1864,70 +1861,70 @@ function codicetimp(){
                                 if(modo == 1){
                                     timp = (70)
                                     valortimp = (70)        
-                                    dificultad.innerHTML = "facil 😃 <br> 70 sec"
+                                    dificultad.innerHTML = "dificultad <br> facil 😃 <br> 70 sec"
                                         }
                                         if(modo == 2){
                                             timp = (150)
                                             valortimp = (150)
-                                                dificultad.innerHTML = "facil 😃 <br> 150 sec"
+                                                dificultad.innerHTML = "dificultad <br> facil 😃 <br> 150 sec"
                                                 }
                                                 if(modo == 3){
                                                     timp = (70)
                                                     valortimp = (70)
-                                                        dificultad.innerHTML = "facil 😃 <br> 70 sec"
+                                                        dificultad.innerHTML = "dificultad <br> facil 😃 <br> 70 sec"
                                                         }
                             }
                             if(range_D.value == 2){
                             if(modo == 1){
                                 timp = (40)
                                 valortimp = (40)
-                                        dificultad.innerHTML = "normal 😊 <br> 40 sec"
+                                        dificultad.innerHTML = "dificultad <br> normal 😊 <br> 40 sec"
                                     }
                                     if(modo == 2){
                                         timp = (90)
                                         valortimp = (90)
-                                                dificultad.innerHTML = "normal 😊 <br> 90 sec"
+                                                dificultad.innerHTML = "dificultad <br> normal 😊 <br> 90 sec"
                                             }
                                             if(modo == 3){
                                                 timp = (40)
                                                 valortimp = (40)
-                                                        dificultad.innerHTML = "normal 😊 <br> 40 sec"
+                                                        dificultad.innerHTML = "dificultad <br> normal 😊 <br> 40 sec"
                                                     }
                             }
                             if(range_D.value == 3){
                                 if(modo == 1){
                                     timp = (30)
                                     valortimp = (30)
-                                            dificultad.innerHTML = "medio alto 😐 <br> 30 sec"
+                                            dificultad.innerHTML = "dificultad <br> medio alto 😐 <br> 30 sec"
                                         }
                                         if(modo == 2){
                                             timp = (78)
                                             valortimp = (78)
-                                                    dificultad.innerHTML = "medio alto 😐 <br> 78 sec"
+                                                    dificultad.innerHTML = "dificultad <br> medio alto 😐 <br> 78 sec"
                                                 }
                                                 if(modo == 3){
                                                     timp = (30)
                                                     valortimp = (30)
-                                                            dificultad.innerHTML = "medio alto 😐 <br> 30 sec"
+                                                            dificultad.innerHTML = "dificultad <br> medio alto 😐 <br> 30 sec"
                                                         }
                             }
                             if(range_D.value == 4){
                                 if(modo == 1){
                                     timp = (24)
                                     valortimp = (24)
-                                            dificultad.innerHTML = "dificil 😡 <br> 24 sec"
+                                            dificultad.innerHTML = "dificultad <br> dificil 😡 <br> 24 sec"
                                         }
                                         if(modo == 2){
                                             timp = (68)
                                             valortimp = (68)
                                             
-                                            dificultad.innerHTML = "dificil 😡 <br> 68 sec"
+                                            dificultad.innerHTML = "dificultad <br> dificil 😡 <br> 68 sec"
                                                 }
                                                 if(modo == 3){
                                                     timp = (26)
                                                     valortimp = (26)
                                                     
-                                                    dificultad.innerHTML = "dificil 😡 <br> 26 sec"
+                                                    dificultad.innerHTML = "dificultad <br> dificil 😡 <br> 26 sec"
                                                         }
                             }
                             
@@ -1935,17 +1932,17 @@ function codicetimp(){
                                 if(modo == 1){
                                     timp = (15)
                                     valortimp = (15)
-                                            dificultad.innerHTML = "extremo 💀 <br> 15 sec"
+                                            dificultad.innerHTML = "dificultad <br> extremo 💀 <br> 15 sec"
                                         }
                                         if(modo == 2){
                                             timp = (45)
                                             valortimp = (45)
-                                                                dificultad.innerHTML = "extremo 💀 <br> 45 sec"
+                                                                dificultad.innerHTML = "dificultad <br> extremo 💀 <br> 45 sec"
                                                 }
                                                 if(modo == 3){
                                                     timp = (19)
                                                     valortimp = (19)
-                                                                        dificultad.innerHTML = "extremo 💀 <br> 19 sec"
+                                                                        dificultad.innerHTML = "dificultad <br> extremo 💀 <br> 19 sec"
                                                         }
                             }
                             }
@@ -2752,13 +2749,6 @@ U.forEach(function(INSTRU){
     C_musicona.style.fontSize = "350%"
     C_musicona.removeAttribute("disabled")
 
-    S_modos.style.justifyContent = "center"
-    S_modos.style.padding = "30% 30%"
-    S_modos.style.backgroundColor = color3
-    S_modos.style.color = color1
-    S_modos.style.fontSize = "350%"
-    S_modos.removeAttribute("disabled")
-
     B_Bmodos.style.justifyContent = "center"
     B_Bmodos.style.padding = "30% 30%"
     B_Bmodos.style.marginTop = "10%"
@@ -2775,20 +2765,11 @@ U.forEach(function(INSTRU){
     range_D.style.color = color1
     range_D.removeAttribute("disabled")
 
-    dificultad.style.justifyContent = "center"
-    dificultad.style.padding = "30% 30%"    
+
     dificultad.style.backgroundColor = color3
     dificultad.style.color = color1 
     dificultad.style.fontSize = "350%"
     dificultad.removeAttribute("disabled")
-
-    S_dificultad.style.marginTop = "3%"
-    S_dificultad.style.justifyContent = "center"
-    S_dificultad.style.padding = "30% 30%"
-    S_dificultad.style.backgroundColor = color3
-    S_dificultad.style.color = color1
-    S_dificultad.style.fontSize = "350%"
-    S_dificultad.removeAttribute("disabled")
 
 
     B_INSTRU.style.justifyContent = "center"
@@ -2797,7 +2778,7 @@ U.forEach(function(INSTRU){
     B_INSTRU.style.marginTop = "10%"
     B_INSTRU.style.backgroundColor = color3
     B_INSTRU.style.color = color1
-    B_INSTRU.style.fontSize = "350%"
+    B_INSTRU.style.fontSize = "1050%"
     B_INSTRU.removeAttribute("disabled")
 
 })
@@ -3017,7 +2998,7 @@ B_INSTRU.addEventListener("click" ,()=>{
     H3G1.style.marginLeft = "5%"
 
     if (modo == 1){
-    H3G1.innerHTML = "En el modo 1 <br><br>" + D1 + "por cada nivel se generan entre 1-5 botones de otro color, tu objetivo es presionar uno de esos botones  de otro color antes de que el tiempo llegue a 0," + D2 + "si es que no llegas a presionar 1 botón antes de que se termine el tiempo " + D3 + "hay 5 columnas de botones en el tablero de 25 botones, las columnas son verticales, todos los botones de la primera columna vertical mas pegada a la izquierda te dan 1 punto, los botones de la segunda columna mas a la izquierda te dan 2 puntos y hasi , tambien cada boton dice que puntaje te dara si le das click, el puntaje se va escribiendo en donde dice score cerca de tiempo, si es que le das click a un boton que no sea de los botones de color diferente te bajara puntos, los puntos que te quita si presiónas el boton, dependen de las columna en la que se encuentra el boton o el numero que tiene el boton, puedes llegar a tener score negativo si juegas muy mal.<br><br>" + D4
+    H3G1.innerHTML = "dificultad <br> En el modo 1 <br><br>" + D1 + "por cada nivel se generan entre 1-5 botones de otro color, tu objetivo es presionar uno de esos botones  de otro color antes de que el tiempo llegue a 0," + D2 + "si es que no llegas a presionar 1 botón antes de que se termine el tiempo " + D3 + "hay 5 columnas de botones en el tablero de 25 botones, las columnas son verticales, todos los botones de la primera columna vertical mas pegada a la izquierda te dan 1 punto, los botones de la segunda columna mas a la izquierda te dan 2 puntos y hasi , tambien cada boton dice que puntaje te dara si le das click, el puntaje se va escribiendo en donde dice score cerca de tiempo, si es que le das click a un boton que no sea de los botones de color diferente te bajara puntos, los puntos que te quita si presiónas el boton, dependen de las columna en la que se encuentra el boton o el numero que tiene el boton, puedes llegar a tener score negativo si juegas muy mal.<br><br>" + D4
     }
     if (modo == 2){
         H3G1.innerHTML = "En el modo 2 <br><br>" + D1 + "por cada nivel se generan entre 1-5 botones de otro color, tu objetivo es presionar todos los botones de otro color antes de que el tiempo llegue a 0, " + D2 + "si es que no llegas a presionar todos los botones de otro color antes de que se termine el tiempo " + D3 + "hay 5 columnas de botones en el tablero de 25 botones, las columnas son verticales, todos los botones de la primera columna vertical mas pegada a la izquierda te dan 1 punto, los botones de la segunda columna mas a la izquierda te dan 2 puntos y hasi , tambien cada boton dice que puntaje te dara si le das click, el puntaje se va escribiendo en donde dice score cerca de tiempo, si es que le das click a un boton que no sea de los botones de color diferente te bajara puntos, los puntos que te quita si presiónas el boton, dependen de las columna en la que se encuentra el boton o el numero que tiene el boton, puedes llegar a tener score negativo si juegas muy mal.<br><br>" + D4
