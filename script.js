@@ -3312,14 +3312,14 @@ B_D.addEventListener("click", () => {
     if (estado) {
 isPause = (false)
 boton_uni.forEach(function(cosa_2){
-cosa_2.setAttribute("disabled",'true')
+cosa_2.removeAttribute("disabled")
 B_D.innerHTML = "⏸"
     })
     B_D.classList.remove("activo");
     } else {
     isPause = (true)
     boton_uni.forEach(function(cosa_2){
-    cosa_2.removeAttribute("disabled")
+    cosa_2.setAttribute("disabled",'true')
 B_D.innerHTML = "▷"
         })
         B_D.classList.add("activo");
