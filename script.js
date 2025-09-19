@@ -2,7 +2,6 @@ let U_M = document.querySelectorAll(".U_M")
 let BU = document.querySelectorAll(".BU")
 let PU = document.querySelectorAll(".PU")
 let body = document.querySelector("body")
-let B_P = document.querySelector("#B_P")
 let B_D = document.querySelector("#B_D")
 let B_X = document.querySelector("#B_U")
 let instruciones = document.querySelector("#instruciones")
@@ -292,11 +291,16 @@ function B_XF(){
     second = (16)
     timp = (0)
     timp = (valortimp)
-    isPause = (false)
     
         instruciones.setAttribute("disabled",'true')
         
         corazon = (7)
+                                            CVF3.innerHTML = "❤️"
+                                    CVF2.innerHTML = "❤️"
+                                    CVF1.innerHTML = "❤️"
+                                    CV1.innerHTML = "❤️"
+                                    CV2.innerHTML = "❤️"
+                            CV3.innerHTML = "❤️"
         codicecolor_2();
     
         BUV.forEach(function(co){
@@ -306,7 +310,6 @@ function B_XF(){
         puntuacion = (0)
         socre();
     
-        isPause = (false)
 
                 function todito(){
                     B_Y.forEach(function(todote){
@@ -1769,17 +1772,17 @@ function codicetimp(){
         if(modo == 1){
             timp = (70)
             valortimp = (70)        
-            dificultad.innerHTML = "facil 😃 <br> 70"
+            dificultad.innerHTML = "facil 😃 <br> 70 sec"
                 }
                 if(modo == 2){
                     timp = (150)
                     valortimp = (150)
-                        dificultad.innerHTML = "facil 😃 <br> 150"
+                        dificultad.innerHTML = "facil 😃 <br> 150 sec"
                         }
                         if(modo == 3){
                             timp = (70)
                             valortimp = (70)
-                                dificultad.innerHTML = "facil 😃 <br> 70"
+                                dificultad.innerHTML = "facil 😃 <br> 70 sec"
                                 }
     }
 
@@ -1787,17 +1790,17 @@ function codicetimp(){
         if(modo == 1){
             timp = (40)
             valortimp = (40)
-                    dificultad.innerHTML = "normal 😊 <br> 40"
+                    dificultad.innerHTML = "normal 😊 <br> 40 sec"
                 }
                 if(modo == 2){
                     timp = (90)
                     valortimp = (90)
-                            dificultad.innerHTML = "normal 😊 <br> 90"
+                            dificultad.innerHTML = "normal 😊 <br> 90 sec"
                         }
                         if(modo == 3){
                             timp = (40)
                             valortimp = (40)
-                                    dificultad.innerHTML = "normal 😊 <br> 40"
+                                    dificultad.innerHTML = "normal 😊 <br> 40 sec"
                                 }
         }
 
@@ -1805,17 +1808,17 @@ function codicetimp(){
         if(modo == 1){
             timp = (30)
             valortimp = (30)
-                    dificultad.innerHTML = "medio alto 😐 <br> 30"
+                    dificultad.innerHTML = "medio alto 😐 <br> 30 sec"
                 }
                 if(modo == 2){
                     timp = (78)
                     valortimp = (78)
-                            dificultad.innerHTML = "medio alto 😐 <br> 78"
+                            dificultad.innerHTML = "medio alto 😐 <br> 78 sec"
                         }
                         if(modo == 3){
                             timp = (30)
                             valortimp = (30)
-                                    dificultad.innerHTML = "medio alto 😐 <br> 30"
+                                    dificultad.innerHTML = "medio alto 😐 <br> 30 sec"
                                 }
     }
 
@@ -1823,19 +1826,19 @@ function codicetimp(){
         if(modo == 1){
             timp = (24)
             valortimp = (24)
-                    dificultad.innerHTML = "dificil 😡 <br> 24"
+                    dificultad.innerHTML = "dificil 😡 <br> 24 sec"
                 }
                 if(modo == 2){
                     timp = (68)
                     valortimp = (68)
                     
-                    dificultad.innerHTML = "dificil 😡 <br> 68"
+                    dificultad.innerHTML = "dificil 😡 <br> 68 sec"
                         }
                         if(modo == 3){
                             timp = (26)
                             valortimp = (26)
                             
-                            dificultad.innerHTML = "dificil 😡 <br> 26"
+                            dificultad.innerHTML = "dificil 😡 <br> 26 sec"
                                 }
     }
 
@@ -1843,17 +1846,17 @@ function codicetimp(){
         if(modo == 1){
             timp = (15)
             valortimp = (15)
-                    dificultad.innerHTML = "extremo 💀 <br> 15"
+                    dificultad.innerHTML = "extremo 💀 <br> 15 sec"
                 }
                 if(modo == 2){
                     timp = (45)
                     valortimp = (45)
-                                        dificultad.innerHTML = "extremo 💀 <br> 45"
+                                        dificultad.innerHTML = "extremo 💀 <br> 45 sec"
                         }
                         if(modo == 3){
                             timp = (19)
                             valortimp = (19)
-                                                dificultad.innerHTML = "extremo 💀 <br> 19"
+                                                dificultad.innerHTML = "extremo 💀 <br> 19 sec"
                                 }
     }
                         range_D.oninput = () => {
@@ -1861,70 +1864,70 @@ function codicetimp(){
                                 if(modo == 1){
                                     timp = (70)
                                     valortimp = (70)        
-                                    dificultad.innerHTML = "facil 😃 <br> 70"
+                                    dificultad.innerHTML = "facil 😃 <br> 70 sec"
                                         }
                                         if(modo == 2){
                                             timp = (150)
                                             valortimp = (150)
-                                                dificultad.innerHTML = "facil 😃 <br> 150"
+                                                dificultad.innerHTML = "facil 😃 <br> 150 sec"
                                                 }
                                                 if(modo == 3){
                                                     timp = (70)
                                                     valortimp = (70)
-                                                        dificultad.innerHTML = "facil 😃 <br> 70"
+                                                        dificultad.innerHTML = "facil 😃 <br> 70 sec"
                                                         }
                             }
                             if(range_D.value == 2){
                             if(modo == 1){
                                 timp = (40)
                                 valortimp = (40)
-                                        dificultad.innerHTML = "normal 😊 <br> 40"
+                                        dificultad.innerHTML = "normal 😊 <br> 40 sec"
                                     }
                                     if(modo == 2){
                                         timp = (90)
                                         valortimp = (90)
-                                                dificultad.innerHTML = "normal 😊 <br> 90"
+                                                dificultad.innerHTML = "normal 😊 <br> 90 sec"
                                             }
                                             if(modo == 3){
                                                 timp = (40)
                                                 valortimp = (40)
-                                                        dificultad.innerHTML = "normal 😊 <br> 40"
+                                                        dificultad.innerHTML = "normal 😊 <br> 40 sec"
                                                     }
                             }
                             if(range_D.value == 3){
                                 if(modo == 1){
                                     timp = (30)
                                     valortimp = (30)
-                                            dificultad.innerHTML = "medio alto 😐 <br> 30"
+                                            dificultad.innerHTML = "medio alto 😐 <br> 30 sec"
                                         }
                                         if(modo == 2){
                                             timp = (78)
                                             valortimp = (78)
-                                                    dificultad.innerHTML = "medio alto 😐 <br> 78"
+                                                    dificultad.innerHTML = "medio alto 😐 <br> 78 sec"
                                                 }
                                                 if(modo == 3){
                                                     timp = (30)
                                                     valortimp = (30)
-                                                            dificultad.innerHTML = "medio alto 😐 <br> 30"
+                                                            dificultad.innerHTML = "medio alto 😐 <br> 30 sec"
                                                         }
                             }
                             if(range_D.value == 4){
                                 if(modo == 1){
                                     timp = (24)
                                     valortimp = (24)
-                                            dificultad.innerHTML = "dificil 😡 <br> 24"
+                                            dificultad.innerHTML = "dificil 😡 <br> 24 sec"
                                         }
                                         if(modo == 2){
                                             timp = (68)
                                             valortimp = (68)
                                             
-                                            dificultad.innerHTML = "dificil 😡 <br> 68"
+                                            dificultad.innerHTML = "dificil 😡 <br> 68 sec"
                                                 }
                                                 if(modo == 3){
                                                     timp = (26)
                                                     valortimp = (26)
                                                     
-                                                    dificultad.innerHTML = "dificil 😡 <br> 26"
+                                                    dificultad.innerHTML = "dificil 😡 <br> 26 sec"
                                                         }
                             }
                             
@@ -1932,17 +1935,17 @@ function codicetimp(){
                                 if(modo == 1){
                                     timp = (15)
                                     valortimp = (15)
-                                            dificultad.innerHTML = "extremo 💀 <br> 15"
+                                            dificultad.innerHTML = "extremo 💀 <br> 15 sec"
                                         }
                                         if(modo == 2){
                                             timp = (45)
                                             valortimp = (45)
-                                                                dificultad.innerHTML = "extremo 💀 <br> 45"
+                                                                dificultad.innerHTML = "extremo 💀 <br> 45 sec"
                                                 }
                                                 if(modo == 3){
                                                     timp = (19)
                                                     valortimp = (19)
-                                                                        dificultad.innerHTML = "extremo 💀 <br> 19"
+                                                                        dificultad.innerHTML = "extremo 💀 <br> 19 sec"
                                                         }
                             }
                             }
@@ -3428,21 +3431,25 @@ BUV.forEach(function(co){
 
 B_X.setAttribute("disabled",'true')
 
-B_P.addEventListener("click" ,()=>{
-isPause = (true)
-alert(" pausado")
+let estado = false;
+B_D.addEventListener("click", () => {
+    if (estado) {
+isPause = (false)
 boton_uni.forEach(function(cosa_2){
 cosa_2.setAttribute("disabled",'true')
+B_D.innerHTML = "⏸"
     })
-})
-
-B_D.addEventListener("click" ,()=>{
-    isPause = (false)
-    alert("des-pausado")
+    B_D.classList.remove("activo");
+    } else {
+    isPause = (true)
     boton_uni.forEach(function(cosa_2){
     cosa_2.removeAttribute("disabled")
+B_D.innerHTML = "▷"
         })
-})
+        B_D.classList.add("activo");
+    }
+    estado = !estado;
+    });
 
 B_F.addEventListener("click" ,()=>{
 BFS()
@@ -3530,51 +3537,51 @@ timp = (valortimp)
 
                     
                     if(corazon == 7){
-                
+
                     }
                     else if(corazon == 6){
-                        CV1.style.backgroundColor = "red"
+                        CV1.innerHTML = "X"
                         tiempo = (timp)
                         }
 
                         else if(corazon == 5){
-                            CV2.style.backgroundColor = "red"
-                                    CV1.style.backgroundColor = "red"
+                            CV2.innerHTML = "X"
+                                    CV1.innerHTML = "X"
                             tiempo = (timp)
                             }
                         
                             else if(corazon == 4){
-                                CV3.style.backgroundColor = "red"
-                                            CV2.style.backgroundColor = "red"
-                                    CV1.style.backgroundColor = "red"
+                                CV3.innerHTML = "X"
+                                            CV2.innerHTML = "X"
+                                    CV1.innerHTML = "X"
                                 tiempo = (timp)
                                 }
 
                                 else if(corazon == 3){
-                                    CVF1.style.backgroundColor = "red"
-                                    CV1.style.backgroundColor = "red"
-                                    CV2.style.backgroundColor = "red"
-                            CV3.style.backgroundColor = "red"
+                                    CVF1.innerHTML = "X"
+                                    CV1.innerHTML = "X"
+                                    CV2.innerHTML = "X"
+                            CV3.innerHTML = "X"
                                     tiempo = (timp)
                                 }
                         
                                 else if(corazon == 2){
-                                    CVF2.style.backgroundColor = "red"
-                                    CVF1.style.backgroundColor = "red"
-                                    CV1.style.backgroundColor = "red"
-                                    CV2.style.backgroundColor = "red"
-                            CV3.style.backgroundColor = "red"
+                                    CVF2.innerHTML = "X"
+                                    CVF1.innerHTML = "X"
+                                    CV1.innerHTML = "X"
+                                    CV2.innerHTML = "X"
+                            CV3.innerHTML = "X"
                 
                                     tiempo = (timp)
                                 }
                         
                                 else if(corazon == 1){
-                                    CVF3.style.backgroundColor = "red"
-                                    CVF2.style.backgroundColor = "red"
-                                    CVF1.style.backgroundColor = "red"
-                                    CV1.style.backgroundColor = "red"
-                                    CV2.style.backgroundColor = "red"
-                            CV3.style.backgroundColor = "red"
+                                    CVF3.innerHTML = "X"
+                                    CVF2.innerHTML = "X"
+                                    CVF1.innerHTML = "X"
+                                    CV1.innerHTML = "X"
+                                    CV2.innerHTML = "X"
+                            CV3.innerHTML = "X"
                                     tiempo = (timp)
                                 }
                         
@@ -3586,6 +3593,12 @@ timp = (valortimp)
                                     finalizar2(); 
                                     corazon = (7)
                                     para = (1)
+                                    CVF3.innerHTML = "❤️"
+                                    CVF2.innerHTML = "❤️"
+                                    CVF1.innerHTML = "❤️"
+                                    CV1.innerHTML = "❤️"
+                                    CV2.innerHTML = "❤️"
+                            CV3.innerHTML = "❤️"
         
                                     function todito(){
                                         B_Y.forEach(function(todote){
