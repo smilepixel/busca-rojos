@@ -2767,8 +2767,12 @@ U.forEach(function(INSTRU){
 
     dificultad.style.backgroundColor = color3
     dificultad.style.color = color1 
-    dificultad.style.padding = "10% 10%"
+    dificultad.style.padding = "20% 20%"
     dificultad.style.fontSize = "350%"
+    dificultad.style.alignContent = "center";
+    dificultad.style.justifyContent ="center";
+    dificultad.style.alignItems = "center";
+    dificultad.style.textAlign = "center";
     dificultad.removeAttribute("disabled")
 
 

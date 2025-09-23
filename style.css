@@ -1,5 +1,5 @@
 .boton_uni{
-    padding: 2.5% 9.8%;
+    padding: 1% 6%;
     font-size: 100%;
 }
 /*  */
@@ -15,6 +15,22 @@ justify-content: center;
     flex-direction: row;
 }
 /*  */
+
+
+#vidas{
+        display: flex;
+align-content:center;
+justify-content:center;
+align-items: center;
+text-align: center;
+width: 20%;
+flex-direction: column;
+}
+
+.M{
+    margin-left: 10%;
+}
+
 
 .v{
     display: flex;
@@ -125,15 +141,21 @@ margin: auto;
 padding: 4% 8%;
 }/*  */
 
-
-.uni{
-    margin-left: 200px;
-}/*  */
-
 .v_P{
     margin-bottom: -5%;
 }
 /*  */
+
+
+#corazones{
+    display: flex;
+    flex-direction: row;
+align-content:center;
+justify-content:center;
+align-items: center;
+text-align: center;
+}
+
 
 .vD{
     font-size: 200%;
@@ -156,19 +178,34 @@ margin-left: 2%;
 }
 
 #selec{
+display: flex;
+flex-direction: column;
+align-content:center;
+justify-content:center;
+}
+
+
+#numeros{
     display: flex;
-    flex-direction: column;
-    margin-left: -12%;
+align-content:center;
+justify-content:center;
+align-items: center;
+text-align: center;
+flex-direction: row;
+width: 100%;
+height: 100%;
 }
 
 #selector{
-    padding: 6% 20%;
-    font-size: 250%;
+width: 100%;
+height: 100%;
+    font-size: 350%;
 }
 
 #selecionadordetema{
-    padding: 6% 20%;
-    font-size: 250%;
+width: 100%;
+height: 100%;
+    font-size: 350%;
     text-align: center;
     text-align: justify;
 
@@ -191,42 +228,47 @@ padding: 3% 5%;
 
 
 #div_1{
-    width: 100%;
-    height: 100%;
+display: flex;
+align-content:center;
+justify-content:center;
+align-items: center;
+text-align: center;
+width: 80%;
+height: 80%;
     margin: auto;
-    justify-content: center;
-    justify-content: space-around;
-    justify-content: space-between;
-    justify-content: space-evenly;
+
 }
+
+
 
 body{
-    width: 80%;
-    height: 200%;
-        margin: auto;
-    justify-content: center;
-    justify-content: space-around;
-    justify-content: space-between;
-    justify-content: space-evenly;
+display: flex;
+align-content:center;
+justify-content:center;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 100%;
+flex-direction: column;
 }
 
 
-#iniciar{    width: 80%;
-    height: 200%;
-        margin: auto;
-    justify-content: center;
-    justify-content: space-around;
-    justify-content: space-between;
-    justify-content: space-evenly;}
+#iniciar{   
+display: flex;
+align-content:center;
+justify-content:center;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 100%;}
 
 #botones{    
-    width: 80%;
-    height: 200%;
-    margin: auto;
-    justify-content: center;
-    justify-content: space-around;
-    justify-content: space-between;
-    justify-content: space-evenly;  
+display: flex;
+align-content:center;
+justify-content:center;
+text-align: center;
+width: 100%;
+height: 100%; 
 }
 
 
@@ -292,6 +334,39 @@ border: none;
     justify-content: center;
 }
 
+
+
+#central{
+display: flex;
+align-content:center;
+justify-content:center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+#central_botones{
+display: flex;
+align-content:center;
+justify-content:center;
+align-items: center;
+text-align: center;
+flex-direction: column;
+width: 100%;
+height: 100%;
+}
+
+.Div_centrales_Botones{
+display: flex;
+align-content:center;
+justify-content:center;
+align-items: center;
+text-align: center;
+width: 100%;
+height: 100%;
+}
 
 #S_1{
         color: white;
