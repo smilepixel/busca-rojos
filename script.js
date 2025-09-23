@@ -2735,14 +2735,13 @@ U.forEach(function(INSTRU){
     X_F.style.fontSize = "400%"
     X_F.removeAttribute("disabled")
 
-    musicona.style.marginLeft = "45%"
     musicona.style.height = "50px"
     musicona.style.width = "500px"
+    musicona.style.marginBottom = "5%"
     musicona.removeAttribute("disabled")
 
     C_musicona.style.justifyContent = "center"
-    C_musicona.style.padding = "3% 3%"
-    C_musicona.style.marginLeft = "5%"
+    C_musicona.style.padding = "9% 20%"
     C_musicona.style.marginTop = "5%"
     C_musicona.style.backgroundColor = color3
     C_musicona.style.color = color1
@@ -2768,17 +2767,16 @@ U.forEach(function(INSTRU){
 
     dificultad.style.backgroundColor = color3
     dificultad.style.color = color1 
+    dificultad.style.padding = "10% 10%"
     dificultad.style.fontSize = "350%"
     dificultad.removeAttribute("disabled")
 
 
     B_INSTRU.style.justifyContent = "center"
-    B_INSTRU.style.padding = "20% 20%"
-    B_INSTRU.style.marginLeft = "10%"
-    B_INSTRU.style.marginTop = "10%"
+    B_INSTRU.style.padding = "10% 10%"
     B_INSTRU.style.backgroundColor = color3
     B_INSTRU.style.color = color1
-    B_INSTRU.style.fontSize = "1050%"
+    B_INSTRU.style.fontSize = "150%"
     B_INSTRU.removeAttribute("disabled")
 
 })
