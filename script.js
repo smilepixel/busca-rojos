@@ -255,6 +255,8 @@ let A5 = (0)
 let CC1 = (0)
 let instrunum = (0)
 
+range_D.value = 2
+
 console.log( "valor" + range_D.value)
 function BPVFF(){
     BPVF = (BPV1 + BPV2 + BPV3 + BPV4 + BPV5 + BPV6 + BPV7 + BPV8 + BPV9 + BPV10 + BPV11 + BPV12 + BPV13 + BPV14 + BPV15 + BPV16 + BPV17 + BPV18 + BPV19 + BPV20 +BPV21 + BPV22 + BPV23 + BPV24 + BPV25)
