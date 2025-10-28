@@ -3156,48 +3156,48 @@ timp = (valortimp)
 
                     }
                     else if(corazon == 6){
-                        CV1.innerHTML = "X"
+                        CV1.innerHTML = "☠️"
                         tiempo = (timp)
                         }
 
                         else if(corazon == 5){
-                            CV2.innerHTML = "X"
-                                    CV1.innerHTML = "X"
+                            CV2.innerHTML = "☠️"
+                                    CV1.innerHTML = "☠️"
                             tiempo = (timp)
                             }
 
                             else if(corazon == 4){
-                                CV3.innerHTML = "X"
-                                            CV2.innerHTML = "X"
-                                    CV1.innerHTML = "X"
+                                CV3.innerHTML = "☠️"
+                                            CV2.innerHTML = "☠️"
+                                    CV1.innerHTML = "☠️"
                                 tiempo = (timp)
                                 }
 
                                 else if(corazon == 3){
-                                    CVF1.innerHTML = "X"
-                                    CV1.innerHTML = "X"
-                                    CV2.innerHTML = "X"
-                            CV3.innerHTML = "X"
+                                    CVF1.innerHTML = "☠️"
+                                    CV1.innerHTML = "☠️"
+                                    CV2.innerHTML = "☠️"
+                            CV3.innerHTML = "☠️"
                                     tiempo = (timp)
                                 }
 
                                 else if(corazon == 2){
-                                    CVF2.innerHTML = "X"
-                                    CVF1.innerHTML = "X"
-                                    CV1.innerHTML = "X"
-                                    CV2.innerHTML = "X"
-                            CV3.innerHTML = "X"
+                                    CVF2.innerHTML = "☠️"
+                                    CVF1.innerHTML = "☠️"
+                                    CV1.innerHTML = "☠️"
+                                    CV2.innerHTML = "☠️"
+                            CV3.innerHTML = "☠️"
 
                                     tiempo = (timp)
                                 }
 
                                 else if(corazon == 1){
-                                    CVF3.innerHTML = "X"
-                                    CVF2.innerHTML = "X"
-                                    CVF1.innerHTML = "X"
-                                    CV1.innerHTML = "X"
-                                    CV2.innerHTML = "X"
-                            CV3.innerHTML = "X"
+                                    CVF3.innerHTML = "☠️"
+                                    CVF2.innerHTML = "☠️"
+                                    CVF1.innerHTML = "☠️"
+                                    CV1.innerHTML = "☠️"
+                                    CV2.innerHTML = "☠️"
+                            CV3.innerHTML = "☠️"
                                     tiempo = (timp)
                                 }
 

@@ -23,7 +23,6 @@ align-content:center;
 justify-content:center;
 align-items: center;
 text-align: center;
-width: 20%;
 flex-direction: column;
 }
 
@@ -146,13 +145,20 @@ padding: 4% 8%;
 }/*  */
 
 .v_P{
-    margin-bottom: -5%;
+    margin-bottom: 10%;
 }
 /*  */
 
 
 #corazones{
-    display: flex;
+    flex-direction: row;
+align-content:center;
+justify-content:center;
+align-items: center;
+text-align: center;
+}
+
+#corazones2{
     flex-direction: row;
 align-content:center;
 justify-content:center;
@@ -162,8 +168,7 @@ text-align: center;
 
 
 .vD{
-    font-size: 200%;
-margin-left: 2%;
+margin-top: -10%;
 }/*  */
 
 .CO{
