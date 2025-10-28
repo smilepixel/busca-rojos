@@ -277,7 +277,7 @@ function B_XF(){
         M1 = (2)
         M2 = (2)
         M3 = (2)
-    
+
         modeses_F();
         B_V_F();
         lvl_P = (0)
@@ -288,9 +288,9 @@ function B_XF(){
     second = (16)
     timp = (0)
     timp = (valortimp)
-    
+
         instruciones.setAttribute("disabled",'true')
-        
+
         corazon = (7)
                                             CVF3.innerHTML = "❤️"
                                     CVF2.innerHTML = "❤️"
@@ -299,40 +299,21 @@ function B_XF(){
                                     CV2.innerHTML = "❤️"
                             CV3.innerHTML = "❤️"
         codicecolor_2();
-    
+
         BUV.forEach(function(co){
             co.removeAttribute("disabled")
                 })
 
         puntuacion = (0)
         socre();
-    
+
 
                 function todito(){
-                    B_Y.forEach(function(todote){
-
-                        B_X.style.display = "";
-                        B_X.style.justifyContent = "";
-                        B_X.style.marginLeft = "";
-                        B_X.style.padding = "";
-                        B_X.style.fontSize = "";
-                        B_X.style.marginLeft = "";
-                        B_X.style.marginRight = "";
-
-                        instruciones.style.display = "";
-                        instruciones.style.justifyContent = "";
-                        instruciones.style.marginLeft = "";
-                        instruciones.style.padding = "0% 0%";
-                        instruciones.style.fontSize = "0%";
-                        instruciones.style.color = "transparent";
-                        instruciones.style.backgroundColor = "transparent";
-                        instruciones.style.marginLeft = "";
-
+                        B_X.style.display = "flex";
+                        instruciones.style.display = "none";
     boton_uni.forEach(function(me){
-    me.style.color = ""
-    me.style.backgroundColor = ""
+    me.style.display = "flex"
         })
-                    })
                 }
                 todito();
     principal(); 
@@ -340,18 +321,11 @@ function B_XF(){
 }
 function modeses_F(){
     modoses.forEach(function(modises){
-        modises.style.color = "transparent";
-        modises.style.backgroundColor = "transparent";
-        modises.style.border = "none";
-        modises.style.fontSize = "0%"
+    modises.style.display = "none"
         modises.setAttribute("disabled",'true')
     })
     modoses_2.forEach(function(modises){
-        modises.style.color = "transparent";
-        modises.style.backgroundColor = "transparent";
-        modises.style.border = "none";
-        modises.style.fontSize = "0%"
-        modises.style.padding = "0%"
+    modises.style.display = "none"
         modises.setAttribute("disabled",'true')
     })
 }  //
@@ -474,7 +448,7 @@ DF = (DF + 1)
 
 if(modo == 3){
     modo_3_R = Math.floor(Math.random()*5);
-    
+
     modo_3_RR = modo_3_R + 1
             }
         if(modo == 3){
@@ -961,7 +935,7 @@ ranestio = (0)
                             }
                         }
             }
-            
+
             if(BPV19 == 1 && oton19 == 1 ){
                         if(uno_4 == 4){
                             if(modo == 2){
@@ -970,7 +944,7 @@ ranestio = (0)
                             }
                         }
             }
-            
+
             if(BPV20 == 1 && oton20 == 1 ){
                         if(uno_4 == 5){
                             if(modo == 2){
@@ -979,7 +953,7 @@ ranestio = (0)
                             }
                         }
             }
-            
+
             if(BPV21 == 1 && oton21 == 1 ){
                         if(uno_5 == 1){
                             if(modo == 2){
@@ -988,7 +962,7 @@ ranestio = (0)
                             }
                         }
             }
-            
+
             if(BPV22 == 1 && oton22 == 1 ){
                         if(uno_5 == 2){
                             if(modo == 2){
@@ -997,7 +971,7 @@ ranestio = (0)
                             }
                         }
             }
-            
+
             if(BPV23 == 3 && oton23 == 3 ){
                         if(uno_5 == 3){
                             if(modo == 2){
@@ -1006,7 +980,7 @@ ranestio = (0)
                             }
                         }
             }
-            
+
             if(BPV24 == 1 && oton24 == 1 ){
                         if(uno_5 == 4){
                             if(modo == 2){
@@ -1015,7 +989,7 @@ ranestio = (0)
                             }
                         }
             }
-            
+
             if(BPV25 == 1 && oton25 == 1 ){
                         if(uno_5 == 5){
                             if(modo == 2){
@@ -1077,7 +1051,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL2 = (1)
                                 }
@@ -1100,7 +1074,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL3 = (1)
                                 }
@@ -1123,7 +1097,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL4 = (1)
                                 }
@@ -1146,7 +1120,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL5 = (1)
                                 }
@@ -1169,7 +1143,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL6 = (1)
                                 }
@@ -1192,7 +1166,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL7 = (1)
                                 }
@@ -1215,7 +1189,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL8 = (1)
                                 }
@@ -1238,7 +1212,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL9 = (1)
                                 }
@@ -1261,7 +1235,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL10 = (1)
                                 }
@@ -1284,7 +1258,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL11 = (1)
                                 }
@@ -1307,7 +1281,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL12 = (1)
                                 }
@@ -1330,7 +1304,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL13 = (1)
                                 }
@@ -1353,7 +1327,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL14 = (1)
                                 }
@@ -1376,7 +1350,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL15 = (1)
                                 }
@@ -1399,7 +1373,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3  || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL16 = (1)
                                 }
@@ -1422,7 +1396,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL17 = (1)
                                 }
@@ -1445,7 +1419,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL18 = (1)
                                 }
@@ -1468,7 +1442,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL19 = (1)
                                 }
@@ -1491,7 +1465,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL20 = (1)
                                 }
@@ -1514,7 +1488,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL21 = (1)
                                 }
@@ -1537,7 +1511,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL22 = (1)
                                 }
@@ -1560,7 +1534,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL23 = (1)
                                 }
@@ -1583,7 +1557,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL24 = (1)
                                 }
@@ -1606,7 +1580,7 @@ puntuacion = (puntuacion + ranestio)
                 if(modo == 3 || modo == 1){
                     ALF = ALF - 1
                 }
-                                
+
                                 if(modo == 2){
                                     AL25 = (1)
                                 }
@@ -1630,7 +1604,7 @@ function alte(){
     console.log("alte" + 1)
     if(BPVF == ALF){
         principal();
-    
+
         second = (0)
         tiempo = (timp)
         if(modo == 3){
@@ -1676,60 +1650,41 @@ function F_ALTE(){
 
 function todito(){
     B_Y.forEach(function(todote){
-        todote.style.width = "0%";
-        todote.style.height = "0%";
-        todote.style.fontSize = "0%";
-        todote.style.color = "transparent";
-        todote.style.backgroundColor = "transparent";
-        todote.style.border = "none";
+    todote.style.display = "none"
 })
         B_E.forEach(function(B_E){
-        B_E.style.padding = "0% 0%";
+    B_E.style.display = "none"
 })
 
-        B_X.style.padding = "0% 0%";
-        B_X.style.fontSize = "0%";
-        B_X.style.backgroundColor = "transparent";
-        B_X.style.color = "transparent";
+    B_X.style.display = "none"
 
+        B_V.style.display = "flex"
         B_V.style.padding = "10% 40%";
         B_V.style.fontSize = "400%";
         B_V.style.color = color1;
         B_V.style.backgroundColor = color3;
 
+            instruciones.style.display = "flex"
         instruciones.style.padding = "10% 40%";
         instruciones.style.fontSize = "200%";
         instruciones.style.color = color3
     instruciones.style.backgroundColor = color1
     instruciones.style.boxShadow = `10px 10px 85px 0 ${color1}`
-    
+
 
 }
 
 function B_V_X_X(){
     B_V.setAttribute("disabled",'true')
-    B_V.style.fontSize = "0%";
-    B_V.style.color = "transparent";
-    B_V.style.backgroundColor = "transparent";
-    B_V.style.border = "none";
-    B_V.style.marginLeft = "0%";
-    B_V.style.padding = "0%";
-    B_V2.style.width = "";
-    B_V2.style.height = "";
+    B_V.style.display = "none"
+    B_V2.style.display = "flex"
 }
 function B_V_F(){
-        
+
 B_V_X_X()
 
     B_V2.setAttribute("disabled",'true')
-    B_V2.style.width = "0%";
-    B_V2.style.height = "0%";
-    B_V2.style.fontSize = "0%";
-    B_V2.style.color = "transparent";
-    B_V2.style.backgroundColor = "transparent";
-    B_V2.style.border = "none";
-    B_V2.style.marginLeft = "0%";
-    B_V2.style.padding = "0%";
+    B_V2.style.display = "none"
 }
 
 function lvl(){
@@ -1741,22 +1696,10 @@ function socre(){
 }
 
 function todito2(){
-    instruciones.style.width = "0%";
-    instruciones.style.height = "0%";
-    instruciones.style.fontSize = "0%";
-    instruciones.style.color = "transparent";
-    instruciones.style.backgroundColor = "transparent";
-    instruciones.style.border = "none";
-
+    instruciones.style.display = "none"
 B_V_X_X()
-
-
-    B_V2.style.width = "0%";
-    B_V2.style.height = "0%";
-    B_V2.style.fontSize = "0%";
-    B_V2.style.color = "transparent";
-    B_V2.style.backgroundColor = "transparent";
-    B_V2.style.border = "none";
+    X_F_3.style.display = "none"
+    B_V2.style.display = "none"
 
 }
 todito2();
@@ -1828,13 +1771,13 @@ function codicetimp(){
                 if(modo == 2){
                     timp = (68)
                     valortimp = (68)
-                    
+
                     dificultad.innerHTML = "dificultad <br> dificil 😡 <br> 68 sec"
                         }
                         if(modo == 3){
                             timp = (26)
                             valortimp = (26)
-                            
+
                             dificultad.innerHTML = "dificultad <br> dificil 😡 <br> 26 sec"
                                 }
     }
@@ -1917,17 +1860,17 @@ function codicetimp(){
                                         if(modo == 2){
                                             timp = (68)
                                             valortimp = (68)
-                                            
+
                                             dificultad.innerHTML = "dificultad <br> dificil 😡 <br> 68 sec"
                                                 }
                                                 if(modo == 3){
                                                     timp = (26)
                                                     valortimp = (26)
-                                                    
+
                                                     dificultad.innerHTML = "dificultad <br> dificil 😡 <br> 26 sec"
                                                         }
                             }
-                            
+
                             if(range_D.value == 5){
                                 if(modo == 1){
                                     timp = (15)
@@ -1946,7 +1889,7 @@ function codicetimp(){
                                                         }
                             }
                             }
-            
+
 }//
 
 function inicio(){
@@ -1954,13 +1897,8 @@ codicetimp();
 modeses_F();
 
 U.forEach(function(INSTRU){
-    INSTRU.style.width = "";
-    INSTRU.style.height = "";
-    INSTRU.style.fontSize = "";
-    INSTRU.style.color = "";
-    INSTRU.style.backgroundColor = "";
-    INSTRU.style.border = "";})
-    
+    INSTRU.style.display = "flex"})
+
     todito();
 
     I_X.forEach(function(I_X_F){
@@ -1969,13 +1907,9 @@ U.forEach(function(INSTRU){
 
     instruciones.removeAttribute("disabled")
 
-    B_V2.style.backgroundColor = "transparent"
-    B_V2.style.color = "transparent"
-    B_V2.style.border = "none"
-    B_V2.style.padding = "0%"
-    B_V2.style.fontSize = "0%"
+    B_V2.style.display = "none"
 
-    B_X.style.marginLeft = "0%"
+    B_X.style.display = "none"
     B_X.setAttribute("disabled",'true')
     I_CF()
 }
@@ -1997,41 +1931,28 @@ function BFS(){
     impr = (0)
     F_ALTE();
         B_Y.forEach(function(todote){
-        todote.style.width = "0%";
-        todote.style.height = "0%";
-        todote.style.fontSize = "0%";
-        todote.style.color = "transparent";
-        todote.style.backgroundColor = "transparent";
-        todote.style.border = "none";
+    todote.style.display = "none"
 })
         B_E.forEach(function(B_E){
-        B_E.style.padding = "0% 0%";
+    B_E.style.display = "none"
 })
-        B_F.style.backgroundColor = "transparent"
-        B_X.style.display = "flex";
-        B_X.style.justifyContent = "center";
-        B_X.style.marginLeft = "0%";
-        B_X.style.padding = "0% 0%";
-        B_X.style.fontSize = "0%";
-        B_X.style.color = "transparent";
-        B_X.style.backgroundColor = "transparent";
-        B_X.style.color = "transparent";
-        B_X.style.marginLeft = "-200px";
+    B_F.style.display = "none"
+    B_X.style.display = "none"
         boton_uni.forEach(function(me){
-        me.style.color = "transparent"
-        me.style.backgroundColor = "transparent"
+    me.style.display = "none"
         })
-        selector.style.backgroundColor = "transparent"
-        selector.style.color = "transparent"
+    selector.style.display = "none"
 
+        B_V2.style.display = "flex"
     B_V2.style.padding = "10% 40%";
     B_V2.style.fontSize = "400%";
     B_V2.style.color = color1;
     B_V2.style.backgroundColor = color3;
     B_V2.style.border = "";
-    
+
     B_V2.removeAttribute("disabled")
 
+        instruciones.style.display = "flex"
     instruciones.style.padding = "10% 40%";
     instruciones.style.fontSize = "200%";
     instruciones.style.color = color3;
@@ -2040,7 +1961,7 @@ function BFS(){
     instruciones.removeAttribute("disabled")
     isPause = (true)
 
-    
+
     second = (0)
     second = (16)
 I_CF()
@@ -2170,7 +2091,7 @@ if (selector.value == "1"){
                 PU.forEach(function(PU_1){
                     PU_1.style.backgroundColor = color2
                         })
-    
+
                         body.style.backgroundColor = color2
                         KLMX();
                         color_sub();
@@ -2202,7 +2123,7 @@ if (selector.value == "2"){
                 selector.addEventListener("change", function () {
 if (selector.value == "3"){
             S_C = (true)
-        
+
         color1 = ("white")
         color2 = ("black")
         color3 = ("red")
@@ -2342,7 +2263,7 @@ if (selector.value == "9"){
 } 
             })
 
-    
+
                 selector.addEventListener("change", function () {
 if (selector.value == "10"){
     S_C = (true)
@@ -2403,7 +2324,7 @@ if (selector.value == "12"){
 } 
             })
 
-    
+
                 selector.addEventListener("change", function () {
 if (selector.value == "13"){
             S_C = (true)
@@ -2425,7 +2346,7 @@ if (selector.value == "13"){
             })
 
 
-    
+
                 selector.addEventListener("change", function () {
 if (selector.value == "14"){
             S_C = (true)
@@ -2446,7 +2367,7 @@ if (selector.value == "14"){
 } 
             })
 
-    
+
                 selector.addEventListener("change", function () {
 if (selector.value == "15"){
             S_C = (true)
@@ -2682,12 +2603,7 @@ function I_CF(){
 }
 
 U_M.forEach(function(INSTRUa){
-    INSTRUa.style.width = "0%";
-    INSTRUa.style.height = "0%";
-    INSTRUa.style.fontSize = "0%";
-    INSTRUa.style.color = "transparent";
-    INSTRUa.style.backgroundColor = "transparent";
-    INSTRUa.style.border = "none";
+    INSTRUa.style.display = "none"
     INSTRUa.setAttribute("disabled",'true')
     seleco();
 })
@@ -2696,14 +2612,14 @@ function instru_X_F(){
 
 
                             I_C.forEach(function(I_C){
-    I_C.style.border = ""
+    I_C.style.display = "none"
     I_C.removeAttribute("disabled")
             }) 
-            
+
     instruciones.style.boxShadow = ""
     instrunum = (1)
     modeses_F();
-    
+
 U.forEach(function(U_2){
     U_2.setAttribute("disabled",'true')
         })
@@ -2713,33 +2629,29 @@ U.forEach(function(U_2){
                 })
 
 U.forEach(function(INSTRU){
-    div_CONFI.style.width = ""
-    div_CONFI.style.height = ""
-    div_CONFI.style.padding = ""
+    div_CONFI.style.display = "flex"
 
-    INSTRU.style.width = "0%";
-    INSTRU.style.height = "0%";
-    INSTRU.style.fontSize = "0%";
-    INSTRU.style.color = "transparent";
-    INSTRU.style.backgroundColor = "transparent";
-    INSTRU.style.border = "none";
+    INSTRU.style.display = "none"
     para = (1)
     B_F_P = (1)
 
-    B_V.style.padding = "0% 0%"
-    B_V2.style.padding = "0% 0%"
+    B_V.style.display = "none"
+    B_V2.style.display = "none"
 
+    X_F.style.display = "flex"
     X_F.style.backgroundColor = "red"
     X_F.style.color = "white"
     X_F.style.padding = "2% 2%"
     X_F.style.fontSize = "400%"
     X_F.removeAttribute("disabled")
 
+    musicona.style.display = "flex"
     musicona.style.height = "50px"
     musicona.style.width = "500px"
     musicona.style.marginBottom = "5%"
     musicona.removeAttribute("disabled")
 
+    C_musicona.style.display = "flex"
     C_musicona.style.justifyContent = "center"
     C_musicona.style.padding = "9% 20%"
     C_musicona.style.marginTop = "5%"
@@ -2748,6 +2660,7 @@ U.forEach(function(INSTRU){
     C_musicona.style.fontSize = "350%"
     C_musicona.removeAttribute("disabled")
 
+    B_Bmodos.style.display = "flex"
     B_Bmodos.style.justifyContent = "center"
     B_Bmodos.style.padding = "30% 30%"
     B_Bmodos.style.marginTop = "10%"
@@ -2756,7 +2669,7 @@ U.forEach(function(INSTRU){
     B_Bmodos.style.fontSize = "350%"
     B_Bmodos.removeAttribute("disabled")
 
-
+    range_D.style.display = "flex"
     range_D.style.marginTop = "0.5%"
     range_D.style.justifyContent = "center"
     range_D.style.padding = "1% 1%"
@@ -2765,8 +2678,10 @@ U.forEach(function(INSTRU){
     range_D.removeAttribute("disabled")
 
 
+    dificultad.style.display = "flex"
     dificultad.style.backgroundColor = color3
     dificultad.style.color = color1 
+    dificultad.style.padding = "10% 10%"
     dificultad.style.padding = "20% 20%"
     dificultad.style.fontSize = "350%"
     dificultad.style.alignContent = "center";
@@ -2775,7 +2690,7 @@ U.forEach(function(INSTRU){
     dificultad.style.textAlign = "center";
     dificultad.removeAttribute("disabled")
 
-
+    B_INSTRU.style.display = "flex"
     B_INSTRU.style.justifyContent = "center"
     B_INSTRU.style.padding = "10% 10%"
     B_INSTRU.style.backgroundColor = color3
@@ -2792,33 +2707,16 @@ instru_X_F()
 })
 
 function modosBA(){
-    
-    X_F.style.justifyContent = ""
-    X_F.style.backgroundColor = "transparent"
-    X_F.style.color = "transparent"
-    X_F.style.padding = "0%"
-    X_F.style.fontSize = "0%"
-    X_F.style.marginLeft = "0%"
-    X_F.style.marginTop = "0%"
+            X_F_3_X_X()
+            X_X_TXT()
+    X_F.style.display = "none"
     X_F.setAttribute("disabled",'true')
-    div_CONFI.style.width = "0%"
-    div_CONFI.style.height = "0%"
-    div_CONFI.style.padding = "0%"
+    div_CONFI.style.display = "none"
 
-        modoses.style.width = "0%";
-        modoses.style.height = "0%";
-        modoses.style.fontSize = "0%";
-        modoses.style.color = "0%";
-        modoses.style.backgroundColor = "transparent";
-        modoses.style.border = "none";
+    modoses.style.display = "none"
         modoses.setAttribute("disabled",'true')
 
-        modoses_2.style.width = "0%";
-        modoses_2.style.height = "0%";
-        modoses_2.style.fontSize = "0%";
-        modoses_2.style.color = "0%";
-        modoses_2.style.backgroundColor = "transparent";
-        modoses_2.style.border = "none";
+    modoses_2.style.display = "none"
         modoses_2.setAttribute("disabled",'true')
             I_CF();
 }
@@ -2846,21 +2744,10 @@ CC1 = (0)
         M1 = (1)
     }
 
-    X_F_3.style.justifyContent = ""
-    X_F_3.style.backgroundColor = ""
-    X_F_3.style.color = ""
-    X_F_3.style.padding = ""
-    X_F_3.style.fontSize = ""
-    X_F_3.style.marginLeft = ""
-    X_F_3.style.marginTop = ""
+    X_F_3.style.display = "none"
 
     U_M.forEach(function(INSTRUa){
-        INSTRUa.style.width = "";
-        INSTRUa.style.height = "";
-        INSTRUa.style.fontSize = "";
-        INSTRUa.style.color = "";
-        INSTRUa.style.backgroundColor = "";
-        INSTRUa.style.border = "";
+    INSTRUa.style.display = "none"
         INSTRUa.removeAttribute("disabled")
     })
         if(M1 == 1) //cuando es la primera vez que se elige el modo
@@ -2900,21 +2787,10 @@ CC1 = (0)
         M2 = (1)
     }
     lvl_P = (0)
-    X_F_3.style.justifyContent = ""
-    X_F_3.style.backgroundColor = ""
-    X_F_3.style.color = ""
-    X_F_3.style.padding = ""
-    X_F_3.style.fontSize = ""
-    X_F_3.style.marginLeft = ""
-    X_F_3.style.marginTop = ""
+    X_F_3.style.display = "flex"
 
     U_M.forEach(function(INSTRUa){
-        INSTRUa.style.width = "";
-        INSTRUa.style.height = "";
-        INSTRUa.style.fontSize = "";
-        INSTRUa.style.color = "";
-        INSTRUa.style.backgroundColor = "";
-        INSTRUa.style.border = "";
+    INSTRUa.style.display = "flex"
         INSTRUa.removeAttribute("disabled")
     })
 
@@ -2956,21 +2832,9 @@ CC1 = (1)
         M3 = (1)
     }
 
-    X_F_3.style.justifyContent = ""
-    X_F_3.style.backgroundColor = ""
-    X_F_3.style.color = ""
-    X_F_3.style.padding = ""
-    X_F_3.style.fontSize = ""
-    X_F_3.style.marginLeft = ""
-    X_F_3.style.marginTop = ""
-
+    X_F_3.style.display = "flex"
     U_M.forEach(function(INSTRUa){
-        INSTRUa.style.width = "";
-        INSTRUa.style.height = "";
-        INSTRUa.style.fontSize = "";
-        INSTRUa.style.color = "";
-        INSTRUa.style.backgroundColor = "";
-        INSTRUa.style.border = "";
+    INSTRUa.style.display = "flex"
         INSTRUa.removeAttribute("disabled")
     })
 
@@ -2995,6 +2859,7 @@ let D4 = "Otros botones importantes en el juego<br><br>Botón de finalizar el ju
 let R1 = "pierdes una vida; si pierdes las 6 vidas, se termina el juego. Para reiniciar el juego, presionas reiniciar. Además, hay un selector de dificultades. Hay diferentes temas de color, configuración de audio, botones de pausa y despause, botón de finalizar y otros modos de juego."
 B_INSTRU.addEventListener("click" ,()=>{
     modeses_F();
+    H3G1.style.display = "flex"
     H3G1.style.fontSize = "200%"
     H3G1.style.color = color1
     H3G1.style.marginLeft = "5%"
@@ -3008,7 +2873,7 @@ B_INSTRU.addEventListener("click" ,()=>{
         if (modo == 3){
             H3G1.innerHTML = "En el modo 3 <br><br>" + D1 + "por cada nivel se genera 1 boton de otro color, tu objetivo es presionar ese boton antes de que el tiempo llegue a 0," + D2 + " si es que no llegas a presionar el boton de otro color antes de que se termine el tiempo " + D3 + "aqui las columnas no importan, el boton de otro color siempre te da 1 punto y los botones que no son de otro color te quitan 2 puntos, puedes llegar a tener score negativo el score esta a la par de tiempo. <br><br>" + D4
             }
-
+    H3G2.style.display = "flex"
     H3G2.style.fontSize = "200%"
     H3G2.style.color = color1
     H3G2.style.marginLeft = "5%"
@@ -3026,21 +2891,16 @@ B_INSTRU.addEventListener("click" ,()=>{
                         I_C.forEach(function(I_C){
     I_C.style.border = "transparent"
     I_C.setAttribute("disabled",'true')
-        I_C.style.justifyContent = ""
-    I_C.style.padding = ""
-    I_C.style.marginLeft = ""
-    I_C.style.marginTop = ""
-    I_C.style.backgroundColor = ""
-    I_C.style.color = ""
-    I_C.style.fontSize = ""
+    I_C.style.display = "none"
             }) 
 
     H_cabe.forEach(function(h_cabe){
+        h_cabe.style.display = "flex"
         h_cabe.style.color = color3
         h_cabe.style.fontSize = "400%"
         h_cabe.style.marginLeft = "5%"
             })
-
+    X_F_2.style.display = "flex"
     X_F_2.style.backgroundColor = "red"
     X_F_2.style.color = "white"
     X_F_2.style.padding = "2% 2%"
@@ -3054,54 +2914,32 @@ B_INSTRU.addEventListener("click" ,()=>{
 
 })
 
-X_F_2.addEventListener("click" ,()=>{
-
-    H3G1.style.fontSize = ""
-    H3G1.style.color = ""
-    H3G1.style.marginRight = ""
-    H3G1.style.marginTop = ""
-    H3G1.style.marginLeft = ""
-    H3G2.style.marginLeft = ""
-    H3G2.style.fontSize = ""
-    H3G2.style.color = ""
-    H3G2.style.marginTop = ""
+function X_X_TXT(){
+        H3G1.style.display = "none"
+    H3G2.style.display = "none"
 
     H_cabe.forEach(function(h_cabe){
-        h_cabe.style.color = ""
-        h_cabe.style.fontSize = ""
-        h_cabe.style.marginLeft = ""
+    h_cabe.style.display = "none"
             })
 
     I_X.forEach(function(I_X_F){
     I_X_F.removeAttribute("disabled")
     })
-    X_F_2.style.justifyContent = ""
-    X_F_2.style.backgroundColor = ""
-    X_F_2.style.color = ""
-    X_F_2.style.padding = ""
-    X_F_2.style.fontSize = ""
-    X_F_2.style.marginLeft = ""
-    X_F_2.style.marginTop = ""
+    X_F_2.style.display = "none"
+}
+
+X_F_2.addEventListener("click" ,()=>{
+X_X_TXT()
 
     U.forEach(function(INSTRU){
-        INSTRU.style.width = "0%";
-        INSTRU.style.height = "0%";
-        INSTRU.style.fontSize = "0%";
-        INSTRU.style.color = "transparent";
-        INSTRU.style.backgroundColor = "transparent";
-        INSTRU.style.border = "none";
+        INSTRU.style.display = "none";
         para = (1)
         B_F_P = (1)
-    
-        B_V.style.padding = "0% 0%"
-        B_V2.style.padding = "0% 0%"
-    
-        X_F.style.justifyContent = "center"
-        X_F.style.backgroundColor = "red"
-        X_F.style.color = "white"
-        X_F.style.padding = "60px 60px"
-        X_F.style.fontSize = "80px"
-        X_F.style.marginTop = "-700px"
+
+        B_V.style.display = "none"
+        B_V2.style.display = "none"
+
+
 
 instru_X_F()
     })
@@ -3116,13 +2954,7 @@ X_F.addEventListener("click" ,()=>{
         I_C.forEach(function(I_C){
     I_C.style.border = "transparent"
     I_C.setAttribute("disabled",'true')
-        I_C.style.justifyContent = ""
-    I_C.style.padding = ""
-    I_C.style.marginLeft = ""
-    I_C.style.marginTop = ""
-    I_C.style.backgroundColor = ""
-    I_C.style.color = ""
-    I_C.style.fontSize = ""
+    I_C.style.display = "none"
             }) 
 
 
@@ -3131,13 +2963,7 @@ X_F.addEventListener("click" ,()=>{
             })
     if(X_V == 0){
         U.forEach(function(INSTRU){
-            INSTRU.style.width = "";
-            INSTRU.style.height = "";
-            INSTRU.style.fontSize = "";
-            INSTRU.style.color = "";
-            INSTRU.style.backgroundColor = "";
-            INSTRU.style.border = "";
-
+    INSTRU.style.display = "flex"
         })
         todito();
 
@@ -3146,12 +2972,7 @@ X_F.addEventListener("click" ,()=>{
 if (X_V == 1){
 
     U.forEach(function(INSTRU){
-        INSTRU.style.width = "";
-        INSTRU.style.height = "";
-        INSTRU.style.fontSize = "";
-        INSTRU.style.color = "";
-        INSTRU.style.backgroundColor = "";
-        INSTRU.style.border = "";
+    INSTRU.style.display = "flex"
     })
 
     todito();
@@ -3159,13 +2980,9 @@ if (X_V == 1){
 
 if(confirma == 0) {
     B_V.removeAttribute("disabled")
-B_V2.style.backgroundColor = "transparent"
-B_V2.style.color = "transparent"
-B_V2.style.border = "none"
-B_V2.style.padding = "0%"
-B_V2.style.fontSize = "0%"
+    B_V2.style.display = "none"
 B_V2.setAttribute("disabled",'true')
-B_X.style.marginLeft = "0%"
+    B_X.style.display = "none"
 B_X.setAttribute("disabled",'true')
 }
 if(confirma == 1) {
@@ -3179,110 +2996,73 @@ B_Bmodos.addEventListener("click" ,()=>{
     isPause = (true)
 
     modoses.forEach(function(modises){
-        modises.style.width = "";
-        modises.style.height = "";
-        modises.style.fontSize = "";
-        modises.style.color = "";
-        modises.style.backgroundColor = "";
-        modises.style.border = "";
+    modises.style.display = "flex"
         modises.removeAttribute("disabled")
     })
 
     modoses_2.forEach(function(modises){
-        modises.style.color = "";
-        modises.style.backgroundColor = "";
-        modises.style.border = "";
-        modises.style.fontSize = ""
-        modises.style.padding = ""
+    modises.style.display = "flex"
         modises.removeAttribute("disabled")
     })
 
+    X_F_3.style.display = "flex"
     X_F_3.style.backgroundColor = "red"
     X_F_3.style.color = "white"
     X_F_3.style.padding = "2% 2%"
     X_F_3.style.fontSize = "400%"
-    
+
 
     if(S_C == false){
         U_M.forEach(function(INSTRUa){
-            INSTRUa.style.width = "0%";
-            INSTRUa.style.height = "0%";
-            INSTRUa.style.fontSize = "0%";
-            INSTRUa.style.color = "transparent";
-            INSTRUa.style.backgroundColor = "transparent";
-            INSTRUa.style.border = "none";
+            INSTRUa.style.display = "none";
             INSTRUa.setAttribute("disabled",'true')
         })
     }
 
     if(S_C == true){
         U_M.forEach(function(INSTRUa){
-            INSTRUa.style.width = "0%";
-            INSTRUa.style.height = "0%";
-            INSTRUa.style.fontSize = "0%";
-            INSTRUa.style.color = "transparent";
-            INSTRUa.style.backgroundColor = "transparent";
-            INSTRUa.style.border = "none";
+            INSTRUa.style.display = "none";
             INSTRUa.setAttribute("disabled",'true')
         })
     }
 
 })
 
+
+function X_F_3_X_X(){
+        X_F_3.style.display = "none"
+}
 X_F_3.addEventListener("click" ,()=>{
 
     modeses_F();
 
     U_M.forEach(function(INSTRUa){
-        INSTRUa.style.width = "";
-        INSTRUa.style.height = "";
-        INSTRUa.style.fontSize = "";
-        INSTRUa.style.color = "";
-        INSTRUa.style.backgroundColor = "";
-        INSTRUa.style.border = "";
+        INSTRUa.style.display = "flex";
         INSTRUa.removeAttribute("disabled")
     })
 
-    H3G1.style.fontSize = ""
-    H3G1.style.color = ""
-    H3G1.style.marginRight = ""
-    H3G1.style.marginTop = ""
-    H3G1.style.marginLeft = ""
-    H3G2.style.marginLeft = ""
-    H3G2.style.fontSize = ""
-    H3G2.style.color = ""
-    H3G2.style.marginTop = ""
+    H3G1.style.display = "flex"
+    H3G2.style.display = "flex"
+
 
     H_cabe.forEach(function(h_cabe){
-        h_cabe.style.color = ""
-        h_cabe.style.fontSize = ""
-        h_cabe.style.marginLeft = ""
+    h_cabe.style.display = "flex"
             })
 
     I_X.forEach(function(I_X_F){
         I_X_F.removeAttribute("disabled")
             })
-    X_F_3.style.justifyContent = ""
-    X_F_3.style.backgroundColor = ""
-    X_F_3.style.color = ""
-    X_F_3.style.padding = ""
-    X_F_3.style.fontSize = ""
-    X_F_3.style.marginLeft = ""
-    X_F_3.style.marginTop = ""
+    X_F_3.style.display = "flex"
 
     U.forEach(function(INSTRU){
-        INSTRU.style.width = "0%";
-        INSTRU.style.height = "0%";
-        INSTRU.style.fontSize = "0%";
-        INSTRU.style.color = "transparent";
-        INSTRU.style.backgroundColor = "transparent";
-        INSTRU.style.border = "none";
+        INSTRU.style.display = "none";
         para = (1)
         B_F_P = (1)
-    
-        B_V.style.padding = "0% 0%"
+
+    B_V.style.display = "none"
     instru_X_F()
     })
+    X_X_TXT()
 })
 BUV.forEach(function(co){
     co.setAttribute("disabled",'true')
@@ -3317,7 +3097,7 @@ B_V_X_X()
 
 B_V.addEventListener("click" ,()=>{
             B_E.forEach(function(B_E){
-        B_E.style.padding = "";
+        B_E.style.display = "flex";
 })
     instruciones.style.boxShadow = ""
         impr = (1)
@@ -3328,15 +3108,8 @@ B_V.addEventListener("click" ,()=>{
         instruciones.setAttribute("disabled",'true')
 X_V = (1)
 
-        instruciones.style.display = "";
-        instruciones.style.justifyContent = "";
-        instruciones.style.marginLeft = "";
-        instruciones.style.padding = "0% 0%";
-        instruciones.style.fontSize = "0%";
-        instruciones.style.color = "transparent";
-        instruciones.style.backgroundColor = "transparent";
-        instruciones.style.marginLeft = "";
-    
+    instruciones.style.display = "none"
+
         BUV.forEach(function(co){
             co.removeAttribute("disabled")
                 })
@@ -3345,19 +3118,10 @@ X_V = (1)
 
                 B_V_F();
 
-        B_F.style.backgroundColor = ""
-        B_X.style.display = "";
-        B_X.style.justifyContent = "";
-        B_X.style.marginLeft = "";
-        B_X.style.padding = "";
-        B_X.style.fontSize = "";
-        B_X.style.color = "";
-        B_X.style.backgroundColor = "";
-        B_X.style.color = "";
-        B_X.style.marginLeft = "";
+        B_F.style.display = "flex"
+    B_X.style.display = "flex"
         boton_uni.forEach(function(me){
-        me.style.color = ""
-        me.style.backgroundColor = ""
+        me.style.display = "flex"
                 })
 
 impo = (1)
@@ -3369,18 +3133,9 @@ timp = (valortimp)
 
         function todito(){
             B_Y.forEach(function(todote){
-                todote.style.width = "";
-                todote.style.height = "";
-                todote.style.fontSize = "";
-                todote.style.color = "";
-                todote.style.backgroundColor = "";
-                todote.style.border = "";
+    todote.style.display = "flex"
 
-                B_X.style.display = "";
-                B_X.style.justifyContent = "";
-                B_X.style.marginLeft = "";
-                B_X.style.padding = "";
-                B_X.style.fontSize = "";
+    B_X.style.display = "flex"
             })
         }
         todito();
@@ -3394,7 +3149,7 @@ timp = (valortimp)
                     if(tiempo == 0){
                     corazon = (corazon - 1)
 
-                    
+
                     if(corazon == 7){
 
                     }
@@ -3408,7 +3163,7 @@ timp = (valortimp)
                                     CV1.innerHTML = "X"
                             tiempo = (timp)
                             }
-                        
+
                             else if(corazon == 4){
                                 CV3.innerHTML = "X"
                                             CV2.innerHTML = "X"
@@ -3423,17 +3178,17 @@ timp = (valortimp)
                             CV3.innerHTML = "X"
                                     tiempo = (timp)
                                 }
-                        
+
                                 else if(corazon == 2){
                                     CVF2.innerHTML = "X"
                                     CVF1.innerHTML = "X"
                                     CV1.innerHTML = "X"
                                     CV2.innerHTML = "X"
                             CV3.innerHTML = "X"
-                
+
                                     tiempo = (timp)
                                 }
-                        
+
                                 else if(corazon == 1){
                                     CVF3.innerHTML = "X"
                                     CVF2.innerHTML = "X"
@@ -3443,7 +3198,7 @@ timp = (valortimp)
                             CV3.innerHTML = "X"
                                     tiempo = (timp)
                                 }
-                        
+
                                 if(corazon == 0){
                                     F_ALTE();
                                     impr = (0)
@@ -3458,7 +3213,7 @@ timp = (valortimp)
                                     CV1.innerHTML = "❤️"
                                     CV2.innerHTML = "❤️"
                             CV3.innerHTML = "❤️"
-        
+
                                     function todito(){
                                         B_Y.forEach(function(todote){
                                             todote.style.width = "0%";
@@ -3467,12 +3222,12 @@ timp = (valortimp)
                                             todote.style.border = "none"
                                         })
                                     }
-                                
+
                                     todito();
                                     BFS()
                                     B_V_X_X()
                                 }
-                        
+
                     }
                             if(tiempo == 0 || tiempo < 0){
                                 timp = (valortimp)
@@ -3494,13 +3249,7 @@ principal();
 codicecolor_2();
 KLMX();
 color_sub();
-X_F.style.justifyContent = ""
-X_F.style.backgroundColor = "transparent"
-X_F.style.color = "transparent"
-X_F.style.padding = "0%"
-X_F.style.fontSize = "0%"
-X_F.style.marginLeft = "0%"
-X_F.style.marginTop = "0%"
+    X_F.style.display = "none"
 X_F.setAttribute("disabled",'true')
 I_CF();
 })
@@ -3514,13 +3263,7 @@ B_V2.addEventListener("click" ,()=>{
         corazon = (7)
 
         O.forEach(function(INSTRUo){
-            INSTRUo.style.width = "";
-            INSTRUo.style.height = "";
-            INSTRUo.style.fontSize = "";
-            INSTRUo.style.color = "";
-            INSTRUo.style.backgroundColor = "";
-            INSTRUo.style.border = "";
-            INSTRUo.style.padding = "";
+            INSTRUo.style.display = "flex";
             INSTRUo.removeAttribute("disabled")
         })
 
@@ -3531,14 +3274,7 @@ B_V2.addEventListener("click" ,()=>{
         instruciones.setAttribute("disabled",'true')
         X_V = (1)
 
-        instruciones.style.display = "";
-        instruciones.style.justifyContent = "";
-        instruciones.style.marginLeft = "";
-        instruciones.style.padding = "0% 0%";
-        instruciones.style.fontSize = "0%";
-        instruciones.style.color = "transparent";
-        instruciones.style.backgroundColor = "transparent";
-        instruciones.style.marginLeft = "";
+        instruciones.style.display = "none";
 
         BUV.forEach(function(co){
             co.removeAttribute("disabled")
@@ -3548,19 +3284,10 @@ B_V2.addEventListener("click" ,()=>{
 
                 B_V_F();
 
-        B_F.style.backgroundColor = ""
-        B_X.style.display = "";
-        B_X.style.justifyContent = "";
-        B_X.style.marginLeft = "";
-        B_X.style.padding = "";
-        B_X.style.fontSize = "";
-        B_X.style.color = "";
-        B_X.style.backgroundColor = "";
+        B_X.style.display = "flex";
         B_X.style.color = color1;
-        B_X.style.marginLeft = "";
         boton_uni.forEach(function(me){
-        me.style.color = ""
-        me.style.backgroundColor = ""
+    me.style.display = "flex"
                 })
 
 impo = (1)
@@ -3572,23 +3299,15 @@ timp = (valortimp)
 
         function todito(){
             B_Y.forEach(function(todote){
-                todote.style.width = "";
-                todote.style.height = "";
-                todote.style.fontSize = "";
+    todote.style.display = "flex"
                 todote.style.color = color1;
-                todote.style.backgroundColor = "";
-                todote.style.border = "";
 
-                B_X.style.display = "";
-                B_X.style.justifyContent = "";
-                B_X.style.marginLeft = "";
-                B_X.style.padding = "";
-                B_X.style.fontSize = "";
+    B_X.style.display = "flex"
             })
 
         }
-    
-        
+
+
         S.forEach(function(S2){
             S2.style.backgroundColor = color1;
             S2.style.color = color3;
@@ -3608,13 +3327,7 @@ socre();
 principal();
 codicecolor_2();
 KLMX();
-X_F.style.justifyContent = ""
-X_F.style.backgroundColor = "transparent"
-X_F.style.color = "transparent"
-X_F.style.padding = "0%"
-X_F.style.fontSize = "0%"
-X_F.style.marginLeft = "0%"
-X_F.style.marginTop = "0%"
+    X_F.style.display = "none"
 X_F.setAttribute("disabled",'true')
 I_CF();
 })
@@ -3629,35 +3342,35 @@ function AB1(){
             uni_A1.forEach(function(a11){
                 a11.addEventListener("click" ,()=>{
                     puntuacion = (puntuacion - A1 )
-                        
+
                     socre();
                 })
             })
             uni_A2.forEach(function(a12){
                 a12.addEventListener("click" ,()=>{
                     puntuacion = (puntuacion - A2 )
-                        
+
                     socre();
                 })
             })
             uni_A3.forEach(function(a13){
                 a13.addEventListener("click" ,()=>{
                     puntuacion = (puntuacion - A3 )
-                        
+
                     socre();
                 })
             })
             uni_A4.forEach(function(a14){
                 a14.addEventListener("click" ,()=>{
                     puntuacion = (puntuacion - A4 )
-                        
+
                     socre();
                 })
             })
             uni_A5.forEach(function(a15){
                 a15.addEventListener("click" ,()=>{
                     puntuacion = (puntuacion - A5 )
-                        
+
                     socre();
                 })
             })
@@ -3669,35 +3382,35 @@ function AB2(){
         uni_A1.forEach(function(a21){
             a21.addEventListener("click" ,()=>{
                 puntuacion = (puntuacion - B1 )
-                    
+
                 socre();
             })
         })
         uni_A2.forEach(function(a22){
             a22.addEventListener("click" ,()=>{
                 puntuacion = (puntuacion - B2 )
-                    
+
                 socre();
             })
         })
         uni_A3.forEach(function(a23){
             a23.addEventListener("click" ,()=>{
                 puntuacion = (puntuacion - B3 )
-                    
+
                 socre();
             })
         })
         uni_A4.forEach(function(a24){
             a24.addEventListener("click" ,()=>{
                 puntuacion = (puntuacion - B4 )
-                    
+
                 socre();
             })
         })
         uni_A5.forEach(function(a25){
             a25.addEventListener("click" ,()=>{
                 puntuacion = (puntuacion - B5 )
-                    
+
                 socre();
             })
         })
