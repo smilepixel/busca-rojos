@@ -2753,10 +2753,10 @@ CC1 = (0)
         M1 = (1)
     }
 
-    X_F_3.style.display = "none"
+    X_F_3.style.display = "flex"
 
     U_M.forEach(function(INSTRUa){
-    INSTRUa.style.display = "none"
+    INSTRUa.style.display = "flex"
         INSTRUa.removeAttribute("disabled")
     })
         if(M1 == 1) //cuando es la primera vez que se elige el modo
