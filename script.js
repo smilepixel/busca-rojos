@@ -1962,7 +1962,14 @@ function BFS(){
     instruciones.style.boxShadow = `10px 10px 85px 0 ${color1}`
     instruciones.removeAttribute("disabled")
     isPause = (true)
+                                        CVF3.innerHTML = "❤️"
+                                    CVF2.innerHTML = "❤️"
+                                    CVF1.innerHTML = "❤️"
+                                    CV1.innerHTML = "❤️"
+                                    CV2.innerHTML = "❤️"
+                            CV3.innerHTML = "❤️"
 
+        B_V.style.display = "none"
 
     second = (0)
     second = (16)
@@ -3218,10 +3225,7 @@ timp = (valortimp)
 
                                     function todito(){
                                         B_Y.forEach(function(todote){
-                                            todote.style.width = "0%";
-                                            todote.style.height = "0%";
-                                            todote.style.fontSize = "0%";
-                                            todote.style.border = "none"
+                                            todote.style.display = "none"
                                         })
                                     }
 
@@ -3251,7 +3255,7 @@ principal();
 codicecolor_2();
 KLMX();
 color_sub();
-    X_F.style.display = "none"
+    X_F.style.display = "flex"
 X_F.setAttribute("disabled",'true')
 I_CF();
 })
