@@ -275,6 +275,7 @@ function BPVFF(){
 }
 
 function B_XF(){
+
         codicetimp();
         M1 = (2)
         M2 = (2)
@@ -290,6 +291,7 @@ function B_XF(){
     second = (16)
     timp = (0)
     timp = (valortimp)
+    isPause = (false)
 
         instruciones.setAttribute("disabled",'true')
 
@@ -320,6 +322,8 @@ function B_XF(){
                 todito();
     principal(); 
     KLMX();
+!estado
+    B_DF ()
 }
 function modeses_F(){
     modoses.forEach(function(modises){
@@ -3079,8 +3083,7 @@ BUV.forEach(function(co){
 
 B_X.setAttribute("disabled",'true')
 
-let estado = false;
-B_D.addEventListener("click", () => {
+function B_DF (){
     if (estado) {
 isPause = (false)
 boton_uni.forEach(function(cosa_2){
@@ -3097,6 +3100,11 @@ B_D.innerHTML = "▷"
         B_D.classList.add("activo");
     }
     estado = !estado;
+}
+
+let estado = false;
+B_D.addEventListener("click", () => {
+    B_DF ()
     });
 
 B_F.addEventListener("click" ,()=>{
