@@ -274,57 +274,7 @@ function BPVFF(){
     }
 }
 
-function B_XF(){
 
-        codicetimp();
-        M1 = (2)
-        M2 = (2)
-        M3 = (2)
-
-        modeses_F();
-        B_V_F();
-        lvl_P = (0)
-        ranestio = (0)
-        DF = (0)
-        castigo = (0)
-    second = (0)
-    second = (16)
-    timp = (0)
-    timp = (valortimp)
-    isPause = (false)
-
-        instruciones.setAttribute("disabled",'true')
-
-        corazon = (7)
-                                            CVF3.innerHTML = "❤️"
-                                    CVF2.innerHTML = "❤️"
-                                    CVF1.innerHTML = "❤️"
-                                    CV1.innerHTML = "❤️"
-                                    CV2.innerHTML = "❤️"
-                            CV3.innerHTML = "❤️"
-        codicecolor_2();
-
-        BUV.forEach(function(co){
-            co.removeAttribute("disabled")
-                })
-
-        puntuacion = (0)
-        socre();
-
-
-                function todito(){
-                        B_X.style.display = "flex";
-                        instruciones.style.display = "none";
-    boton_uni.forEach(function(me){
-    me.style.display = "flex"
-        })
-                }
-                todito();
-    principal(); 
-    KLMX();
-!estado
-    B_DF ()
-}
 function modeses_F(){
     modoses.forEach(function(modises){
     modises.style.display = "none"
@@ -3083,6 +3033,9 @@ BUV.forEach(function(co){
 
 B_X.setAttribute("disabled",'true')
 
+
+
+let estado = false;
 function B_DF (){
     if (estado) {
 isPause = (false)
@@ -3102,7 +3055,62 @@ B_D.innerHTML = "▷"
     estado = !estado;
 }
 
-let estado = false;
+function B_XF(){
+
+        codicetimp();
+        M1 = (2)
+        M2 = (2)
+        M3 = (2)
+
+        modeses_F();
+        B_V_F();
+        lvl_P = (0)
+        ranestio = (0)
+        DF = (0)
+        castigo = (0)
+    second = (0)
+    second = (16)
+    timp = (0)
+    timp = (valortimp)
+    isPause = (false)
+
+        instruciones.setAttribute("disabled",'true')
+
+        corazon = (7)
+                                            CVF3.innerHTML = "❤️"
+                                    CVF2.innerHTML = "❤️"
+                                    CVF1.innerHTML = "❤️"
+                                    CV1.innerHTML = "❤️"
+                                    CV2.innerHTML = "❤️"
+                            CV3.innerHTML = "❤️"
+        codicecolor_2();
+
+        BUV.forEach(function(co){
+            co.removeAttribute("disabled")
+                })
+
+        puntuacion = (0)
+        socre();
+
+
+                function todito(){
+                        B_X.style.display = "flex";
+                        instruciones.style.display = "none";
+    boton_uni.forEach(function(me){
+    me.style.display = "flex"
+        })
+                }
+                todito();
+    principal(); 
+    KLMX();
+
+    if(estado == true){
+!estado
+    B_DF ()
+    }
+
+}
+
 B_D.addEventListener("click", () => {
     B_DF ()
     });
