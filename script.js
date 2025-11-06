@@ -254,7 +254,7 @@ let A5 = (0)
 
 let CC1 = (0)
 let instrunum = (0)
-
+let XD = ("XD")
 range_D.value = 2
 
 console.log( "valor" + range_D.value)
