@@ -3271,7 +3271,7 @@ principal();
 codicecolor_2();
 KLMX();
 color_sub();
-    X_F.style.display = "flex"
+    X_F.style.display = "none"
 X_F.setAttribute("disabled",'true')
 I_CF();
 })
