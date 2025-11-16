@@ -255,6 +255,9 @@ let A5 = (0)
 let CC1 = (0)
 let instrunum = (0)
 let XD = ("XD")
+
+let emo1 = ("☃️")
+let emo2 = ("🥶")
 range_D.value = 2
 
 console.log( "valor" + range_D.value)
@@ -290,7 +293,124 @@ function resta(){
 console.log("resta 1")
 }
 
+function codicecolor_2(){
+    selector.addEventListener("change", function () {
+if (selector.value == "1"){
+        S_C = (true)
+        color1 = ("green")
+        color2 = ("rgb(0, 255, 34)")
+        color3 = ("red")
+        modeses_F();
+        numero_C = (1)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color2
+                        })
+                        emo1 = "💚"
+                        emo2 = "❤️"
+                                    boton_uni.forEach(function(cosa_1){
+                cosa_1.innerHTML = emo1
+        })
+
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+            })
+
+
+    selector.addEventListener("change", function () {
+if (selector.value == "2"){
+            S_C = (true)
+        color1 = ("rgb(255, 230, 0)")
+        color2 = ("rgba(255, 255, 255, 1)")
+        color3 = ("rgba(255, 255, 255, 1)")
+    
+        modeses_F();
+        numero_C = (2)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color2
+                        })
+                                                emo1 = "😇"
+                        emo2 = "👺"
+                                                            boton_uni.forEach(function(cosa_1){
+                cosa_1.innerHTML = emo1
+        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+            })
+
+
+                selector.addEventListener("change", function () {
+if (selector.value == "3"){
+            S_C = (true)
+
+        color1 = ("green")
+        color2 = ("white")
+        color3 = ("white")
+        modeses_F();
+        numero_C = (3)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                                                emo1 = "🎄"
+                        emo2 = "🏜️"
+                                                            boton_uni.forEach(function(cosa_1){
+                cosa_1.innerHTML = emo1
+        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+            })
+
+
+                selector.addEventListener("change", function () {
+if (selector.value == "4"){
+            S_C = (true)
+        color1 = ("red")
+        color2 = ("white")
+        color3 = ("white")
+        modeses_F();
+        numero_C = (4)
+        BU.forEach(function(BU_1){
+            BU_1.style.color = color1
+                })
+                PU.forEach(function(PU_1){
+                    PU_1.style.backgroundColor = color3
+                        })
+                                                emo1 = "❤️"
+                        emo2 = "💙"
+                                                            boton_uni.forEach(function(cosa_1){
+                cosa_1.innerHTML = emo1
+        })
+                        body.style.backgroundColor = color2
+                        KLMX();
+                        color_sub();
+} 
+            })
+
+    if(numero_C == 0){
+        color1 = ("rgb(71, 194, 255)")
+        color3 = ("rgb(255, 255, 255)")
+        color2 = ("white")
+    }
+    seleco();
+}
+codicecolor_2();
+
 function principal(){
+    codicecolor_2();
     ALF = (0)
     BPVF = (0)
     B_F_P = (0)
@@ -491,9 +611,14 @@ if(modo == 3){
                 cosa_1.style.backgroundColor = color3
                 cosa_1.style.color = color1
         })
+
+                    boton_uni.forEach(function(cosa_1){
+                cosa_1.innerHTML = emo1
+        })
         if(num_1 == 1){
                         boton1.style.backgroundColor = color1;
                         boton1.style.color = color3;
+                        boton1.innerHTML = emo2;
                         oton1 = (1)
                             BPV1 = (1)
                             BPVFF();
@@ -504,6 +629,7 @@ if(modo == 3){
         if(num_1 == 2){
                         boton2.style.backgroundColor = color1;
                         boton2.style.color = color3;
+                        boton2.innerHTML = emo2;
                         oton2 = (1)
                             BPV2 = (1)
                             BPVFF();
@@ -514,6 +640,7 @@ if(modo == 3){
         if(num_1 == 3){
                     boton3.style.backgroundColor = color1;
                     boton3.style.color = color3;
+                    boton3.innerHTML = emo2;
                     oton3 = (1)
                         BPV3 = (1)
                         BPVFF();
@@ -524,6 +651,7 @@ if(modo == 3){
         if(num_1 == 4){
                 boton4.style.backgroundColor = color1;
                 boton4.style.color = color3;
+                boton4.innerHTML = emo2;
                 oton4 = (1)
                     BPV4 = (1)
                     BPVFF();
@@ -534,6 +662,7 @@ if(modo == 3){
         if(num_1 == 5){
             boton5.style.backgroundColor = color1;
             boton5.style.color = color3;
+            boton5.innerHTML = emo2;
             oton5 = (1)
                 BPV5 = (1)
                 BPVFF();
@@ -544,6 +673,7 @@ if(modo == 3){
         if(num_2 == 1){
             boton6.style.backgroundColor = color1;
             boton6.style.color = color3;
+            boton6.innerHTML = emo2;
             oton6 = (1)
                 BPV6 = (1)
                 BPVFF();
@@ -554,6 +684,7 @@ if(modo == 3){
         if(num_2 == 2){
             boton7.style.backgroundColor = color1;
             boton7.style.color = color3;
+            boton7.innerHTML = emo2;
             oton7 = (1)
                 BPV7 = (1)
                 BPVFF();
@@ -564,6 +695,7 @@ if(modo == 3){
         if(num_2 == 3){
             boton8.style.backgroundColor = color1;
             boton8.style.color = color3;
+            boton8.innerHTML = emo2;
             oton8 = (1)
                 BPV8 = (1)
                 BPVFF();
@@ -574,6 +706,7 @@ if(modo == 3){
         if(num_2 == 4){
             boton9.style.backgroundColor = color1;
             boton9.style.color = color3;
+            boton9.innerHTML = emo2;
             oton9 = (1)
                 BPV9 = (1)
                 BPVFF();
@@ -584,6 +717,7 @@ if(modo == 3){
         if(num_2 == 5){
             boton10.style.backgroundColor = color1;
             boton10.style.color = color3;
+            boton10.innerHTML = emo2;
             oton10 = (1)
                 BPV10 = (1)
                 BPVFF();
@@ -594,6 +728,7 @@ if(modo == 3){
         if(num_3 == 1){
             boton11.style.backgroundColor = color1;
             boton11.style.color = color3;
+            boton11.innerHTML = emo2;
             oton11 = (1)
                 BPV11 = (1)
                 BPVFF();
@@ -604,6 +739,7 @@ if(modo == 3){
         if(num_3 == 2){
             boton12.style.backgroundColor = color1;
             boton12.style.color = color3;
+            boton12.innerHTML = emo2;
             oton12 = (1)
                 BPV12 = (1)
                 BPVFF();
@@ -614,6 +750,7 @@ if(modo == 3){
         if(num_3 == 3){
             boton13.style.backgroundColor = color1;
             boton13.style.color = color3;
+            boton13.innerHTML = emo2;
             oton13 = (1)
                 BPV13 = (1)
                 BPVFF();
@@ -624,6 +761,7 @@ if(modo == 3){
         if(num_3 == 4){
             boton14.style.backgroundColor = color1;
             boton14.style.color = color3;
+            boton14.innerHTML = emo2;
             oton14 = (1)
                 BPV14 = (1)
                 BPVFF();
@@ -634,6 +772,7 @@ if(modo == 3){
         if(num_3 == 5){
             boton15.style.backgroundColor = color1;
             boton15.style.color = color3;
+            boton15.innerHTML = emo2;
             oton15 = (1)
                 BPV15 = (1)
                 BPVFF();
@@ -644,6 +783,7 @@ if(modo == 3){
         if(num_4 == 1){
             boton16.style.backgroundColor = color1;
             boton16.style.color = color3;
+            boton16.innerHTML = emo2;
             oton16 = (1)
                 BPV16 = (1)
                 BPVFF();
@@ -654,6 +794,7 @@ if(modo == 3){
         if(num_4 == 2){
             boton17.style.backgroundColor = color1;
             boton17.style.color = color3;
+            boton17.innerHTML = emo2;
             oton17 = (1)
                 BPV17 = (1)
                 BPVFF();
@@ -664,6 +805,7 @@ if(modo == 3){
         if(num_4 == 3){
             boton18.style.backgroundColor = color1;
             boton18.style.color = color3;
+            boton18.innerHTML = emo2;
             oton18 = (1)
                 BPV18 = (1)
                 BPVFF();
@@ -674,6 +816,7 @@ if(modo == 3){
         if(num_4 == 4){
             boton19.style.backgroundColor = color1;
             boton19.style.color = color3;
+            boton19.innerHTML = emo2;
             oton19 = (1)
                 BPV19 = (1)
                 BPVFF();
@@ -684,6 +827,7 @@ if(modo == 3){
         if(num_4 == 5){
             boton20.style.backgroundColor = color1;
             boton20.style.color = color3;
+            boton20.innerHTML = emo2;
             oton20 = (1)
                 BPV20 = (1)
                 BPVFF();
@@ -694,6 +838,7 @@ if(modo == 3){
         if(num_5 == 1){
             boton21.style.backgroundColor = color1;
             boton21.style.color = color3;
+            boton21.innerHTML = emo2;
             oton21 = (1)
                 BPV21 = (1)
                 BPVFF();
@@ -704,6 +849,7 @@ if(modo == 3){
         if(num_5 == 2){
             boton22.style.backgroundColor = color1;
             boton22.style.color = color3;
+            boton22.innerHTML = emo2;
             oton22 = (1)
                 BPV22 = (1)
                 BPVFF();
@@ -714,6 +860,7 @@ if(modo == 3){
         if(num_5 == 3){
             boton23.style.backgroundColor = color1;
             boton23.style.color = color3;
+            boton23.innerHTML = emo2;
             oton23 = (1)
                 BPV23 = (1)
                 BPVFF();
@@ -724,6 +871,7 @@ if(modo == 3){
         if(num_5 == 4){
             boton24.style.backgroundColor = color1;
             boton24.style.color = color3;
+            boton24.innerHTML = emo2;
             oton24 = (1)
                 BPV24 = (1)
                 BPVFF();
@@ -734,6 +882,7 @@ if(modo == 3){
         if(num_5 == 5){
             boton25.style.backgroundColor = color1;
             boton25.style.color = color3;
+            boton25.innerHTML = emo2;
             oton25 = (1)
                 BPV25 = (1)
                 BPVFF();
@@ -992,6 +1141,7 @@ puntuacion = (puntuacion + ranestio)
             }
             boton1.style.backgroundColor = color3;
             boton1.style.color = color1;
+            boton1.innerHTML = emo1;
             socre();
         }, { once: true })
         boton2.addEventListener("click" ,()=>{
@@ -1015,6 +1165,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton2.style.backgroundColor = color3;
         boton2.style.color = color1;
+        boton2.innerHTML = emo2;
         socre();
         }, { once: true })
         boton3.addEventListener("click" ,()=>{
@@ -1038,6 +1189,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton3.style.backgroundColor = color3;
         boton3.style.color = color1;
+        boton3.innerHTML = emo1;
         socre();
         }, { once: true })
         boton4.addEventListener("click" ,()=>{
@@ -1061,6 +1213,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton4.style.backgroundColor = color3;
         boton4.style.color = color1;
+        boton4.innerHTML = emo1;
         socre();
         }, { once: true })
         boton5.addEventListener("click" ,()=>{
@@ -1084,6 +1237,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton5.style.backgroundColor = color3;
         boton5.style.color = color1;
+        boton5.innerHTML = emo1;
         socre();
         }, { once: true })
         boton6.addEventListener("click" ,()=>{
@@ -1107,6 +1261,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton6.style.backgroundColor = color3;
         boton6.style.color = color1;
+        boton6.innerHTML = emo1;
         socre();
         }, { once: true })
         boton7.addEventListener("click" ,()=>{
@@ -1130,6 +1285,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton7.style.backgroundColor = color3;
         boton7.style.color = color1;
+        boton7.innerHTML = emo1;
         socre();
         }, { once: true })
         boton8.addEventListener("click" ,()=>{
@@ -1153,6 +1309,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton8.style.backgroundColor = color3;
         boton8.style.color = color1;
+        boton8.innerHTML = emo1;
         socre();
         }, { once: true })
         boton9.addEventListener("click" ,()=>{
@@ -1176,6 +1333,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton9.style.backgroundColor = color3;
         boton9.style.color = color1;
+        boton9.innerHTML = emo1;
         socre();
         }, { once: true })
         boton10.addEventListener("click" ,()=>{
@@ -1199,6 +1357,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton10.style.backgroundColor = color3;
         boton10.style.color = color1;
+        boton10.innerHTML = emo1;
         socre();
         }, { once: true })
         boton11.addEventListener("click" ,()=>{
@@ -1222,6 +1381,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton11.style.backgroundColor = color3;
         boton11.style.color = color1;
+        boton11.innerHTML = emo1;
         socre();
         }, { once: true })
         boton12.addEventListener("click" ,()=>{
@@ -1245,6 +1405,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton12.style.backgroundColor = color3;
         boton12.style.color = color1;
+        boton12.innerHTML = emo1;
         socre();
         }, { once: true })
         boton13.addEventListener("click" ,()=>{
@@ -1268,6 +1429,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton13.style.backgroundColor = color3;
         boton13.style.color = color1;
+        boton13.innerHTML = emo1;
         socre();
         }, { once: true })
         boton14.addEventListener("click" ,()=>{
@@ -1291,6 +1453,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton14.style.backgroundColor = color3;
         boton14.style.color = color1;
+        boton14.innerHTML = emo1;
         socre();
         }, { once: true })
         boton15.addEventListener("click" ,()=>{
@@ -1314,6 +1477,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton15.style.backgroundColor = color3;
         boton15.style.color = color1;
+        boton15.innerHTML = emo1;
         socre();
         }, { once: true })
         boton16.addEventListener("click" ,()=>{
@@ -1337,6 +1501,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton16.style.backgroundColor = color3;
         boton16.style.color = color1;
+        boton16.innerHTML = emo1;
         socre();
         }, { once: true })
         boton17.addEventListener("click" ,()=>{
@@ -1360,6 +1525,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton17.style.backgroundColor = color3;
         boton17.style.color = color1;
+        boton17.innerHTML = emo1;
         socre();
         }, { once: true })
         boton18.addEventListener("click" ,()=>{
@@ -1383,6 +1549,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton18.style.backgroundColor = color3;
         boton18.style.color = color1;
+        boton18.innerHTML = emo1;
         socre();
         }, { once: true })
         boton19.addEventListener("click" ,()=>{
@@ -1406,6 +1573,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton19.style.backgroundColor = color3;
         boton19.style.color = color1;
+        boton19.innerHTML = emo1;
         socre();
         }, { once: true })
         boton20.addEventListener("click" ,()=>{
@@ -1429,6 +1597,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton20.style.backgroundColor = color3;
         boton20.style.color = color1;
+        boton20.innerHTML = emo1;
         socre();
         }, { once: true })
         boton21.addEventListener("click" ,()=>{
@@ -1452,6 +1621,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton21.style.backgroundColor = color3;
         boton21.style.color = color1;
+        boton21.innerHTML = emo1;
         socre();
         }, { once: true })
         boton22.addEventListener("click" ,()=>{
@@ -1475,6 +1645,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton22.style.backgroundColor = color3;
         boton22.style.color = color1;
+        boton22.innerHTML = emo1;
         socre();
         }, { once: true })
         boton23.addEventListener("click" ,()=>{
@@ -1498,6 +1669,7 @@ puntuacion = (puntuacion + ranestio)
         }
         boton23.style.backgroundColor = color3;
         boton23.style.color = color1;
+        boton23.innerHTML = emo1;
         socre();
         }, { once: true })
         boton24.addEventListener("click" ,()=>{
@@ -1521,6 +1693,7 @@ puntuacion = (puntuacion + ranestio)
             }
             boton24.style.backgroundColor = color3;
             boton24.style.color = color1;
+            boton24.innerHTML = emo1;
             socre();
         }, { once: true })
         boton25.addEventListener("click" ,()=>{
@@ -1545,6 +1718,7 @@ puntuacion = (puntuacion + ranestio)
             socre();
             boton25.style.backgroundColor = color3;
             boton25.style.color = color1;
+            boton25.innerHTML = emo1;
         }, { once: true })
 
 function alteo (){
@@ -1916,12 +2090,12 @@ function BFS(){
     instruciones.style.boxShadow = `10px 10px 85px 0 ${color1}`
     instruciones.removeAttribute("disabled")
     isPause = (true)
-                                        CVF3.innerHTML = "❤️"
-                                    CVF2.innerHTML = "❤️"
-                                    CVF1.innerHTML = "❤️"
-                                    CV1.innerHTML = "❤️"
-                                    CV2.innerHTML = "❤️"
-                            CV3.innerHTML = "❤️"
+                                        CVF3.innerHTML = "❄️"
+                                    CVF2.innerHTML = "❄️"
+                                    CVF1.innerHTML = "❄️"
+                                    CV1.innerHTML = "❄️"
+                                    CV2.innerHTML = "❄️"
+                            CV3.innerHTML = "❄️"
 
         B_V.style.display = "none"
 
@@ -2039,506 +2213,6 @@ function color_sub(){
 }
     selector.value = 0
 
-function codicecolor_2(){
-    selector.addEventListener("change", function () {
-if (selector.value == "1"){
-        S_C = (true)
-        color1 = ("white")
-        color2 = ("black")
-        color3 = ("black")
-        modeses_F();
-        numero_C = (1)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color2
-                        })
-
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-
-    selector.addEventListener("change", function () {
-if (selector.value == "2"){
-            S_C = (true)
-        color1 = ("black")
-        color2 = ("white")
-        color3 = ("white")
-        modeses_F();
-        numero_C = (2)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color2
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-
-                selector.addEventListener("change", function () {
-if (selector.value == "3"){
-            S_C = (true)
-
-        color1 = ("white")
-        color2 = ("black")
-        color3 = ("red")
-        modeses_F();
-        numero_C = (3)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-
-                selector.addEventListener("change", function () {
-if (selector.value == "4"){
-            S_C = (true)
-        color1 = ("purple")
-        color2 = ("white")
-        color3 = ("hotpink")
-        modeses_F();
-        numero_C = (4)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                selector.addEventListener("change", function () {
-if (selector.value == "5"){
-            S_C = (true)
-        color1 = ("rgb(0, 106, 228)")
-        color2 = ("rgb(141, 231, 253)")
-        color3 = ("rgb(3, 163, 255)")
-        modeses_F();
-        numero_C = (5)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-
-                selector.addEventListener("change", function () {
-if (selector.value == "6"){
-            S_C = (true)
-        color1 = ("red")
-        color2 = ("yellowgreen")
-        color3 = ("green")
-        modeses_F();
-        numero_C = (6)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                selector.addEventListener("change", function () {
-if (selector.value == "7"){
-            S_C = (true)
-        color1 = ("orange")
-        color2 = ("brown")
-        color3 = ("black")
-        modeses_F();
-        numero_C = (7)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                selector.addEventListener("change", function () {
-if (selector.value == "8"){
-            S_C = (true)
-        color1 = ("darkcyan")
-        color2 = ("rgb(252, 204, 186)")
-        color3 = ("coral")
-        modeses_F();
-        numero_C = (8)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                selector.addEventListener("change", function () {
-if (selector.value == "9"){
-            S_C = (true)
-        color1 = ("rgba(109, 201, 255, 1)")
-        color2 = ("rgba(210, 246, 255, 1)")
-        color3 = ("rgb(0, 106, 228)")
-        modeses_F();
-        numero_C = (9)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-
-                selector.addEventListener("change", function () {
-if (selector.value == "10"){
-    S_C = (true)
-        color1 = ("white")
-        color2 = ("rgb(87, 23, 23)")
-        color3 = ("rgb(214, 0, 0)")
-        modeses_F();
-        numero_C = (10)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                selector.addEventListener("change", function () {
-if (selector.value == "11"){
-    S_C = (true)
-        color1 = ("rgb(105, 255, 235)")
-        color2 = ("rgb(199, 184, 255)")
-        color3 = ("rgb(138, 106, 255)")
-        modeses_F();
-        numero_C = (11)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                selector.addEventListener("change", function () {
-if (selector.value == "12"){
-    S_C = (true)
-        color1 = ("rgb(72, 255, 0)")
-        color2 = ("rgb(60, 97, 65)")
-        color3 = ("rgb(0, 104, 14)")
-        modeses_F();
-        numero_C = (12)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-
-                selector.addEventListener("change", function () {
-if (selector.value == "13"){
-            S_C = (true)
-        color1 = ("rgba(88, 0, 129, 1)")
-        color2 = ("rgba(52, 0, 76, 1)")
-        color3 = ("rgba(195, 0, 255, 1)")
-        modeses_F();
-        numero_C = (13)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-
-
-                selector.addEventListener("change", function () {
-if (selector.value == "14"){
-            S_C = (true)
-        color1 = ("rgb(97, 0, 0)")
-        color2 = ("rgb(248, 180, 180)")
-        color3 = ("rgb(255, 0, 0)")
-        modeses_F();
-        numero_C = (14)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-
-                selector.addEventListener("change", function () {
-if (selector.value == "15"){
-            S_C = (true)
-        color1 = ("rgb(255, 189, 9)")
-        color2 = ("rgb(255, 230, 184)")
-        color3 = ("rgb(255, 251, 0)")
-        modeses_F();
-        numero_C = (15)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                selector.addEventListener("change", function () {
-if (selector.value == "16"){
-            S_C = (true)
-        color1 = ("rgb(211, 6, 6)")
-        color2 = ("rgb(58, 82, 102)")
-        color3 = ("rgb(0, 57, 104)")
-        modeses_F();
-        numero_C = (16)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                selector.addEventListener("change", function () {
-if (selector.value == "17"){
-            S_C = (true)
-        color1 = ("rgb(170, 250, 253)")
-        color2 = ("rgb(25, 73, 75)")
-        color3 = ("rgb(24, 219, 106)")
-        modeses_F();
-        numero_C = (17)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                selector.addEventListener("change", function () {
-if (selector.value == "18"){
-    S_C = (true)
-        color1 = ("rgb(255, 0, 179)")
-        color2 = ("rgb(137, 255, 220)")
-        color3 = ("rgb(0, 255, 179)")
-        modeses_F();
-        numero_C = (18)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                            selector.addEventListener("change", function () {
-if (selector.value == "19"){
-    S_C = (true)
-        color1 = ("rgb(255, 0, 0)")
-        color2 = ("rgba(167, 0, 0, 1)")
-        color3 = ("rgb(255, 145, 0)")
-        modeses_F();
-        numero_C = (19)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                            selector.addEventListener("change", function () {
-if (selector.value == "20"){
-    S_C = (true)
-        color1 = ("rgb(253, 170, 232)")
-        color2 = ("rgba(0, 0, 0, 1)")
-        color3 = ("rgb(255, 255, 255)")
-        modeses_F();
-        numero_C = (20)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                            selector.addEventListener("change", function () {
-if (selector.value == "21"){
-    S_C = (true)
-        color1 = ("rgba(19, 79, 60, 1)")
-        color2 = ("rgba(39, 151, 129, 1)")
-        color3 = ("rgb(255, 242, 0)")
-        modeses_F();
-        numero_C = (21)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                                        selector.addEventListener("change", function () {
-if (selector.value == "22"){
-    S_C = (true)
-        color1 = ("rgb(128, 81, 0)")
-        color2 = ("rgba(44, 44, 44, 1)")
-        color3 = ("rgba(169, 169, 169, 1)")
-        modeses_F();
-        numero_C = (22)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                            selector.addEventListener("change", function () {
-if (selector.value == "23"){
-    S_C = (true)
-        color1 = ("rgb(255, 205, 147)")
-        color2 = ("rgba(0, 0, 0, 1)")
-        color3 = ("rgb(255, 162, 0)")
-        modeses_F();
-        numero_C = (23)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-                            selector.addEventListener("change", function () {
-if (selector.value == "24"){
-    S_C = (true)
-        color1 = ("rgb(130, 68, 7)")
-        color2 = ("rgba(39, 151, 129, 1)")
-        color3 = ("rgb(255, 240, 166)")
-        modeses_F();
-        numero_C = (24)
-        BU.forEach(function(BU_1){
-            BU_1.style.color = color1
-                })
-                PU.forEach(function(PU_1){
-                    PU_1.style.backgroundColor = color3
-                        })
-                        body.style.backgroundColor = color2
-                        KLMX();
-                        color_sub();
-} 
-            })
-
-    if(numero_C == 0){
-        color1 = ("violet")
-        color3 = ("purple")
-        color2 = ("white")
-    }
-    seleco();
-}
-codicecolor_2();
 
 function KLMX(){
             KLM.forEach(function(AFF){
@@ -2803,7 +2477,7 @@ CC1 = (1)
 
 if(M3 == 1) //cuando es la primera vez que se elige el modo
 {
-    inicio();
+                inicio();
 }
 if(M3 == 2){ // cuando ya se le dió click a jugar y despues se cambia de modo 
 BFS()
@@ -3077,12 +2751,12 @@ function B_XF(){
         instruciones.setAttribute("disabled",'true')
 
         corazon = (7)
-                                            CVF3.innerHTML = "❤️"
-                                    CVF2.innerHTML = "❤️"
-                                    CVF1.innerHTML = "❤️"
-                                    CV1.innerHTML = "❤️"
-                                    CV2.innerHTML = "❤️"
-                            CV3.innerHTML = "❤️"
+                                            CVF3.innerHTML = "❄️"
+                                    CVF2.innerHTML = "❄️"
+                                    CVF1.innerHTML = "❄️"
+                                    CV1.innerHTML = "❄️"
+                                    CV2.innerHTML = "❄️"
+                            CV3.innerHTML = "❄️"
         codicecolor_2();
 
         BUV.forEach(function(co){
@@ -3179,48 +2853,48 @@ timp = (valortimp)
 
                     }
                     else if(corazon == 6){
-                        CV1.innerHTML = "☠️"
+                        CV1.innerHTML = "🔥"
                         tiempo = (timp)
                         }
 
                         else if(corazon == 5){
-                            CV2.innerHTML = "☠️"
-                                    CV1.innerHTML = "☠️"
+                            CV2.innerHTML = "🔥"
+                                    CV1.innerHTML = "🔥"
                             tiempo = (timp)
                             }
 
                             else if(corazon == 4){
-                                CV3.innerHTML = "☠️"
-                                            CV2.innerHTML = "☠️"
-                                    CV1.innerHTML = "☠️"
+                                CV3.innerHTML = "🔥"
+                                            CV2.innerHTML = "🔥"
+                                    CV1.innerHTML = "🔥"
                                 tiempo = (timp)
                                 }
 
                                 else if(corazon == 3){
-                                    CVF1.innerHTML = "☠️"
-                                    CV1.innerHTML = "☠️"
-                                    CV2.innerHTML = "☠️"
-                            CV3.innerHTML = "☠️"
+                                    CVF1.innerHTML = "🔥"
+                                    CV1.innerHTML = "🔥"
+                                    CV2.innerHTML = "🔥"
+                            CV3.innerHTML = "🔥"
                                     tiempo = (timp)
                                 }
 
                                 else if(corazon == 2){
-                                    CVF2.innerHTML = "☠️"
-                                    CVF1.innerHTML = "☠️"
-                                    CV1.innerHTML = "☠️"
-                                    CV2.innerHTML = "☠️"
-                            CV3.innerHTML = "☠️"
+                                    CVF2.innerHTML = "🔥"
+                                    CVF1.innerHTML = "🔥"
+                                    CV1.innerHTML = "🔥"
+                                    CV2.innerHTML = "🔥"
+                            CV3.innerHTML = "🔥"
 
                                     tiempo = (timp)
                                 }
 
                                 else if(corazon == 1){
-                                    CVF3.innerHTML = "☠️"
-                                    CVF2.innerHTML = "☠️"
-                                    CVF1.innerHTML = "☠️"
-                                    CV1.innerHTML = "☠️"
-                                    CV2.innerHTML = "☠️"
-                            CV3.innerHTML = "☠️"
+                                    CVF3.innerHTML = "🔥"
+                                    CVF2.innerHTML = "🔥"
+                                    CVF1.innerHTML = "🔥"
+                                    CV1.innerHTML = "🔥"
+                                    CV2.innerHTML = "🔥"
+                            CV3.innerHTML = "🔥"
                                     tiempo = (timp)
                                 }
 
@@ -3232,12 +2906,12 @@ timp = (valortimp)
                                     finalizar2(); 
                                     corazon = (7)
                                     para = (1)
-                                    CVF3.innerHTML = "❤️"
-                                    CVF2.innerHTML = "❤️"
-                                    CVF1.innerHTML = "❤️"
-                                    CV1.innerHTML = "❤️"
-                                    CV2.innerHTML = "❤️"
-                            CV3.innerHTML = "❤️"
+                                    CVF3.innerHTML = "❄️"
+                                    CVF2.innerHTML = "❄️"
+                                    CVF1.innerHTML = "❄️"
+                                    CV1.innerHTML = "❄️"
+                                    CV2.innerHTML = "❄️"
+                            CV3.innerHTML = "❄️"
 
                                     function todito(){
                                         B_Y.forEach(function(todote){
