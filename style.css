@@ -60,7 +60,7 @@ display: flex;
 
 
 .BU{
-    color: violet;
+    color: rgb(0, 229, 255);
 }/*  */
 
 
@@ -390,125 +390,24 @@ height: 100%;
 }
 
 #S_1{
-        color: white;
-    background-color: black;
-}
-
-#S_2{
-        color: black;
-    background-color: white;
-}
-
-#S_3{
-        color: white;
-    background-color: red;
-}
-
-#S_4{
-        color: purple;
-    background-color: hotpink;
-}
-
-#S_5{
-        color: rgb(0, 106, 228);
-    background-color: rgb(3, 163, 255);
-}
-
-#S_6{
-        color: red;
-    background-color: green;
-}
-
-#S_7{
-        color: orange;
-    background-color: black;
-}
-
-#S_8{
-        color: darkcyan;
-    background-color: coral;
-}
-
-#S_9{
-        color: rgba(109, 201, 255, 1);
-    background-color: rgb(0, 106, 228);
-}
-
-#S_10{
-        color: white;
-    background-color: rgb(213, 0, 0);
-}
-
-#S_11{
-        color: rgb(105, 255, 235);
-    background-color: rgb(138, 106, 255);
-}
-
-#S_12{
-        color: rgb(72, 255, 0);
-    background-color: rgb(0, 104, 14);
-}
-
-#S_13{
-        color: rgba(88, 0, 129, 1);
-    background-color: rgba(195, 0, 255, 1);
-}
-
-#S_14{
-        color: rgb(97, 0, 0);
+        color: rgb(0, 255, 21);
     background-color: rgb(255, 0, 0);
 }
 
-#S_15{
-        color: rgb(255, 189, 9);
-    background-color: rgb(255, 251, 0);
-}
-
-#S_16{
-        color: rgb(211, 6, 6);
-    background-color: rgb(0, 57, 104);
-}
-
-#S_17{
-        color: rgb(170, 250, 253);
-    background-color: rgb(24, 219, 106);
-}
-
-#S_18{
-        color: rgb(255, 0, 179);
-    background-color: rgb(0, 255, 179);
-}
-
-#S_19{
-        color: rgb(255, 0, 0);
-    background-color: rgb(255, 145, 0);
-}
-
-#S_20{
-        color: rgb(253, 170, 232);
+#S_2{
+        color: rgb(255, 230, 2);
     background-color: rgb(255, 255, 255);
 }
 
-#S_21{
-        color: rgba(0, 153, 104, 1);
-    background-color: rgb(255, 242, 0);
+#S_3{
+        color: rgb(0, 255, 4);
+    background-color: rgb(255, 255, 255);
 }
 
-#S_22{
-        color: rgb(128, 81, 0);
-    background-color: rgba(169, 169, 169, 1);
+#S_4{
+        color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
 }
-
-#S_23{
-        color: rgb(255, 205, 147);
-    background-color: rgb(255, 162, 0);
-}
-
-#S_24{
-        color: rgb(130, 68, 7);
-    background-color: rgb(255, 240, 166);
-}
-
 
 .BOTO{
     border:10px outset gray;
